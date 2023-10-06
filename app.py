@@ -9,5 +9,4 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
 #this is the basic code that all Flask uses
