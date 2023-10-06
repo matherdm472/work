@@ -14,6 +14,9 @@
         #title {
             font-size: 36px;
             margin-top: 50px;
+            transform: scale(0);
+            opacity: 0;
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
         }
         #subtitle {
             font-size: 18px;
@@ -21,7 +24,10 @@
         }
         #buttons {
             margin-top: 30px;
+            min-height: 60px;
+            transition: opacity 0.4s ease, transform 0.4s ease; /* Keep the transition */
         }
+
         #suggestions {
             display: none;
             position: absolute;
@@ -58,14 +64,26 @@
         }
 
         .close {
-            position: absolute;
-            top: 215px;
-            right: 415px;
-            padding: 10px;
             cursor: pointer;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 220px;
+            right: 415px;
             color: red;
-            font-size: 24px;
+            font-size: 20px;
+            border-radius: 50%;
+            transition: 0.4s ease;
+            background: rgba(0, 0, 0, 0); /* initial background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
+        .close:hover {
+            background: rgba(0, 0, 0, 0.7); /* Change background color to black */
+        }
+
    
         .button {
             padding: 10px 20px; /* Adjust this padding as needed */
@@ -168,6 +186,18 @@
             cursor: pointer;
         }
 
+        .fade-in{
+            animation: 0.25s fadeIn forwards;
+            animation-delay: 0.75s;
+        }
+
+        @keyframes fadeIn{
+            to{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
         /* Style for the "Next" button */
         #nextButton {
             margin-top: 20px;
@@ -179,23 +209,13 @@
             border-radius: 5px;
             cursor: pointer;
         }
-
-
-        /* Styles for the "Play" button */
-        #playButton {
-            font-family: inherit;
-        }
-        /* Styles for the "How to Play" button */
-        #howToPlayButton {
-            font-family: inherit;
-        }
     </style>
 </head>
 <body>
     <div id="logo">
         <img src="/static/startweetplaceholder.png" alt="Logo" width="200" height="200">
     </div>
-    <div id="title">
+    <div id="title" class="fade-in">
         STAR TWEET
     </div>
     <div id="subtitle">
@@ -204,10 +224,7 @@
     <div id="buttons">
         <button id="howToPlayButton" class="button">How to Play</button>
         <button id="playButton" class="button">Play</button>
-
-    </div>
-    <!-- Add the close button for the "Play" modal -->
-
+    </div>    
     <div id="playModal" class="modal">
         <div class="modal-content large">
             <span class="close" id="closePlayModal">&times;</span>
