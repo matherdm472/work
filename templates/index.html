@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="modal.js"></script>
+    <title>Star Tweet</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+        #logo {
+            margin-top: 20px;
+        }
+        #title {
+            font-size: 36px;
+            margin-top: 50px;
+        }
+        #subtitle {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        #buttons {
+            margin-top: 30px;
+        }
+        #suggestions {
+            display: none;
+            position: absolute;
+            border: 1px solid #ccc;
+            max-height: 150px; /* Adjust the maximum height as needed */
+            overflow-y: auto;
+            background-color: #fff;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%; 
+            height: 80%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-content p {
+            font-size: 24px;
+        }
+
+        .close {
+            position: absolute;
+            top: 215px;
+            right: 415px;
+            padding: 10px;
+            cursor: pointer;
+            color: red;
+            font-size: 24px;
+        }
+   
+        .button {
+            padding: 10px 20px; /* Adjust this padding as needed */
+            font-size: 18px;
+            border: 2px solid #000;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        /* Styles for the larger modal */
+        .modal.large {
+            width: 90%;
+        }
+        /* ... Existing styles ... */
+
+        /* Style for the Play modal header */
+        .modal-header {
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Style for the game image */
+        .game-image {
+            max-width: 1000px; /* Adjust the width as needed */
+            max-height: 400px; /* Adjust the height as needed */
+        }
+
+        /* Style for the search bar */
+        .search-bar {
+            margin-top: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .content-container {
+            width: 500px; /* Adjust the width as needed */
+            height: 400px; /* Adjust the height as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-size: 18px;
+            border: 1px solid #000;
+            margin: 0 auto;
+        }
+
+        .content {
+            font-size: 24px;
+        }
+
+        /* ... Existing styles ... */
+
+        /* Style for the slideshow container */
+        .slideshow-container {
+            position: relative;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 400px; /* Adjust the width as needed */
+            height: auto; /* Keep the aspect ratio */
+        }
+
+        .slide {
+            display: none;
+            animation: fade 2s ease-in-out infinite;
+        }
+
+        /* Style for the numbered boxes */
+        .numbered-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        /* Style for each box */
+        .box {
+            width: 20px;
+            height: 20px;
+            background-color: gray;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+
+        /* Style for the "Next" button */
+        #nextButton {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+        /* Styles for the "Play" button */
+        #playButton {
+            font-family: inherit;
+        }
+        /* Styles for the "How to Play" button */
+        #howToPlayButton {
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="/static/startweetplaceholder.png" alt="Logo" width="200" height="200">
+    </div>
+    <div id="title">
+        STAR TWEET
+    </div>
+    <div id="subtitle">
+        5 attempts, 1 star.
+    </div>
+    <div id="buttons">
+        <button id="howToPlayButton" class="button">How to Play</button>
+        <button id="playButton" class="button">Play</button>
+
+    </div>
+    <!-- Add the close button for the "Play" modal -->
+
+    <div id="playModal" class="modal">
+        <div class="modal-content large">
+            <span class="close" id="closePlayModal">&times;</span>
+            <h2>Play the Game</h2>
+            <div class="content-container">
+                <div class="content">Content 1</div>
+            </div>
+            <div class="numbered-boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <button id="nextButton">Next</button>
+            <!-- Add the search bar and answer status here -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <div id="suggestions"></div>
+                <button id="searchButton" type="button">Search</button>
+            </div>
+            <div id="answerStatus"></div>
+        </div>
+    </div>
+    
+    <div id="instructionModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>How to Play</h2>
+            <p> 1. Instruction to the game <br> 
+                2. Instruction to the game <br>
+                3. Instruction to the game <br> 
+                4. Instruction to the game <br>
+                5. Instruction to the game <br> 
+                6. Instruction to the game <br>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Add click event listener to close modal
+        document.querySelector('#closeModal').addEventListener('click', function() {
+            document.querySelector('#instructionModal').style.display = 'none';
+        });
+
+        // Show modal when "How to Play" button is clicked
+        document.querySelector('#howToPlayButton').addEventListener('click', function() {
+            document.querySelector('#instructionModal').style.display = 'block';
+        });
+
+        // Close the "Play" modal when the close button is clicked
+        document.querySelector('#closePlayModal').addEventListener('click', function() {
+            document.querySelector('#playModal').style.display = 'none';
+        });
+
+
+        // Show the "Play" modal when the "Play" button is clicked
+        document.querySelector('#playButton').addEventListener('click', function() {
+            document.querySelector('#playModal').style.display = 'block';
+        });
+
+        let currentContentIndex = 0;
+
+        const contentArray = [
+            "Incredibly proud to share that together we raised $375,628 for the Maui Strong Fund! Thank you to everyone who showed up and helped support the incredible people of Maui. I am so grateful for all of you and for @TRAVISMATHEW for working with me on putting this together. If you'd still like to donate, head on over to @HCFHawai or you can donate here:",
+            "What a day! Jack and I got to hit the mound together, eat our bodyweight in Dodger Dogs and delivered the game opening announcement! Thank you @ClaytonKersh22 for asking me to throw yesterday’s first pitch for faith and family day, what an honor! ⚾️  Let’s go @Dodgers!",
+            "We’ve had some fun over the years! This is just the beginning! Love you man @JKCorden",
+            "Happy Anniversary!! Mom and dads first night away in three years. Back to the spot where we said “I do!” Love you honey! @KSchwarzenegger",
+            "#1 Movie in the Galaxy! 🚀 Thank you to everyone who came out to support #GOTGVol3 this weekend!"
+        ];
+
+        function showContent(index) {
+            const contentElement = document.querySelector('.content');
+            contentElement.textContent = contentArray[index];
+        }
+
+        function updateBoxes(index) {
+            const boxes = document.querySelectorAll('.box');
+            boxes.forEach((box, i) => {
+                box.style.backgroundColor = i === index ? '#007bff' : 'gray';
+            });
+        }
+
+        function nextContent() {
+            currentContentIndex = (currentContentIndex + 1) % contentArray.length;
+            showContent(currentContentIndex);
+            updateBoxes(currentContentIndex);
+        }
+
+        // Add click event listener to the "Next" button
+        document.querySelector('#nextButton').addEventListener('click', nextContent);
+
+        // Initialize with the first content and box colors
+        showContent(currentContentIndex);
+        updateBoxes(currentContentIndex);
+
+        // Add an event listener to the search button
+        document.querySelector('#searchButton').addEventListener('click', function() {
+            // Get the user's input from the search bar
+            const userInput = document.querySelector('#searchInput').value.trim().toLowerCase();
+
+            // Check if the user's input matches the correct answer
+            if (userInput.toLowerCase() === 'chris pratt') {
+                // Display "Correct" in green
+                document.querySelector('#answerStatus').textContent = 'Correct';
+                document.querySelector('#answerStatus').style.color = 'green';
+            } else {
+                // Display "Incorrect" in red
+                document.querySelector('#answerStatus').textContent = 'Incorrect';
+                document.querySelector('#answerStatus').style.color = 'red';
+
+                // Clear the input field for retry
+                document.querySelector('#searchInput').value = '';
+            }
+        });
+        const searchInput = document.querySelector('#searchInput');
+        const suggestionsContainer = document.querySelector('#suggestions');
+
+        let allSuggestions = [];
+
+        fetch('/static/celebrities.txt')
+            .then(response => response.text())
+            .then(data => {
+                allSuggestions = data.split('\n').filter(Boolean);
+                console.log(allSuggestions);
+            })
+
+        // Function to filter suggestions based on user input
+        function filterSuggestions(input) {
+            return allSuggestions.filter(suggestion =>
+            suggestion.toLowerCase().includes(input.toLowerCase())
+            );
+        }
+
+        // Function to display suggestions in the dropdown
+        function displaySuggestions(suggestions) {
+            suggestionsContainer.innerHTML = '';
+
+            if (suggestions.length === 0) {
+                suggestionsContainer.style.display = 'none';
+                return;
+            }
+
+            suggestions.forEach(suggestion => {
+                const suggestionElement = document.createElement('div');
+                suggestionElement.textContent = suggestion;
+                suggestionElement.classList.add('suggestion');
+
+                suggestionElement.addEventListener('click', () => {
+                // Set the selected suggestion as the input value
+                searchInput.value = suggestion;
+                suggestionsContainer.style.display = 'none';
+                });
+
+                suggestionsContainer.appendChild(suggestionElement);
+            });
+
+            suggestionsContainer.style.display = 'block';
+        }
+
+        // Event listener for user input in the search bar
+        searchInput.addEventListener('input', () => {
+            const userInput = searchInput.value;
+            const filteredSuggestions = filterSuggestions(userInput);
+            displaySuggestions(filteredSuggestions);
+        });
+
+        // Close the dropdown when clicking outside
+        document.addEventListener('click', event => {
+        if (!suggestionsContainer.contains(event.target)) {
+            suggestionsContainer.style.display = 'none';
+        }
+    });
+
+    </script>
+</body>
+</html>
