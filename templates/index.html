@@ -84,7 +84,7 @@
         }
 
         .close:hover {
-            background: rgba(0, 0, 0, 0.7); /* Change background color to black */
+            background: rgba(0, 0, 0, 0.7);
         }
 
    
@@ -105,7 +105,6 @@
         .modal.large {
             width: 90%;
         }
-        /* ... Existing styles ... */
 
         /* Style for the Play modal header */
         .modal-header {
@@ -116,8 +115,8 @@
 
         /* Style for the game image */
         .game-image {
-            max-width: 1000px; /* Adjust the width as needed */
-            max-height: 400px; /* Adjust the height as needed */
+            max-width: 1000px;
+            max-height: 400px;
         }
 
         /* Style for the search bar */
@@ -227,19 +226,23 @@
 
         .settings-row {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
         }
 
-
         .setting-label {
-            flex: 1;
-            text-align: right;
+            font-size: 20px;
             margin-right: 10px;
+            text-align: left;
         }
 
         .setting-input {
-            flex: 2;
+            flex: 1; /* Ensure the toggle slider spans the available width */
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
         }
 
         .switch {
@@ -281,7 +284,31 @@
             transition: .4s;
             border-radius: 50%;
             transition: 0.4s; /* Added transition */
-            }
+        }
+
+        .setting-description {
+            font-size: 12px;
+            color: #282828;
+            font-style: italic;
+            text-align: left;
+        }
+
+        /* Add the separator style */
+        .setting-separator {
+            border: 1px solid #ccc;
+            margin: 20px 0; /* Adjust the margin as needed */
+        }
+
+        .setting-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        .setting-label, .setting-description, .setting-input {
+            display: flex;
+            align-items: center;
+        }
 
         input:checked + .slider {
             background-color: #2196F3;
@@ -359,9 +386,9 @@
         <div class="modal-content">
             <span class="close" id="closeSettingsModal">&times;</span>
             <h2>Settings</h2>
-                <div class="settings-row">
+            <div class="setting-container">
                 <div class="setting-label">
-                        <label for="dark-mode">Dark Mode</label>
+                    <label for="dark-mode">Dark Mode</label>
                 </div>
                 <div class="setting-input">
                     <label class="switch">
@@ -369,21 +396,30 @@
                         <span class="slider"></span>
                     </label>
                 </div>
-        </div>
-
-        <div class="settings-row">
-            <div class="setting-label">
-                <label for="hard-mode">Hard Mode</label>
+                <div class="setting-description">
+                    Enable or disable the dark mode for the app.
+                </div>
             </div>
-            <div class="setting-input">
-                <label class="switch">
-                    <input type="checkbox" id="hard-mode">
-                    <span class="slider"></span>
-                </label>
+            <hr class="setting-separator"> <!-- Horizontal line separator -->
+            <div class="setting-container">
+                <div class="setting-label">
+                    <label for="hard-mode">Hard Mode</label>
+                </div>
+                <div class="setting-input">
+                    <label class="switch">
+                        <input type="checkbox" id="hard-mode">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-description">
+                    Toggle hard mode for a more challenging experience.
+                </div>
             </div>
-        </div>
         </div>
     </div>
+    
+    
+    
     <script src="/static/index.js"></script>
 </body>
 </html>
