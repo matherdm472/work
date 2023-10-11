@@ -1,4 +1,3 @@
-
     function showInstructionModal() {
         // Show the "Play" modal by changing its style to 'block'
         document.querySelector('#instructionModal').style.display = 'block';
@@ -40,11 +39,11 @@
     let currentContentIndex = 0;
 
     const contentArray = [
-        "Incredibly proud to share that together we raised $375,628 for the Maui Strong Fund! Thank you to everyone who showed up and helped support the incredible people of Maui. I am so grateful for all of you and for @TRAVISMATHEW for working with me on putting this together. If you'd still like to donate, head on over to @HCFHawai or you can donate here:",
-        "What a day! Jack and I got to hit the mound together, eat our bodyweight in Dodger Dogs and delivered the game opening announcement! Thank you @ClaytonKersh22 for asking me to throw yesterday’s first pitch for faith and family day, what an honor! ⚾️  Let’s go @Dodgers!",
-        "We’ve had some fun over the years! This is just the beginning! Love you man @JKCorden",
-        "Happy Anniversary!! Mom and dads first night away in three years. Back to the spot where we said “I do!” Love you honey! @KSchwarzenegger",
-        "#1 Movie in the Galaxy! 🚀 Thank you to everyone who came out to support #GOTGVol3 this weekend!"
+        "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
+        "I’m Back!!! See you Sunday! @NFLonFOX",
+        "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
+        "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
+        "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
     ];
 
     function showContent(index) {
@@ -52,25 +51,51 @@
         contentElement.textContent = contentArray[index];
     }
 
-    function updateBoxes(index) {
-        const boxes = document.querySelectorAll('.box');
-        boxes.forEach((box, i) => {
-            box.style.backgroundColor = i === index ? '#007bff' : 'gray';
-        });
-    }
-
     function nextContent() {
         currentContentIndex = (currentContentIndex + 1) % contentArray.length;
         showContent(currentContentIndex);
-        updateBoxes(currentContentIndex);
     }
-
-    // Add click event listener to the "Next" button
-    document.querySelector('#nextButton').addEventListener('click', nextContent);
 
     // Initialize with the first content and box colors
     showContent(currentContentIndex);
-    updateBoxes(currentContentIndex);
+
+    // Set the initial colors for the boxes
+    const boxes = document.querySelectorAll('.box');
+    boxes.forEach((box, i) => {
+        box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
+    });
+
+    let currentlyAnimatingBoxIndex = 0; // Initialize to 0
+
+    function animateWrongAnswer() {
+        // Get the current and next box indexes
+        const currentBoxIndex = currentlyAnimatingBoxIndex % boxes.length;
+        const nextBoxIndex = (currentlyAnimatingBoxIndex + 1) % boxes.length;
+
+        const currentBox = boxes[currentBoxIndex];
+        const nextBox = boxes[nextBoxIndex];
+
+        if (nextBoxIndex === 0) {
+            //return without animation
+            return;
+        }
+
+        // Add the animation class to the current box
+        currentBox.classList.add('move-box-animation');
+        // Listen for the animation end event on the current box
+        currentBox.addEventListener('animationend', () => {
+            // Remove the animation class from the current box
+            currentBox.classList.remove('move-box-animation');
+
+            // Set the next box to blue
+            nextBox.style.backgroundColor = '#007bff';
+
+            // Update the currently animating box index after the animation is finished
+            currentlyAnimatingBoxIndex = nextBoxIndex;
+
+            nextContent();
+        });
+    }
 
     // Add an event listener to the search button
     document.querySelector('#searchButton').addEventListener('click', function() {
@@ -78,7 +103,7 @@
         const userInput = document.querySelector('#searchInput').value.trim().toLowerCase();
 
         // Check if the user's input matches the correct answer
-        if (userInput.toLowerCase() === 'chris pratt') {
+        if (userInput.toLowerCase() === 'rob gronkowski') {
             // Display "Correct" in green
             document.querySelector('#answerStatus').textContent = 'Correct';
             document.querySelector('#answerStatus').style.color = 'green';
@@ -86,6 +111,7 @@
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
             document.querySelector('#answerStatus').style.color = 'red';
+            animateWrongAnswer();
 
             // Clear the input field for retry
             document.querySelector('#searchInput').value = '';
