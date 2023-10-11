@@ -12,6 +12,12 @@
         document.querySelector('#playModal').style.display = 'block';
     }
 
+    // Function to display the settings modal
+    function showSettingsModal() {
+        // Show the settings modal by changing its style to 'block'
+        document.querySelector('#settingsModal').style.display = 'block';
+    }
+
     // Add a click event listener to the "Play" button
     document.querySelector('#playButton').addEventListener('click', showPlayModal);
 
@@ -34,6 +40,16 @@
     // Show the "Play" modal when the "Play" button is clicked
     document.querySelector('#playButton').addEventListener('click', function() {
         document.querySelector('#playModal').style.display = 'block';
+    });
+
+    // Show modal when settings button is clicked
+    document.querySelector('#settingsButton').addEventListener('click', function() {
+        document.querySelector('#settingsModal').style.display = 'block';
+    });
+
+    // Close modal when settings button is clicked
+    document.querySelector('#closeSettingsModal').addEventListener('click', function() {
+        document.querySelector('#settingsModal').style.display = 'none';
     });
 
     let currentContentIndex = 0;
