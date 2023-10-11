@@ -123,10 +123,13 @@
             // Display "Correct" in green
             document.querySelector('#answerStatus').textContent = 'Correct';
             document.querySelector('#answerStatus').style.color = 'green';
+            document.querySelector('#rightAnswerSound').play();
         } else {
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
             document.querySelector('#answerStatus').style.color = 'red';
+            document.querySelector('#wrongAnswerSound').play();
+            
             animateWrongAnswer();
 
             // Clear the input field for retry
