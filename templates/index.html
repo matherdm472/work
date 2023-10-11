@@ -50,7 +50,7 @@
 
         .modal-content {
             background-color: #fff;
-            margin: 15% auto;
+            margin: 10% auto;
             padding: 20px;
             border: 1px solid #888;
             width: 40%; 
@@ -116,12 +116,14 @@
 
         /* Style for the search bar */
         .search-bar {
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
         .search-bar input[type="text"] {
-            width: 80%;
+            width: 90%;
+            height: 40px;
             padding: 10px;
+            font-size: 16px;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
@@ -185,6 +187,12 @@
             cursor: pointer;
         }
 
+        /* box to animate */
+        .small-box{
+            width: 10px;
+            height: 10px;
+        }
+
         .fade-in{
             animation: 0.25s fadeIn forwards;
             animation-delay: 0.75s;
@@ -196,18 +204,21 @@
                 opacity: 1;
             }
         }
-
-        /* Style for the "Next" button */
-        #nextButton {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        /* Define the CSS animation keyframes */
+        @keyframes moveBox {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(620%); /* Adjust the desired distance */
+            }
         }
+
+        /* Define a CSS class that applies the animation */
+        .move-box-animation {
+            animation: moveBox 0.5s linear forwards;
+        }
+
     </style>
 </head>
 <body>
@@ -239,7 +250,6 @@
                 <div class="box"></div>
                 <div class="box"></div>
             </div>
-            <button id="nextButton">Next</button>
             <!-- Add the search bar and answer status here -->
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Search...">
