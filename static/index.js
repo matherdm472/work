@@ -181,6 +181,26 @@
         suggestionsContainer.style.display = 'block';
     }
 
+    document.querySelector('#dark-mode').addEventListener('click', function() {
+        const darkModeToggle = document.getElementById('dark-mode');
+
+        darkModeToggle.addEventListener('change', function() {
+            if(this.checked) {
+                enableDarkMode();
+            } else {
+                disableDarkMode();
+            }
+        });
+
+        function enableDarkMode() {
+            document.body.classList.add('dark-mode');
+        }
+
+        function disableDarkMode() {
+            document.body.classList.remove('dark-mode');
+        }
+    });
+
     // Event listener for user input in the search bar
     searchInput.addEventListener('input', () => {
         const userInput = searchInput.value;
