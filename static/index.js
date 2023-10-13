@@ -47,7 +47,7 @@
         document.querySelector('#settingsModal').style.display = 'block';
     });
 
-    // Close modal when settings button is clicked
+    // Close modal when close button is clicked
     document.querySelector('#closeSettingsModal').addEventListener('click', function() {
         document.querySelector('#settingsModal').style.display = 'none';
     });
