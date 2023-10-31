@@ -257,10 +257,6 @@
             justify-content: flex-end;
         }
 
-        .setting-input .switch {
-            margin-top: 3%; /* Adjust as needed */
-        }
-
         .switch {
             position: relative;
             display: inline-block;
@@ -426,12 +422,12 @@
             <div class="setting-container">
                 <div class="setting-label">
                     <label for="dark-mode">Dark Mode</label>
-                </div>
-                <div class="setting-input">
-                    <label class="switch">
-                        <input type="checkbox" id="dark-mode">
-                        <span class="slider"></span>
-                    </label>
+                    <div class="setting-input">
+                        <label class="switch">
+                            <input type="checkbox" id="dark-mode">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
                 </div>
                 <div class="setting-description">
                     Enable or disable the dark mode for the app.
@@ -441,12 +437,12 @@
             <div class="setting-container">
                 <div class="setting-label">
                     <label for="hard-mode">Hard Mode</label>
-                </div>
-                <div class="setting-input">
-                    <label class="switch">
-                        <input type="checkbox" id="hard-mode">
-                        <span class="slider"></span>
-                    </label>
+                    <div class="setting-input">
+                        <label class="switch">
+                            <input type="checkbox" id="hard-mode">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
                 </div>
                 <div class="setting-description">
                     Toggle hard mode for a more challenging experience.
