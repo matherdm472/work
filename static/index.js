@@ -65,6 +65,16 @@
     function showContent(index) {
         const contentElement = document.querySelector('.content');
         contentElement.textContent = contentArray[index];
+        // Measure the height
+        const measuredHeight = contentArray[index].offsetHeight;
+
+        // Calculate max-height as a percentage based on the measured height
+        const parentContainerHeight = document.querySelector('.modal-content').offsetHeight; // Assuming you have a parent container
+        const maxHeightPercentage = (measuredHeight / parentContainerHeight) * 100;
+
+        // Set the max-height of .content-container
+        const contentContainer = document.querySelector('.content-container');
+        contentContainer.style.maxHeight = `${maxHeightPercentage}%`;
     }
 
     function nextContent() {
