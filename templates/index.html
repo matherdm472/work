@@ -452,6 +452,13 @@
             color: #555;
         }
 
+        .tweet-stats img {
+            width: 35px;
+            height: 35px;
+            margin-right: 5px;
+            transform: translateY(10px);
+        }
+
         @keyframes subtitle-appear {
             0% {
                 transform: translateX(-20px);
@@ -504,8 +511,8 @@
                     </div>
                     <div class="tweet-content">
                         <div class="user-info">
-                            <span class="user-fullname">John Doe</span>
-                            <span class="username">@johndoe</span>
+                            <span class="user-fullname">Tweedle User</span>
+                            <span class="username">@tweedlegame</span>
                             <span class="timestamp">2h ago</span>
                         </div>
                         <p class="tweet-text">
@@ -517,8 +524,12 @@
                             <span class="action reply">Reply</span>
                         </div>
                         <div class="tweet-stats">
-                            <span class="likes-count">123 likes</span>
-                            <span class="retweets-count">45 retweets</span>
+                            <span class="likes-count">
+                                <img src="static/icons/like.png" alt="Like Icon"> 6.3k
+                            </span>
+                            <span class="retweets-count">
+                                <img src="static/icons/retweet.png" alt="Retweet Icon"> 180
+                            </span>
                         </div>
                     </div>
                 </div>                               
@@ -631,5 +642,6 @@
         </div>
     </div>
     <script src="/static/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>

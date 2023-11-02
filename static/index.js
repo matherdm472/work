@@ -15,7 +15,6 @@
     document.querySelector('#closePlayModal').addEventListener('click', () => closeModal('#playModal'));
     document.querySelector('#closeSettingsModal').addEventListener('click', () => closeModal('#settingsModal'));
 
-
     let currentContentIndex = 0;
     const contentArray = [
         "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
@@ -24,15 +23,10 @@
         "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
         "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
     ];
-
+    
     function showContent(index) {
 
         const contentElement = document.querySelector('.tweet-text');
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 06c537216543661ebdf7d845aac619a71e16224f
         contentElement.textContent = contentArray[index];
         // Measure the height
         const measuredHeight = contentArray[index].offsetHeight;
@@ -121,6 +115,10 @@
             document.querySelector('#answerStatus').textContent = 'Correct';
             document.querySelector('#answerStatus').style.color = 'green';
             document.querySelector('#rightAnswerSound').play();
+            const times = 5;
+                for(let i = 0; i < times; i++){
+                confetti();
+            }
         } else {
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
