@@ -15,7 +15,6 @@
         }
 
         div {
-            width: 100%;
         }
 
         /* Logo Styles */
@@ -408,13 +407,20 @@
 
         .user-info {
             display: flex;
-            align-items: center;
+            align-items: left;
+            flex-direction: column;
         }
 
-        .user-fullname, .username {
+        .user-fullname {
             font-weight: bold;
             margin: 0;
             text-align: left;
+        }
+
+        .username, .timestamp {
+            margin: 0;
+            text-align: left;
+            color: #555;
         }
 
         .tweet-text {
