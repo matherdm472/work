@@ -28,12 +28,8 @@
     function showContent(index) {
 
         const contentElement = document.querySelector('.tweet-text');
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 06c537216543661ebdf7d845aac619a71e16224f
         contentElement.textContent = contentArray[index];
+        
         // Measure the height
         const measuredHeight = contentArray[index].offsetHeight;
 
