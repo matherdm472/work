@@ -7,7 +7,7 @@
         body {
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: white;/*#1DA1F2*/
+            background-color: #e4decd;
             width: 100%;
             height: 100%;
         }
@@ -23,13 +23,13 @@
             transform: scale(0);
             opacity: 0;
             transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-            margin-bottom: 50px;
             font-weight: bold;
         }
-        #subtitle {
-            font-size: 30px;
-            margin-top: 80px;
-            margin-bottom: 80px;
+        #attempts{
+            font-size: 45px;
+        }
+        #star{
+            font-size: 60px;
         }
         #buttons {
             margin-top: 40px;
@@ -43,7 +43,7 @@
             border: 1px solid #ccc;
             max-height: 150px; /* Adjust the maximum height as needed, maybe 10% */
             overflow-y: auto;
-            background-color: #fff;
+            background-color: #e4decd;
         }
 
         .modal {
@@ -59,7 +59,7 @@
         }
 
         .modal-content {
-            background-color: #bebebe;
+            background-color: #e4decd;
             margin: 5% auto;
             padding: 10px;
             border: 1px solid #888;
@@ -67,10 +67,6 @@
             height: 80%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
-
-        /*.modal-content div {
-            height: 20%;
-        }*/
 
         .modal-content p { /* instruction modal */
             font-size: 24px;
@@ -104,7 +100,7 @@
             min-width: 60px;
             font-size: 18px;
             border: 2px solid #000;
-            background-color: #dc1436;
+            background-color: #cc539e;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -141,7 +137,7 @@
             font-size: 16px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            background-color: #bebebe;
+            background-color: #e4decd;
             border-color: #7f7f7f;
         }
 
@@ -149,7 +145,7 @@
             padding: 10px 20px;
             font-size: 18px;
             background-color: #007bff;
-            color: #fff;
+            color: #e4decd;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -199,7 +195,7 @@
         .box {
             width: 20px;
             height: 20px;
-            background-color: gray;
+            background-color: #e4decd;
             border: 1px solid #000;
             cursor: pointer;
         }
@@ -323,8 +319,7 @@
         }
 
         input:checked + .slider {
-            /*background-color: #2196F3;*/
-            background: linear-gradient(to right, purple, pink); /* Gradient background for checked state */
+            background: linear-gradient(to right, purple, pink);
         }
 
         input:checked + .slider:before {
@@ -350,7 +345,30 @@
         .dark-mode #suggestions{
             background-color: #303030;
         }
+        .subtitle-part {
+            font-size: 30px;
+            opacity: 0;
+            animation: subtitle-appear 0.5s ease-in-out forwards;
+        }
+        .digit {
+            color: #43146b;
+            font-size: 80px;
+        }
+        @keyframes subtitle-appear {
+            0% {
+                transform: translateX(-20px); /* Start slightly to the left */
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0); /* End at the original position */
+                opacity: 1;
+            }
+        }
 
+        /* Delay the animation of the second part */
+        #star {
+            animation-delay: 0.5s; /* Delay by 0.5 seconds */
+        }
     </style>
 </head>
 <body>
@@ -359,7 +377,12 @@
         <img src="/static/tweedle_logo.gif" alt="Logo" width="auto" height="auto">
     </div>
     <div id="subtitle">
-        5 attempts, 1 star.
+        <div id="attempts" class="subtitle-part delayed-animation">
+            <span class="digit">5</span> attempts
+        </div>
+        <div id="star" class="subtitle-part">
+            <span class="digit">1</span> star  
+        </div>
     </div>
     <div id="buttons">
         <button id="howToPlayButton" class="button">
