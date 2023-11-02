@@ -538,16 +538,40 @@
     <div id="instructionModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeModal">&times;</span>
-            <h2>How to Play</h2>
-            <p> 1. Instruction to the game <br> 
-                2. Instruction to the game <br>
-                3. Instruction to the game <br> 
-                4. Instruction to the game <br>
-                5. Instruction to the game <br> 
-                6. Instruction to the game <br>
-            </p>
+            <h2 style="text-align: center;">
+             Welcome to <img src="/static/tweedle_logo.gif" alt="Logo" width="200px" height="60px"> <br> The daily celebrity tweet guessing game
+            </h2>
+            <i style="font-style: italic; color: #555; display: block; margin-bottom: 10px; text-align: center;">Tweedle updates at midnight</i>
+            <div style="display: block; margin-bottom: 20px;">
+                <span style="font-size: 18px; text-align: center;">In Tweedle, your goal is to guess which celebrity tweeted certain tweets. You have 5 chances to get it right, or you lose the game. The clues will get easier as you progress.</span>
+            </div>
+            <div style="display: block; margin-bottom: 20px;">
+                <span style="font-size: 18px;"><strong>Instructions:</strong></span>
+            </div>
+            <div style="display: block; margin-bottom: 20px;">
+                <span style="font-size: 16px; text-align: left; display: block;">
+                    1. Read the tweet and try to guess which celebrity tweeted it.
+                    <br>
+                    2. Click on the "Search" button and type in the celebrity's name you think is the author of the tweet.
+                    <br>
+                    3. If your guess is correct, you earn a star!
+                    <br>
+                    4. If your guess is wrong, you lose an attempt.
+                    <br>
+                    5. Keep playing to earn as many stars as possible!
+                </span>
+            </div>
+            <div style="display: block; text-align: center; margin-bottom: 10px;">
+                <span style="font-size: 18px;">Don't forget to explore the settings for additional challenges.</span>
+            </div>
+            <div style="display: block; text-align: center; margin-bottom: 10px;">
+                <img src="static/icons/tweedle_web_icon.png" alt="Logo" width="100px" height="100px">
+            </div>    
         </div>
     </div>
+    
+    
+    
 
     <div id="settingsModal" class="modal">
         <div class="modal-content">
@@ -580,6 +604,21 @@
                 </div>
                 <div class="setting-description">
                     Toggle hard mode for a more challenging experience.
+                </div>
+            </div>
+            <hr class="setting-separator"> <!-- Horizontal line separator -->
+            <div class="setting-container">
+                <div class="setting-label">
+                    <label for="hard-mode">Sound Effects</label>
+                    <div class="setting-input">
+                        <label class="switch">
+                            <input type="checkbox" id="hard-mode">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="setting-description">
+                    Toggle sound effects for the right/wrong answer.
                 </div>
             </div>
         </div>
