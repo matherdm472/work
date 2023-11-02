@@ -17,18 +17,22 @@
 
 
     let currentContentIndex = 0;
+    const contentArray = [
+        "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
+        "I’m Back!!! See you Sunday! @NFLonFOX",
+        "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
+        "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
+        "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
+    ];
 
     function showContent(index) {
-        const contentArray = [
-            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
-            "I’m Back!!! See you Sunday! @NFLonFOX",
-            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
-            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
-            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
-        ];
 
         const contentElement = document.querySelector('.tweet-text');
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 06c537216543661ebdf7d845aac619a71e16224f
         contentElement.textContent = contentArray[index];
         // Measure the height
         const measuredHeight = contentArray[index].offsetHeight;
