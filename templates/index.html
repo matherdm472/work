@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Tweedle</title>
+    <link rel="icon" type="image/tweedle-icon" href="static/icons/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Global Styles */
@@ -377,6 +378,68 @@
             font-size: 80px;
         }
 
+        /* Tweet Styles */
+        .tweet {
+            display: flex;
+            align-items: flex-start;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: white;
+            max-height: 200px;
+            max-width: 420px;
+            margin: 10px;
+        }
+
+        .user-profile {
+            align-self: flex-start;
+        }
+
+        .user-profile img {
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 50%;
+            margin: 0px;
+            float: left;
+        }
+
+        .tweet-content {
+            flex: 1;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-fullname, .username {
+            font-weight: bold;
+            margin: 0;
+            text-align: left;
+        }
+
+        .tweet-text {
+            text-align: left;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .tweet-actions {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .action {
+            margin-right: 20px;
+            color: #1DA1F2;
+            cursor: pointer;
+        }
+
+        .tweet-stats {
+            color: #555;
+        }
+
         @keyframes subtitle-appear {
             0% {
                 transform: translateX(-20px);
@@ -423,7 +486,30 @@
             <span class="close" id="closePlayModal">&times;</span>
             <h2>Play the Game</h2>
             <div class="content-container">
-                <div class="content">Content 1</div>
+                <div class="tweet">
+                    <div class="user-profile">
+                        <img src="static/icons/profile_picture.jpeg" alt="User Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="user-info">
+                            <span class="user-fullname">John Doe</span>
+                            <span class="username">@johndoe</span>
+                            <span class="timestamp">2h ago</span>
+                        </div>
+                        <p class="tweet-text">
+                            This is a sample tweet. You can replace this text with your actual tweet content.
+                        </p>
+                        <div class="tweet-actions">
+                            <span class="action like">Like</span>
+                            <span class="action retweet">Retweet</span>
+                            <span class="action reply">Reply</span>
+                        </div>
+                        <div class="tweet-stats">
+                            <span class="likes-count">123 likes</span>
+                            <span class="retweets-count">45 retweets</span>
+                        </div>
+                    </div>
+                </div>                               
             </div>
             <div class="numbered-boxes">
                 <div class="box"></div>
@@ -493,9 +579,6 @@
             </div>
         </div>
     </div>
-    
-    
-    
     <script src="/static/index.js"></script>
 </body>
 </html>
