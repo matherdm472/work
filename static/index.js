@@ -28,6 +28,7 @@
 
         const contentElement = document.querySelector('.tweet-text');
         contentElement.textContent = contentArray[index];
+        
         // Measure the height
         const measuredHeight = contentArray[index].offsetHeight;
 
