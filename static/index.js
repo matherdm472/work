@@ -28,13 +28,7 @@
         ];
 
         const contentElement = document.querySelector('.tweet-text');
-        /*contentElement.textContent = contentArray[index];
         
-        const contentContainer = document.querySelector('.tweet-content');
-        contentContainer.style.maxHeight = 'auto';
-        contentContainer.style.maxHeight = contentContainer.scrollHeight + 'px';*/
-
-
         contentElement.textContent = contentArray[index];
         // Measure the height
         const measuredHeight = contentArray[index].offsetHeight;
@@ -94,6 +88,24 @@
         });
     }
 
+    // Load the sound effects
+    const rightAnswerSound = new Audio('/static/soundeffects/correct-answer.wav');
+    const wrongAnswerSound = new Audio('/static/soundeffects/wrong-answer.wav');
+
+    // Function to toggle sound effects
+    function toggleSoundEffects() {
+        const soundEffectsToggle = document.querySelector('#soundEffectsToggle');
+        
+        // Check if the toggle switch is checked
+        if (soundEffectsToggle.checked) {
+            rightAnswerSound.muted = false; // Unmute the right answer sound
+            wrongAnswerSound.muted = false; // Unmute the wrong answer sound
+        } else {
+            rightAnswerSound.muted = true; // Mute the right answer sound
+            wrongAnswerSound.muted = true; // Mute the wrong answer sound
+        }
+    }
+
     // Add an event listener to the search button
     document.querySelector('#searchButton').addEventListener('click', function() {
         // Get the user's input from the search bar
@@ -117,6 +129,7 @@
             document.querySelector('#searchInput').value = '';
         }
     });
+
     const searchInput = document.querySelector('#searchInput');
     const suggestionsContainer = document.querySelector('#suggestions');
 
