@@ -1,80 +1,38 @@
-    function showInstructionModal() {
-        // Show the "Play" modal by changing its style to 'block'
-        document.querySelector('#instructionModal').style.display = 'block';
+    function openModal(modalId) {
+        document.querySelector(modalId).style.display = 'block';
     }
 
-    // Add a click event listener to the "How to Play" button
-    document.querySelector('#howToPlayButton').addEventListener('click', showInstructionModal);
-
-    // Function to display the "Play" modal
-    function showPlayModal() {
-        // Show the "Play" modal by changing its style to 'block'
-        document.querySelector('#playModal').style.display = 'block';
+    function closeModal(modalId) {
+        document.querySelector(modalId).style.display = 'none';
     }
 
-    // Function to display the settings modal
-    function showSettingsModal() {
-        // Show the settings modal by changing its style to 'block'
-        document.querySelector('#settingsModal').style.display = 'block';
-    }
+    // Add event listeners to open and close modals
+    document.querySelector('#howToPlayButton').addEventListener('click', () => openModal('#instructionModal'));
+    document.querySelector('#playButton').addEventListener('click', () => openModal('#playModal'));
+    document.querySelector('#settingsButton').addEventListener('click', () => openModal('#settingsModal'));
 
-    // Add a click event listener to the "Play" button
-    document.querySelector('#playButton').addEventListener('click', showPlayModal);
+    document.querySelector('#closeModal').addEventListener('click', () => closeModal('#instructionModal'));
+    document.querySelector('#closePlayModal').addEventListener('click', () => closeModal('#playModal'));
+    document.querySelector('#closeSettingsModal').addEventListener('click', () => closeModal('#settingsModal'));
 
-        // Add click event listener to close modal
-    document.querySelector('#closeModal').addEventListener('click', function() {
-        document.querySelector('#instructionModal').style.display = 'none';
-    });
-
-    // Show modal when "How to Play" button is clicked
-    document.querySelector('#howToPlayButton').addEventListener('click', function() {
-        document.querySelector('#instructionModal').style.display = 'block';
-    });
-
-    // Close the "Play" modal when the close button is clicked
-    document.querySelector('#closePlayModal').addEventListener('click', function() {
-        document.querySelector('#playModal').style.display = 'none';
-    });
-
-
-    // Show the "Play" modal when the "Play" button is clicked
-    document.querySelector('#playButton').addEventListener('click', function() {
-        document.querySelector('#playModal').style.display = 'block';
-    });
-
-    // Show modal when settings button is clicked
-    document.querySelector('#settingsButton').addEventListener('click', function() {
-        document.querySelector('#settingsModal').style.display = 'block';
-    });
-
-    // Close modal when close button is clicked
-    document.querySelector('#closeSettingsModal').addEventListener('click', function() {
-        document.querySelector('#settingsModal').style.display = 'none';
-    });
 
     let currentContentIndex = 0;
 
-    const contentArray = [
-        "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
-        "I’m Back!!! See you Sunday! @NFLonFOX",
-        "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
-        "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
-        "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
-    ];
-
     function showContent(index) {
-        const contentElement = document.querySelector('.content');
+        const contentArray = [
+            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
+            "I’m Back!!! See you Sunday! @NFLonFOX",
+            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
+            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
+            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
+        ];
+
+        const contentElement = document.querySelector('.tweet-text');
         contentElement.textContent = contentArray[index];
-        // Measure the height
-        const measuredHeight = contentArray[index].offsetHeight;
-
-        // Calculate max-height as a percentage based on the measured height
-        const parentContainerHeight = document.querySelector('.modal-content').offsetHeight; // Assuming you have a parent container
-        const maxHeightPercentage = (measuredHeight / parentContainerHeight) * 100;
-
-        // Set the max-height of .content-container
-        const contentContainer = document.querySelector('.content-container');
-        contentContainer.style.maxHeight = `${maxHeightPercentage}%`;
+        
+        const contentContainer = document.querySelector('.tweet-content');
+        contentContainer.style.maxHeight = 'auto';
+        contentContainer.style.maxHeight = contentContainer.scrollHeight + 'px';
     }
 
     function nextContent() {
@@ -191,38 +149,42 @@
         suggestionsContainer.style.display = 'block';
     }
 
-    document.querySelector('#dark-mode').addEventListener('click', function() {
-        const darkModeToggle = document.getElementById('dark-mode');
-
-        darkModeToggle.addEventListener('change', function() {
-            if(this.checked) {
-                enableDarkMode();
-            } else {
-                disableDarkMode();
-            }
-        });
-
-        function enableDarkMode() {
-            document.body.classList.add('dark-mode');
-        }
-
-        function disableDarkMode() {
-            document.body.classList.remove('dark-mode');
+    const darkModeToggle = document.getElementById('dark-mode');
+    darkModeToggle.addEventListener('change', function () {
+        if (this.checked) {
+            enableDarkMode();
+        } else {
+            disableDarkMode();
         }
     });
 
-    // Event listener for user input in the search bar
+    function enableDarkMode() {
+        document.body.classList.add('dark-mode');
+        localStorage.setItem('darkMode', 'enabled');
+    }
+
+    function disableDarkMode() {
+        document.body.classList.remove('dark-mode');
+        localStorage.setItem('darkMode', 'disabled');
+    }
+
+    const savedDarkMode = localStorage.getItem('darkMode');
+        if (savedDarkMode === 'enabled') {
+        enableDarkMode();
+    }
+
+
     searchInput.addEventListener('input', () => {
         const userInput = searchInput.value;
         const filteredSuggestions = filterSuggestions(userInput);
         displaySuggestions(filteredSuggestions);
     });
 
-    // Close the dropdown when clicking outside
     document.addEventListener('click', event => {
     if (!suggestionsContainer.contains(event.target)) {
         suggestionsContainer.style.display = 'none';
     }
+
 });
 
 
