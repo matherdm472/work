@@ -109,6 +109,8 @@
     document.querySelector('#searchButton').addEventListener('click', function() {
         // Get the user's input from the search bar
         const userInput = document.querySelector('#searchInput').value.trim().toLowerCase();
+        const searchButton = document.getElementById("searchButton");
+        const searchInput = document.getElementById("searchInput");
 
         // Check if the user's input matches the correct answer
         if (userInput.toLowerCase() === 'rob gronkowski') {
@@ -120,16 +122,26 @@
                 for(let i = 0; i < times; i++){
                 confetti();
             }
+            document.body.classList.add(); // analytic modal
+            searchButton.disabled = true;
+            searchInput.disabled = true;
         } else {
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
             document.querySelector('#answerStatus').style.color = 'red';
             document.querySelector('#wrongAnswerSound').play();
-            
+
             animateWrongAnswer();
 
             // Clear the input field for retry
             document.querySelector('#searchInput').value = '';
+
+            if((currentlyAnimatingBoxIndex % boxes.length) == 4) {
+                document.body.classList.add(); // analytic modal
+                searchButton.disabled = true;
+                searchInput.disabled = true;
+                return;
+            }
         }
     });
 
