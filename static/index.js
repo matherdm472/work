@@ -200,6 +200,11 @@
     const savedDarkMode = localStorage.getItem('darkMode');
         if (savedDarkMode === 'enabled') {
         enableDarkMode();
+        var darkModeCheckbox = document.getElementById('dark-mode');
+
+        // Trigger the 'change' event
+        darkModeCheckbox.checked = true; // Set it to true for checked, false for unchecked
+        darkModeCheckbox.dispatchEvent(new Event('change'));
     }
 
 
