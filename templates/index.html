@@ -3,6 +3,7 @@
 <head>
     <title>Tweedle</title>
     <link rel="icon" type="image/tweedle-icon" href="static/icons/tweedle_web_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Global Styles */
@@ -459,6 +460,38 @@
             transform: translateY(10px);
         }
 
+        /* Analytics Box */
+        #correctAnswerSection, #rightAnswerSection {
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+
+        #guessCount {
+            font-size: 100px;
+            color: #007bff;
+            margin: 10px 0;
+        }
+
+        #correctAnswer{
+            font-size: 40px;
+            color: #007bff; 
+            margin: 10px 0;
+        }
+
+        .copy-box {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
         @keyframes subtitle-appear {
             0% {
                 transform: translateX(-20px);
@@ -641,15 +674,31 @@
             </div>
         </div>
     </div>
-
-
-
     <div id="analyticsModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeAnalyticsModal">&times;</span>
-            <h2 style="text-align: center;">
-             Analytics
-            </h2>
+            <div id="analyticsContent">
+                <div id="correctAnswerSection" style="display: none;">
+                    <p>The correct answer was:</p>
+                    <p id="correctAnswer"></p>
+                    <div class="copy-box">
+                        Copy/Paste Info Here
+                        <button id="copyCorrectAnswerButton" class="copy-button">
+                            <i class="fas fa-copy"></i> Share Results
+                        </button>
+                    </div>
+                </div>
+                <div id="rightAnswerSection" style="display: none;">
+                    <p>You got it right!</p>
+                    <p id="guessCount"></p>
+                    <div class="copy-box">
+                        Copy/Paste Info Here
+                        <button id="copyRightAnswerButton" class="copy-button">
+                            <i class="fas fa-copy"></i> Share Results
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="/static/index.js"></script>
