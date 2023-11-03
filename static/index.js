@@ -14,6 +14,7 @@
     document.querySelector('#closeModal').addEventListener('click', () => closeModal('#instructionModal'));
     document.querySelector('#closePlayModal').addEventListener('click', () => closeModal('#playModal'));
     document.querySelector('#closeSettingsModal').addEventListener('click', () => closeModal('#settingsModal'));
+    document.querySelector('#closeAnalyticsModal').addEventListener('click', () => closeModal('#analyticsModal'));
 
     let currentContentIndex = 0;
     const contentArray = [
@@ -122,9 +123,10 @@
                 for(let i = 0; i < times; i++){
                 confetti();
             }
-            document.body.classList.add(); // analytic modal
             searchButton.disabled = true;
             searchInput.disabled = true;
+            //document.body.classList.add("analyticsModal"); // analytic modal
+            openModal('#analyticsModal');
         } else {
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
@@ -137,9 +139,10 @@
             document.querySelector('#searchInput').value = '';
 
             if((currentlyAnimatingBoxIndex % boxes.length) == 4) {
-                document.body.classList.add(); // analytic modal
                 searchButton.disabled = true;
                 searchInput.disabled = true;
+                //document.body.add("analyticsModal"); // analytic modal
+                openModal('#analyticsModal');
                 return;
             }
         }
