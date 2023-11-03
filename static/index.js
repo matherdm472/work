@@ -106,6 +106,29 @@
         }
     }
 
+    function openAnalyticsModal() {
+        const analyticsContent = document.getElementById('analyticsContent');
+        const correctAnswerSection = document.getElementById('correctAnswerSection');
+        const rightAnswerSection = document.getElementById('rightAnswerSection');
+        const correctAnswer = document.getElementById('correctAnswer');
+        const guessCount = document.getElementById('guessCount');
+    
+        if (currentlyAnimatingBoxIndex === 4) {
+            // All 5 clues were incorrect
+            correctAnswerSection.style.display = 'block';
+            rightAnswerSection.style.display = 'none';
+            correctAnswer.textContent = 'Rob Gronkowski'; // Replace with the actual correct answer
+        } else {
+            // Less than 4 incorrect clues
+            correctAnswerSection.style.display = 'none';
+            rightAnswerSection.style.display = 'block';
+            guessCount.textContent = currentlyAnimatingBoxIndex + 1;
+        }
+    
+        openModal('#analyticsModal');
+    }
+    
+    
     // Add an event listener to the search button
     document.querySelector('#searchButton').addEventListener('click', function() {
         // Get the user's input from the search bar
@@ -126,7 +149,7 @@
             searchButton.disabled = true;
             searchInput.disabled = true;
             //document.body.classList.add("analyticsModal"); // analytic modal
-            openModal('#analyticsModal');
+            openAnalyticsModal();
         } else {
             // Display "Incorrect" in red
             document.querySelector('#answerStatus').textContent = 'Incorrect';
@@ -142,7 +165,7 @@
                 searchButton.disabled = true;
                 searchInput.disabled = true;
                 //document.body.add("analyticsModal"); // analytic modal
-                openModal('#analyticsModal');
+                openAnalyticsModal();
                 return;
             }
         }
@@ -233,6 +256,44 @@
     if (!suggestionsContainer.contains(event.target)) {
         suggestionsContainer.style.display = 'none';
     }
+    /*
+    // COPY TO CLIPBOARD FUNCTIONALITY
+    document.addEventListener('DOMContentLoaded', function() {
+        const copyCorrectAnswerButton = document.getElementById('copyCorrectAnswerButton');
+        const copyBox = document.querySelector('.copy-box');
+
+        copyCorrectAnswerButton.addEventListener('click', function() {
+            // Create a textarea element to hold the text to be copied
+            const textArea = document.createElement('textarea');
+            textArea.value = copyBox.textContent;
+
+            // Append the textarea to the document
+            document.body.appendChild(textArea);
+
+            // Select the text inside the textarea
+            textArea.select();
+
+            // Copy the selected text to the clipboard
+            document.execCommand('copy');
+
+            // Remove the textarea from the document
+            document.body.removeChild(textArea);
+
+            // Provide some visual feedback (e.g., change the button text)
+            copyCorrectAnswerButton.textContent = 'Copied!';
+            setTimeout(function() {
+                copyCorrectAnswerButton.textContent = 'Copy to Clipboard';
+            }, 2000); // Reset the button text after 2 seconds
+
+            copyCorrectAnswerButton.addEventListener('click', function() {
+                console.log('Button clicked'); // Add this line
+                // ... rest of the code
+            });
+        });
+    });
+    */
+
+    
 
 });
 
