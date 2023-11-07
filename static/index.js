@@ -111,7 +111,7 @@
         const rightAnswerSection = document.getElementById('rightAnswerSection');
         const correctAnswer = document.getElementById('correctAnswer');
         const guessCount = document.getElementById('guessCount');
-        const boxes = document.querySelectorAll('.box'); // Add this line to select the boxes
+        const boxes = document.querySelectorAll('.clue-box'); // Select the gray boxes
     
         if (currentlyAnimatingBoxIndex === 4) {
             // All 5 clues were incorrect
@@ -122,11 +122,16 @@
             // Less than 4 incorrect clues
             correctAnswerSection.style.display = 'none';
             rightAnswerSection.style.display = 'block';
+            correctAnswer.textContent = 'Chris Stapleton';
             guessCount.textContent = currentlyAnimatingBoxIndex + 1;
+    
+            // Set the specific box to blue
+            boxes[currentlyAnimatingBoxIndex + 1].style.backgroundColor = 'blue';
         }
     
         openModal('#analyticsModal');
     }
+    
     
     
     
