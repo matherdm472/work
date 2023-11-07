@@ -149,7 +149,7 @@
             }
             searchButton.disabled = true;
             searchInput.disabled = true;
-            //document.body.classList.add("analyticsModal"); // analytic modal
+            closeModal("#playModal");
             openAnalyticsModal();
         } else {
             // Display "Incorrect" in red
@@ -165,7 +165,7 @@
             if((currentlyAnimatingBoxIndex % boxes.length) == 4) {
                 searchButton.disabled = true;
                 searchInput.disabled = true;
-                //document.body.add("analyticsModal"); // analytic modal
+                closeModal("#playModal");
                 openAnalyticsModal();
                 return;
             }

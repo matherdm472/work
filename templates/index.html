@@ -338,6 +338,15 @@
             transform: translateX(26px);
         }
 
+        .setting-input button {
+            padding: 5px 10px;
+            font-size: 18px;
+            background-color: #cc539e;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
         /* Dark Mode Styles */
         .dark-mode {
             background-color: #333;
@@ -594,7 +603,7 @@
             </h2>
             <i style="font-style: italic; color: #555; display: block; margin-bottom: 10px; text-align: center;">Tweedle updates at midnight</i>
             <div style="display: block; margin-bottom: 20px;">
-                <span style="font-size: 18px; text-align: center;">In Tweedle, your goal is to guess which celebrity tweeted certain tweets. You have 5 chances to get it right, or you lose the game. The clues will get easier as you progress.</span>
+                <span style="font-size: 18px; text-align: center;">In Tweedle, your goal is to guess which celebrity made certain tweets. You have 5 chances to get it right, or you lose the game. The clues will get easier as you progress.</span>
             </div>
             <div style="display: block; margin-bottom: 20px;">
                 <span style="font-size: 18px;"><strong>Instructions:</strong></span>
@@ -603,7 +612,7 @@
                 <span style="font-size: 16px; text-align: left; display: block;">
                     1. Read the tweet and try to guess which celebrity tweeted it.
                     <br>
-                    2. Click on the "Search" button and type in the celebrity's name you think is the author of the tweet.
+                    2. Type in the name of the celebrity you think is the author of the tweet and click on the "Search" button.
                     <br>
                     3. If your guess is correct, you earn a star!
                     <br>
@@ -670,6 +679,42 @@
                 </div>
                 <div class="setting-description">
                     Toggle sound effects for the right/wrong answer.
+                </div>
+            </div>
+            <hr class="setting-separator"> <!-- Horizontal line separator -->
+            <div class="setting-container">
+                <div class="setting-label">
+                    <label for="report-bug">Report a Bug</label>
+                    <div class="setting-input">
+                        <button id="report-bug" type="button">Report</button>
+                    </div>
+                </div>
+                <div class="setting-description">
+                    Report an issue if you found one.
+                </div>
+            </div>
+            <hr class="setting-separator"> <!-- Horizontal line separator -->
+            <div class="setting-container">
+                <div class="setting-label">
+                    <label for="give-feedback">Give Feedback</label>
+                    <div class="setting-input">
+                        <button id="give-feedback" type="button">Email</button>
+                    </div>
+                </div>
+                <div class="setting-description">
+                    Send us feedback on how we can improve!
+                </div>
+            </div>
+            <hr class="setting-separator"> <!-- Horizontal line separator -->
+            <div class="setting-container">
+                <div class="setting-label">
+                    <label for="get-credits">Credits</label>
+                    <div class="setting-input">
+                        <button id="get-credits" type="button">Credits</button>
+                    </div>
+                </div>
+                <div class="setting-description">
+                    People who contributed to this website.
                 </div>
             </div>
         </div>
