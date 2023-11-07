@@ -18,11 +18,11 @@
 
     let currentContentIndex = 0;
     const contentArray = [
-        "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
-        "I’m Back!!! See you Sunday! @NFLonFOX",
-        "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
-        "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
-        "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete  #ad"
+        "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
+        "What a joy to get to perform with Miss Mavis, Maren, Marty & Morgane. Getting to be a part of this performance was a CMA highlight for me.",
+        "The first glass of E.H. Taylor, Jr. I ever had was in the studio. Vance Powell, engineer of both music & good times, brought a bottle to the session for inspiration. That week we recorded an entire album, and that album was Traveller.",
+        "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
+        "Thank you, @Spotify Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
     ];
     
     function showContent(index) {
@@ -107,17 +107,17 @@
     }
 
     function openAnalyticsModal() {
-        const analyticsContent = document.getElementById('analyticsContent');
         const correctAnswerSection = document.getElementById('correctAnswerSection');
         const rightAnswerSection = document.getElementById('rightAnswerSection');
         const correctAnswer = document.getElementById('correctAnswer');
         const guessCount = document.getElementById('guessCount');
+        const boxes = document.querySelectorAll('.box'); // Add this line to select the boxes
     
         if (currentlyAnimatingBoxIndex === 4) {
             // All 5 clues were incorrect
             correctAnswerSection.style.display = 'block';
             rightAnswerSection.style.display = 'none';
-            correctAnswer.textContent = 'Rob Gronkowski'; // Replace with the actual correct answer
+            correctAnswer.textContent = 'Chris Stapleton'; // Replace with the actual correct answer
         } else {
             // Less than 4 incorrect clues
             correctAnswerSection.style.display = 'none';
@@ -129,6 +129,7 @@
     }
     
     
+    
     // Add an event listener to the search button
     document.querySelector('#searchButton').addEventListener('click', function() {
         // Get the user's input from the search bar
@@ -137,7 +138,7 @@
         const searchInput = document.getElementById("searchInput");
 
         // Check if the user's input matches the correct answer
-        if (userInput.toLowerCase() === 'rob gronkowski') {
+        if (userInput.toLowerCase() === 'chris stapleton') {
             // Display "Correct" in green
             document.querySelector('#answerStatus').textContent = 'Correct';
             document.querySelector('#answerStatus').style.color = 'green';
