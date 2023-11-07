@@ -501,6 +501,14 @@
             margin-top: 20px;
         }
 
+        .clue-box {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            border: 1px solid #000;
+        }
+
         @keyframes subtitle-appear {
             0% {
                 transform: translateX(-20px);
@@ -724,7 +732,6 @@
             <span class="close" id="closeAnalyticsModal">&times;</span>
             <div id="analyticsContent">
                 <div id="correctAnswerSection" style="display: none;">
-                    <p>The correct answer was:</p>
                     <p id="correctAnswer"></p>
                     <div class="copy-box">
                         Copy/Paste Info Here
@@ -732,6 +739,12 @@
                             <i class="fas fa-copy"></i> Share Results
                         </button>
                     </div>
+                    <!-- Gray boxes for incorrect guesses -->
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
                 </div>
                 <div id="rightAnswerSection" style="display: none;">
                     <p>You got it right!</p>
@@ -742,9 +755,16 @@
                             <i class="fas fa-copy"></i> Share Results
                         </button>
                     </div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
+                    <div class="clue-box"></div>
                 </div>
+            </div>
         </div>
     </div>
+    
     
     <script src="/static/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
