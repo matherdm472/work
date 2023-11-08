@@ -14,11 +14,6 @@ fetch('/static/celebrities.txt')
     })
 
 // Function to filter suggestions based on user input
-/*function filterSuggestions(input) {
-    return allSuggestions.filter(suggestion =>
-        suggestion.toLowerCase().startsWith(input.toLowerCase())
-    );
-}*/
 function filterSuggestions(input) {
     const inputWords = input.toLowerCase().split(' ');
 
