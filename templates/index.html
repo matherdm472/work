@@ -483,13 +483,13 @@
 
         #guessCount {
             font-size: 100px;
-            color: #007bff;
+            color: #1DA1F2;
             margin: 10px 0;
         }
 
         #correctAnswer{
             font-size: 40px;
-            color: #007bff; 
+            color: #1DA1F2; 
             margin: 10px 0;
         }
 
@@ -528,7 +528,7 @@
 </head>
 <body>
     <div id="animationContainer"></div>
-    <div id="title" class="fade-in"> <!--Maybe we name it something more like 'Tweetle'?-->
+    <div id="title" class="fade-in">
         <img src="/static/tweedle_logo.gif" alt="Logo" width="auto" height="auto">
     </div>
     <div id="subtitle">
@@ -637,10 +637,6 @@
             </div>    
         </div>
     </div>
-    
-    
-    
-
     <div id="settingsModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeSettingsModal">&times;</span>
@@ -710,7 +706,7 @@
                     </div>
                 </div>
                 <div class="setting-description">
-                    Send us feedback on how we can improve!
+                    Send us feedback or suggest new puzzles!
                 </div>
             </div>
             <hr class="setting-separator"> <!-- Horizontal line separator -->
@@ -731,42 +727,34 @@
         <div class="modal-content">
             <span class="close" id="closeAnalyticsModal">&times;</span>
             <div id="analyticsContent">
-                <div id="correctAnswerSection" style="display: none;">
-                    <p id="correctAnswer"></p>
-                    <div class="copy-box">
-                        Copy/Paste Info Here
-                        <button id="copyCorrectAnswerButton" class="copy-button">
-                            <i class="fas fa-copy"></i> Share Results
-                        </button>
-                    </div>
-                    <!-- Gray boxes for incorrect guesses -->
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                </div>
                 <div id="rightAnswerSection" style="display: none;">
                     <p>You got it right!</p>
+                    <p id="correctAnswerSection"></p>
+                    <p> The correct answer was: </p>
+                    <p id = "correctAnswer"></p>
                     <p id="guessCount"></p>
                     <div class="copy-box">
-                        Copy/Paste Info Here
+                        <div class="clue-box"></div>
+                        <div class="clue-box"></div>
+                        <div class="clue-box"></div>
+                        <div class="clue-box"></div>
+                        <div class="clue-box"></div>
                         <button id="copyRightAnswerButton" class="copy-button">
                             <i class="fas fa-copy"></i> Share Results
                         </button>
                     </div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
-                    <div class="clue-box"></div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    <script src="/static/index.js"></script>
+    <script type="module" src="/static/javascript/main.js"></script>
+    <script type="module" src="/static/javascript/shared.js"></script>
+    <script type="module" src="/static/javascript/play-modal.js"></script>
+    <script type="module" src="/static/javascript/animation.js"></script>
+    <script type="module" src="/static/javascript/analytics-modal.js"></script>
+    <script type="module" src="/static/javascript/suggestions.js"></script>
+    <script type="module" src="/static/javascript/sound-effects.js"></script>
+    <script type="module" src="/static/javascript/dark-mode.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>

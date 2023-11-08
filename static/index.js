@@ -107,12 +107,12 @@
     }
 
     function openAnalyticsModal() {
-        const correctAnswerSection = document.getElementById('correctAnswerSection');
-        const rightAnswerSection = document.getElementById('rightAnswerSection');
+        const rightAnswerSection = document.getElementById('rightAnswerSection'); // Corrected ID
+        const correctAnswerSection = document.getElementById('correctAnswerSection'); // Corrected ID
         const correctAnswer = document.getElementById('correctAnswer');
         const guessCount = document.getElementById('guessCount');
-        const boxes = document.querySelectorAll('.clue-box'); // Select the gray boxes
-    
+        const clueBoxes = document.querySelectorAll('.clue-box'); // Corrected class selection
+        
         if (currentlyAnimatingBoxIndex === 4) {
             // All 5 clues were incorrect
             correctAnswerSection.style.display = 'block';
@@ -124,16 +124,12 @@
             rightAnswerSection.style.display = 'block';
             correctAnswer.textContent = 'Chris Stapleton';
             guessCount.textContent = currentlyAnimatingBoxIndex + 1;
-    
+        
             // Set the specific box to blue
-            boxes[currentlyAnimatingBoxIndex + 1].style.backgroundColor = 'blue';
+            clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
         }
-    
         openModal('#analyticsModal');
     }
-    
-    
-    
     
     // Add an event listener to the search button
     document.querySelector('#searchButton').addEventListener('click', function() {
@@ -262,45 +258,6 @@
     if (!suggestionsContainer.contains(event.target)) {
         suggestionsContainer.style.display = 'none';
     }
-    /*
-    // COPY TO CLIPBOARD FUNCTIONALITY
-    document.addEventListener('DOMContentLoaded', function() {
-        const copyCorrectAnswerButton = document.getElementById('copyCorrectAnswerButton');
-        const copyBox = document.querySelector('.copy-box');
-
-        copyCorrectAnswerButton.addEventListener('click', function() {
-            // Create a textarea element to hold the text to be copied
-            const textArea = document.createElement('textarea');
-            textArea.value = copyBox.textContent;
-
-            // Append the textarea to the document
-            document.body.appendChild(textArea);
-
-            // Select the text inside the textarea
-            textArea.select();
-
-            // Copy the selected text to the clipboard
-            document.execCommand('copy');
-
-            // Remove the textarea from the document
-            document.body.removeChild(textArea);
-
-            // Provide some visual feedback (e.g., change the button text)
-            copyCorrectAnswerButton.textContent = 'Copied!';
-            setTimeout(function() {
-                copyCorrectAnswerButton.textContent = 'Copy to Clipboard';
-            }, 2000); // Reset the button text after 2 seconds
-
-            copyCorrectAnswerButton.addEventListener('click', function() {
-                console.log('Button clicked'); // Add this line
-                // ... rest of the code
-            });
-        });
-    });
-    */
-
-    
-
 });
 
 
