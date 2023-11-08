@@ -13,11 +13,11 @@ export { numWrong };
 export { handleSearch};
 
 const contentArray = [
-    "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
-    "What a joy to get to perform with Miss Mavis, Maren, Marty & Morgane. Getting to be a part of this performance was a CMA highlight for me.",
-    "The first glass of E.H. Taylor, Jr. I ever had was in the studio. Vance Powell, engineer of both music & good times, brought a bottle to the session for inspiration. That week we recorded an entire album, and that album was Traveller.",
-    "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
-    "Thank you, @Spotify Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
+    "I look forward to screaming “scab” at my 8 year old all night. She’s not in the union but she needs to learn",
+    "The key to award show acting, is to act like you’re happy for others. #FreeGuy 👕",
+    "I only want the best for Mint Mobile customers. Think I’ve found it.",
+    "You think that’s me? That’s Blake.",
+    "Pew-Pew. #deadpool"
 ];
     
 function showContent(index) {
@@ -50,7 +50,7 @@ function handleSearch() {
     const searchInput = document.getElementById("searchInput");
 
     // Check if the user's input matches the correct answer
-    if (userInput.toLowerCase() === 'chris stapleton') {
+    if (userInput.toLowerCase() === 'ryan reynolds') {
         // Display "Correct" in green
         document.querySelector('#answerStatus').textContent = 'Correct';
         document.querySelector('#answerStatus').style.color = 'green';

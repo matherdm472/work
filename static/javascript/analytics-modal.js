@@ -11,7 +11,7 @@ export function openAnalyticsModal() {
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
 
-    correctAnswer.textContent = 'Chris Stapleton';
+    correctAnswer.textContent = 'Ryan Reynolds';
 
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
