@@ -11,11 +11,11 @@ export function openAnalyticsModal() {
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
 
+    correctAnswer.textContent = 'Chris Stapleton';
+
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
         feedbackSubtitle.textContent = 'You lost Game #1. The correct answer was:';
-        correctAnswer.textContent = 'Chris Stapleton'; // Replace with the actual correct answer
-
     } else {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
