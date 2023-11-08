@@ -80,12 +80,30 @@ searchInput.addEventListener('keydown', (event) => {
         // Highlight the currently selected suggestion
         suggestions[selectedSuggestionIndex]?.classList.remove('selected');
 
+        // Get the height of a single suggestion element
+        const suggestionHeight = suggestions[0].offsetHeight;
+
+        // Get the current scroll position of the container
+        const containerScrollTop = suggestionsContainer.scrollTop;
+
         if (event.key === 'ArrowDown') {
             // Move down the list
             selectedSuggestionIndex = (selectedSuggestionIndex + 1) % numSuggestions;
         } else {
             // Move up the list
             selectedSuggestionIndex = (selectedSuggestionIndex - 1 + numSuggestions) % numSuggestions;
+        }
+
+        // Calculate the position of the next selected suggestion
+        const nextSuggestionPosition = selectedSuggestionIndex * suggestionHeight;
+
+        // Check if the next suggestion will be above or below the visible portion
+        if (nextSuggestionPosition < containerScrollTop) {
+            // Scroll up to make the next suggestion visible
+            suggestionsContainer.scrollTop = nextSuggestionPosition;
+        } else if (nextSuggestionPosition + suggestionHeight > containerScrollTop + suggestionsContainer.offsetHeight) {
+            // Scroll down to make the next suggestion visible
+            suggestionsContainer.scrollTop = nextSuggestionPosition + suggestionHeight - suggestionsContainer.offsetHeight;
         }
 
         // Highlight the new selected suggestion
