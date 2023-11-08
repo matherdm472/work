@@ -10,6 +10,7 @@ export { contentArray };
 export { showContent };
 export { boxes };
 export { numWrong };
+export { handleSearch};
 
 const contentArray = [
     "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
@@ -42,7 +43,7 @@ boxes.forEach((box, i) => {
 });
 
 // Add an event listener to the search button
-document.querySelector('#searchButton').addEventListener('click', function() {
+function handleSearch() {
     // Get the user's input from the search bar
     const userInput = document.querySelector('#searchInput').value.trim().toLowerCase();
     const searchButton = document.getElementById("searchButton");
@@ -82,7 +83,12 @@ document.querySelector('#searchButton').addEventListener('click', function() {
             return;
         }
     }
-})
+}
+
+document.querySelector('#searchButton').addEventListener('click', () => {
+    // Call the handling function when the search button is clicked
+    handleSearch();
+});
 
 searchInput.addEventListener('input', () => {
     const userInput = searchInput.value;
