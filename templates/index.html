@@ -470,19 +470,14 @@
         }
 
         /* Analytics Box */
-        #correctAnswerSection, #rightAnswerSection {
-            font-size: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+
+        #analyticsModal {
             text-align: center;
-            margin: auto;
-            padding: 20px;
+        
         }
 
         #guessCount {
-            font-size: 100px;
+            font-size: 80px;
             color: #1DA1F2;
             margin: 10px 0;
         }
@@ -499,6 +494,8 @@
             border: 1px solid black;
             border-radius: 5px;
             margin-top: 20px;
+            width: 300px;
+            margin: 0 auto; /* Horizontally center the copy-box */
         }
 
         .clue-box {
@@ -507,6 +504,38 @@
             height: 40px;
             margin: 5px;
             border: 1px solid #000;
+        }
+        
+        #feedback-text{
+            font-size: 40px;
+        }
+
+        #feedback-subtitle{
+            font-size: 20px;
+        }
+
+        .share-results {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .share-button {
+            background-color: #1DA1F2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .share-button i {
+            margin-right: 10px; /* Add space between icon and text */
+        }
+
+        #countdown{
+            font-weight: bold;
+            font-size: 40px;
         }
 
         @keyframes subtitle-appear {
@@ -727,11 +756,10 @@
         <div class="modal-content">
             <span class="close" id="closeAnalyticsModal">&times;</span>
             <div id="analyticsContent">
-                <div id="rightAnswerSection" style="display: none;">
-                    <p>You got it right!</p>
-                    <p id="correctAnswerSection"></p>
-                    <p> The correct answer was: </p>
-                    <p id = "correctAnswer"></p>
+                <div id="feedback">
+                    <p id="feedback-text"></p>
+                    <p id="feedback-subtitle"></p>
+                    <p id="correctAnswer"></p>
                     <p id="guessCount"></p>
                     <div class="copy-box">
                         <div class="clue-box"></div>
@@ -739,9 +767,18 @@
                         <div class="clue-box"></div>
                         <div class="clue-box"></div>
                         <div class="clue-box"></div>
-                        <button id="copyRightAnswerButton" class="copy-button">
-                            <i class="fas fa-copy"></i> Share Results
+                    </div>
+                    <div class="share-results">
+                        <button id="shareResultsButton" class="share-button">
+                            <i class="fas fa-share"></i> Share Results
                         </button>
+                    </div>
+                    <div class="message-to-copy">
+                        <p>Your message to be copied goes here.</p>
+                    </div>
+                    <div class="next-game">
+                        <p>Next Game In:</p>
+                        <p id="countdown"></p>
                     </div>
                 </div>
             </div>

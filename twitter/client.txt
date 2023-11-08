@@ -1,5 +1,0 @@
-client id:  d0hnMHp4SXM4bzhsZklYVU8zbkw6MTpjaQ
-client secret: ZvbRnY28wsqoUuTQJ2SEUTnBCDPLZ6EZ_ihKiQth5Bofq2MLpG
-bearer token: AAAAAAAAAAAAAAAAAAAAALXSowEAAAAAdmoIgIdRD5ODupULmfwbPRT%2BcWA%3DaWRhzv72e7shPdutT3OusiA9ijRkRTmd0klUJUp4WQaptBKQyT
-
-<script src="modal.js"></script>
