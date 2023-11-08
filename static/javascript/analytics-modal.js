@@ -1,6 +1,7 @@
 //analytics-modal.js
 import { currentlyAnimatingBoxIndex } from './animation.js';
 import { openModal } from './main.js';
+import { numWrong } from './play-modal.js';
 
 export function openAnalyticsModal() {
     const rightAnswerSection = document.getElementById('rightAnswerSection'); // Corrected ID
@@ -9,7 +10,7 @@ export function openAnalyticsModal() {
     const guessCount = document.getElementById('guessCount');
     const clueBoxes = document.querySelectorAll('.clue-box'); // Corrected class selection
     
-    if (currentlyAnimatingBoxIndex === 4) {
+    if (numWrong >= 5) {
         // All 5 clues were incorrect
         correctAnswerSection.style.display = 'block';
         rightAnswerSection.style.display = 'none';

@@ -9,6 +9,7 @@ import { openAnalyticsModal } from './analytics-modal.js';
 export { contentArray };
 export { showContent };
 export { boxes };
+export { numWrong };
 
 const contentArray = [
     "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
@@ -32,6 +33,8 @@ function showContent(index) {
 }
 
 showContent(currentContentIndex);
+
+let numWrong = 0;
 
 let boxes = document.querySelectorAll('.box');
 boxes.forEach((box, i) => {
@@ -61,6 +64,7 @@ document.querySelector('#searchButton').addEventListener('click', function() {
         openAnalyticsModal();
     } else {
         // Display "Incorrect" in red
+        numWrong++;
         document.querySelector('#answerStatus').textContent = 'Incorrect';
         document.querySelector('#answerStatus').style.color = 'red';
         document.querySelector('#wrongAnswerSound').play();
