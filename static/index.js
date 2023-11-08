@@ -111,9 +111,9 @@
         const rightAnswerSection = document.getElementById('rightAnswerSection');
         const correctAnswer = document.getElementById('correctAnswer');
         const guessCount = document.getElementById('guessCount');
-        const boxes = document.querySelectorAll('.clue-box'); // Select the gray boxes
+        const cluBoxes = document.querySelectorAll('.clue-box'); // Select the gray boxes
     
-        if (currentlyAnimatingBoxIndex === 4) {
+        if (currentlyAnimatingBoxIndex === 5) {
             // All 5 clues were incorrect
             correctAnswerSection.style.display = 'block';
             rightAnswerSection.style.display = 'none';
@@ -126,7 +126,7 @@
             guessCount.textContent = currentlyAnimatingBoxIndex + 1;
     
             // Set the specific box to blue
-            boxes[currentlyAnimatingBoxIndex + 1].style.backgroundColor = 'blue';
+            cluBoxes[currentlyAnimatingBoxIndex + 5].style.backgroundColor = '#007bff';
         }
     
         openModal('#analyticsModal');
