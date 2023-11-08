@@ -92,4 +92,25 @@ document.addEventListener('click', event => {
     }
 });
 
-    
+//Tweedle Object
+class Tweedle {
+    constructor(name, tweetsArray, day) {
+        this.name = name;
+        this.tweetsArray = tweetsArray;
+        this.day = day; //May not be necessary but may want to keep track of which day was used
+    }
+}
+
+let tweedleArray = [];
+
+fetch('/static/puzzleList.txt')
+    .then(response => response.json()) // Load as JSON
+    .then(data => {
+        data.forEach(item => {
+            let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
+            tweedleArray.push(tweedle);
+        });
+
+    console.log(tweedleArray);
+    })
+    .catch(error => console.error('Error:', error));
