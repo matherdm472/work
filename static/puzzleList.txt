@@ -1,0 +1,12 @@
+[
+{
+    "name": "celebrity",
+    "tweetsArray": ["tweet1 blah blah", "tweet2", "tweet3", "tweet4", "tweet5"],
+    "day": 1
+},
+{
+    "name": "celebrity2",
+    "tweetsArray": ["tweet1 blah blah", "tweet2", "tweet3", "tweet4", "tweet5"],
+    "day": 1
+}
+]
