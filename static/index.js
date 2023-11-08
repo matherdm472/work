@@ -111,9 +111,15 @@
         const correctAnswerSection = document.getElementById('correctAnswerSection'); // Corrected ID
         const correctAnswer = document.getElementById('correctAnswer');
         const guessCount = document.getElementById('guessCount');
+<<<<<<< HEAD
         const clueBoxes = document.querySelectorAll('.clue-box'); // Corrected class selection
         
         if (currentlyAnimatingBoxIndex === 4) {
+=======
+        const cluBoxes = document.querySelectorAll('.clue-box'); // Select the gray boxes
+    
+        if (currentlyAnimatingBoxIndex === 5) {
+>>>>>>> origin/master
             // All 5 clues were incorrect
             correctAnswerSection.style.display = 'block';
             rightAnswerSection.style.display = 'none';
@@ -126,7 +132,11 @@
             guessCount.textContent = currentlyAnimatingBoxIndex + 1;
         
             // Set the specific box to blue
+<<<<<<< HEAD
             clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
+=======
+            cluBoxes[currentlyAnimatingBoxIndex + 5].style.backgroundColor = '#007bff';
+>>>>>>> origin/master
         }
         openModal('#analyticsModal');
     }
@@ -247,6 +257,29 @@
         darkModeCheckbox.dispatchEvent(new Event('change'));
     }
 
+    //Tweedle Object
+    class Tweedle {
+        constructor(name, tweetsArray, day) {
+            this.name = name;
+            this.tweetsArray = tweetsArray;
+            this.day = day; //May not be necessary but may want to keep track of which day was used
+        }
+    }
+    
+    let tweedleArray = [];
+
+    fetch('/static/puzzleList.txt')
+        .then(response => response.json()) // Load as JSON
+        .then(data => {
+            data.forEach(item => {
+                let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
+                tweedleArray.push(tweedle);
+            });
+
+        console.log(tweedleArray);
+        })
+        .catch(error => console.error('Error:', error));
+
 
     searchInput.addEventListener('input', () => {
         const userInput = searchInput.value;
@@ -258,6 +291,49 @@
     if (!suggestionsContainer.contains(event.target)) {
         suggestionsContainer.style.display = 'none';
     }
+<<<<<<< HEAD
+=======
+
+    /*
+    // COPY TO CLIPBOARD FUNCTIONALITY
+    document.addEventListener('DOMContentLoaded', function() {
+        const copyCorrectAnswerButton = document.getElementById('copyCorrectAnswerButton');
+        const copyBox = document.querySelector('.copy-box');
+
+        copyCorrectAnswerButton.addEventListener('click', function() {
+            // Create a textarea element to hold the text to be copied
+            const textArea = document.createElement('textarea');
+            textArea.value = copyBox.textContent;
+
+            // Append the textarea to the document
+            document.body.appendChild(textArea);
+
+            // Select the text inside the textarea
+            textArea.select();
+
+            // Copy the selected text to the clipboard
+            document.execCommand('copy');
+
+            // Remove the textarea from the document
+            document.body.removeChild(textArea);
+
+            // Provide some visual feedback (e.g., change the button text)
+            copyCorrectAnswerButton.textContent = 'Copied!';
+            setTimeout(function() {
+                copyCorrectAnswerButton.textContent = 'Copy to Clipboard';
+            }, 2000); // Reset the button text after 2 seconds
+
+            copyCorrectAnswerButton.addEventListener('click', function() {
+                console.log('Button clicked'); // Add this line
+                // ... rest of the code
+            });
+        });
+    });
+    */
+
+    
+
+>>>>>>> origin/master
 });
 
 
