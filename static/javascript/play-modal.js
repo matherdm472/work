@@ -208,6 +208,9 @@ document.getElementById("menuIcon").addEventListener("click", function () {
         buttonContainer.innerHTML = ""; // Clear previous buttons
 
         tweedleArray.forEach(function (tweedle, index) {
+            if(index > day) {
+                return;
+            } 
             var button = document.createElement("button");
             if(tweedle.getDay() == day+1) {
                 button.textContent = "Day " + tweedle.getDay() + " (Today)"; 
