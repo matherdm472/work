@@ -170,26 +170,26 @@ document.addEventListener('click', event => {
 
 document.getElementById("menuIcon").addEventListener("click", function () {
     var popup = document.getElementById("popupWindow");
-    if (popup.style.right === "-300px") {
+    if (popup.style.top === "-30%") {
         popup.style.display = "block";
-        var pos = -300;
+        var pos = -30;
         var animation = setInterval(function () {
-            if (pos >= 0) {
+            if (pos >= 20) {
                 clearInterval(animation);
             } else {
-                pos += 10; // Adjust the speed of the animation as needed
-                popup.style.right = pos + "px";
+                pos += 2; // Adjust the speed of the animation as needed
+                popup.style.top = pos + "%";
             }
         }, 10);
     } else {
-        var pos = 0;
+        var pos = 20;
         var animation = setInterval(function () {
-            if (pos <= -300) {
+            if (pos <= -30) {
                 popup.style.display = "none";
                 clearInterval(animation);
             } else {
-                pos -= 10; // Adjust the speed of the animation as needed
-                popup.style.right = pos + "px";
+                pos -= 2; // Adjust the speed of the animation as needed
+                popup.style.top = pos + "%";
             }
         }, 10);
     }
