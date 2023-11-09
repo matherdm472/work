@@ -201,11 +201,15 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 
         tweedleArray.forEach(function (tweedle, index) {
             var button = document.createElement("button");
-            button.textContent = "Day " + tweedle.getDay(); 
+            if(tweedle.getDay() == day+1) {
+                button.textContent = "Day " + tweedle.getDay() + " (Today)"; 
+            } else {
+                button.textContent = "Day " + tweedle.getDay(); 
+            }
             button.style.width = "80%";
             button.style.height = "10%";
             button.addEventListener("click", function () {
-                // Handle button click event here
+                closeModal('#playModal');
             });
             buttonContainer.appendChild(button);
         });
