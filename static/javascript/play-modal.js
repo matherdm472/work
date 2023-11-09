@@ -102,6 +102,34 @@ document.addEventListener('click', event => {
     }
 });
 
+document.getElementById("menuIcon").addEventListener("click", function () {
+    var popup = document.getElementById("popupWindow");
+    if (popup.style.right === "-300px") {
+        popup.style.display = "block";
+        var pos = -300;
+        var animation = setInterval(function () {
+            if (pos >= 0) {
+                clearInterval(animation);
+            } else {
+                pos += 10; // Adjust the speed of the animation as needed
+                popup.style.right = pos + "px";
+            }
+        }, 10);
+    } else {
+        var pos = 0;
+        var animation = setInterval(function () {
+            if (pos <= -300) {
+                popup.style.display = "none";
+                clearInterval(animation);
+            } else {
+                pos -= 10; // Adjust the speed of the animation as needed
+                popup.style.right = pos + "px";
+            }
+        }, 10);
+    }
+});
+
+
 //Tweedle Object
 class Tweedle {
     constructor(name, tweetsArray, day) {

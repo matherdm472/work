@@ -74,6 +74,19 @@
             background-color: rgba(0, 0, 0, 0.7);
         }
 
+        .popup {
+            position: absolute;
+            top: 300px;
+            right: 300px;
+            width: 100px;
+            height: 80%;
+            background-color: gray;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            display: none;
+            overflow: hidden;
+        }
+
         .modal-content {
             background-color: #e4decd;
             margin: 5% auto;
@@ -182,6 +195,9 @@
             background-color: #1DA1F2;
         }
 
+        .play-game-title {
+            padding-left: 20px;
+        }
         .content {
             font-size: 24px;
         }
@@ -588,8 +604,11 @@
     <div id="playModal" class="modal">
         <div class="modal-content large">
             <span class="close" id="closePlayModal">&times;</span>
-            <h2>Play the Game</h2>
+            <h2 class="play-game-title">Play the Game <img src="/static/icons/menu.png" width="30" height="30" alt="Menu Icon" id="menuIcon"></h2>
             <div class="content-container">
+                <div id="popupWindow" class="popup">
+                <!-- Content of the popup window goes here -->
+                </div>
                 <div class="tweet">
                     <div class="user-profile">
                         <img src="static/icons/pfp_icon.png" alt="User Profile Picture">
@@ -636,7 +655,6 @@
             <audio id="wrongAnswerSound" src="/static/soundeffects/wrong-answer.wav"></audio>
         </div>
     </div>
-    
     <div id="instructionModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeModal">&times;</span>
