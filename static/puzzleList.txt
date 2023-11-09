@@ -130,7 +130,52 @@
             "Just had the best time in Denver!! And we got to be the first tour to play in that stadium 2 nights 😝 It’s really hitting me that we only have 3 cities left on the US Eras Tour. This has been my favorite adventure of all. I appreciate and cherish every second of it. See you 🔜 Seattle!!"
         ],
         "day": 12
+    },
+    {
+        "name": "Samuel L Jackson",
+        "tweetsArray": [
+            "At what point do we start the Rams coaching conversation??!!",
+            "There's a Lot to be said for getting it RIGHT! Big Up to Denzel on Best Actor SAG Awards!# best of the best",
+            "Can-a muh fukkah say fuck on here?",
+            "Happy Birthday Q T!!!!! Shout him out folks, it's a Tarantino vintage year!",
+            "How boot that MUTHAFUQQIN DJANGO trailer!!!!!!"
+        ],
+        "day": 13
+    },
+    {
+        "name": "Danny DeVito",
+        "tweetsArray": [
+            "Sadness. Todd Haimes. I’m gonna miss you my dear friend. Rest in peace sweet buddy.",
+            "Happy Birthday Timmy, Lots of Love from Jimmy, The Hideous Penguin Boy",
+            "I know I do this commercial ….but seriously I’m on my way to Jersey Mikes because today all the proceeds go to charity. Make sure you ask for extra Juice.",
+            "Had a blast at the LA TV Critics Award dig Somebody tell me how many times I said Balls? Very Honored.",
+            "48 DAYS UNTIL THE NEW SEASON OF IT'S ALWYAS SUNNY IN PHILADELPHIA FX BABY"
+        ],
+        "day": 14
+    },
+    {
+        "name": "Dolly Parton",
+        "tweetsArray": [
+            "I got to chat with Hayley Williams about my debut rock album ’Rockstar’ and more! ❤️‍🔥",
+            "I wore this gold-and-silver lamé gown in my “Chicken Ranch” movie, along with these Di Fabrizio gold-and-Lucite mules. Believe it or not, they’re comfortable! For more looks like this, order my new book ‘Behind the Seams: My Life in Rhinestones!’",
+            "Me and the always dapper Johnny Cash. I think this was the Country Music Awards back in 1978. #throwbackthursday",
+            "Maybe my next #Jolene collab will be with @BTS_twt? What do y'all think? #GRAMMYs",
+            "Just came across this photo of me at my favorite place! What’s your favorite ride at @Dollywood?"
+        ],
+        "day": 15
+    },
+    {
+        "name": "Jackie Chan",
+        "tweetsArray": [
+            "Another martial arts hero has left us….",
+            "Chinese New Year Giveaway! 新年送紅包！Would you like a chance to receive a lucky red packet?",
+            "Yes, I am so happy. Thank you to all the judge and audience in spain. My movie little big soldier won audience award. So happy!",
+            "\"Your focus needs more focus.\" - Mr. Han in The Karate Kid",
+            "\"We should hang out\" - Monkey in Kung Fu Panda"
+        ],
+        "day": 16
     }
 ]
+
     
     
