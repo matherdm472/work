@@ -170,18 +170,7 @@ document.addEventListener('click', event => {
 
 document.getElementById("menuIcon").addEventListener("click", function () {
     var popup = document.getElementById("popupWindow");
-    if (popup.style.height === "0%") {
-        popup.style.display = "block";
-        var pos = 0;
-        var animation = setInterval(function () {
-            if (pos >= 20) {
-                clearInterval(animation);
-            } else {
-                pos += 2; // Adjust the speed of the animation as needed
-                popup.style.height = pos + "%";
-            }
-        }, 10);
-    } else {
+    if (popup.style.height >= "20%") {
         var pos = 20;
         var animation = setInterval(function () {
             if (pos <= 0) {
@@ -193,4 +182,16 @@ document.getElementById("menuIcon").addEventListener("click", function () {
             }
         }, 10);
     }
+    else {
+        popup.style.display = "block";
+        var pos = 0;
+        var animation = setInterval(function () {
+            if (pos >= 20) {
+                clearInterval(animation);
+            } else {
+                pos += 2; // Adjust the speed of the animation as needed
+                popup.style.height = pos + "%";
+            }
+        }, 10);
+    } 
 });
