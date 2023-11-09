@@ -11,14 +11,80 @@ export { showContent };
 export { boxes };
 export { numWrong };
 export { handleSearch};
+export { tweedleArray};
+export { day};
 
-const contentArray = [
-    "I look forward to screaming “scab” at my 8 year old all night. She’s not in the union but she needs to learn",
-    "The key to award show acting, is to act like you’re happy for others. #FreeGuy 👕",
-    "I only want the best for Mint Mobile customers. Think I’ve found it.",
-    "You think that’s me? That’s Blake.",
-    "Pew-Pew. #deadpool"
-];
+let day = 0;
+
+function updateDay() {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentSecond = now.getSeconds();
+
+    // Check if it's midnight (00:00:00)
+    if (currentHour === 0 && currentMinute === 0 && currentSecond === 0) {
+        day++;
+    }
+}
+
+// Call updateDay every second (1000 milliseconds)
+setInterval(updateDay, 1000);
+
+//Tweedle Object
+class Tweedle {
+    constructor(name, tweetsArray, day) {
+        this.name = name;
+        this.tweetsArray = tweetsArray;
+        this.day = day; //May not be necessary but may want to keep track of which day was used
+    }
+
+    getName() {
+        return this.name;
+    }
+
+    getTweetsArray() {
+        return this.tweetsArray;
+    }
+
+    getDay() {
+        return this.day;
+    }
+}
+
+let tweedleArray = [];
+
+//asyncronous method of getting tweedle array. May be useful if current method begins to be too intensive
+/*fetch('/static/puzzleList.txt')
+    .then(response => response.json()) // Load as JSON
+    .then(data => {
+        data.forEach(item => {
+            let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
+            tweedleArray.push(tweedle);
+        });
+
+    console.log(tweedleArray);
+    })
+    .catch(error => console.error('Error:', error));*/ 
+
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', '/static/puzzleList.txt', false); // Set the third parameter to true for asynchronous, false for synchronous
+    xhr.send();
+
+    if (xhr.status === 200) {
+        let data = JSON.parse(xhr.responseText);
+        data.forEach(item => {
+            let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
+            tweedleArray.push(tweedle);
+        });
+
+        console.log(tweedleArray);
+    } else {
+        console.error('Error:', xhr.status, xhr.statusText);
+    }
+
+
+const contentArray = tweedleArray[day].getTweetsArray();
     
 function showContent(index) {
     const contentElement = document.querySelector('.tweet-text');
@@ -50,7 +116,7 @@ function handleSearch() {
     const searchInput = document.getElementById("searchInput");
 
     // Check if the user's input matches the correct answer
-    if (userInput.toLowerCase() === 'ryan reynolds') {
+    if (userInput.toLowerCase() === tweedleArray[day].getName().toLowerCase()) {
         // Display "Correct" in green
         document.querySelector('#answerStatus').textContent = 'Correct';
         document.querySelector('#answerStatus').style.color = 'green';
@@ -101,26 +167,3 @@ document.addEventListener('click', event => {
         suggestionsContainer.style.display = 'none';
     }
 });
-
-//Tweedle Object
-class Tweedle {
-    constructor(name, tweetsArray, day) {
-        this.name = name;
-        this.tweetsArray = tweetsArray;
-        this.day = day; //May not be necessary but may want to keep track of which day was used
-    }
-}
-
-let tweedleArray = [];
-
-fetch('/static/puzzleList.txt')
-    .then(response => response.json()) // Load as JSON
-    .then(data => {
-        data.forEach(item => {
-            let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
-            tweedleArray.push(tweedle);
-        });
-
-    console.log(tweedleArray);
-    })
-    .catch(error => console.error('Error:', error));
