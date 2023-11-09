@@ -15,6 +15,7 @@ export { tweedleArray};
 export { day};
 
 let day = 0;
+let tempDay = day;
 
 function updateDay() {
     const now = new Date();
@@ -84,7 +85,7 @@ let tweedleArray = [];
     }
 
 
-const contentArray = tweedleArray[day].getTweetsArray();
+let contentArray = tweedleArray[tempDay].getTweetsArray();
     
 function showContent(index) {
     const contentElement = document.querySelector('.tweet-text');
@@ -116,7 +117,7 @@ function handleSearch() {
     const searchInput = document.getElementById("searchInput");
 
     // Check if the user's input matches the correct answer
-    if (userInput.toLowerCase() === tweedleArray[day].getName().toLowerCase()) {
+    if (userInput.toLowerCase() === tweedleArray[tempDay].getName().toLowerCase()) {
         // Display "Correct" in green
         document.querySelector('#answerStatus').textContent = 'Correct';
         document.querySelector('#answerStatus').style.color = 'green';
@@ -168,6 +169,13 @@ document.addEventListener('click', event => {
     }
 });
 
+// Add an event listener to detect when the modal is closing
+playModal.addEventListener("transitionend", function(event) {
+    tempDay = day;
+    contentArray = tweedleArray[tempDay].getTweetsArray();
+    showContent(0);
+});
+
 document.getElementById("menuIcon").addEventListener("click", function () {
     var popup = document.getElementById("popupWindow");
     if (popup.style.height >= "20%") {
@@ -209,7 +217,9 @@ document.getElementById("menuIcon").addEventListener("click", function () {
             button.style.width = "80%";
             button.style.height = "10%";
             button.addEventListener("click", function () {
-                closeModal('#playModal');
+                tempDay = tweedle.getDay()-1;
+                contentArray = tweedleArray[tempDay].getTweetsArray();
+                showContent(0);
             });
             buttonContainer.appendChild(button);
         });
