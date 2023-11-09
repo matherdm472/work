@@ -10,9 +10,10 @@ export { contentArray };
 export { showContent };
 export { boxes };
 export { numWrong };
-export { handleSearch};
-export { tweedleArray};
-export { day};
+export { handleSearch };
+export { tweedleArray };
+export { day };
+export { tempDay };
 
 let day = 0;
 let tempDay = day;

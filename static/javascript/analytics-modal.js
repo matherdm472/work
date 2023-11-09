@@ -3,7 +3,7 @@ import { currentlyAnimatingBoxIndex } from './animation.js';
 import { openModal } from './main.js';
 import { numWrong } from './play-modal.js';
 import { tweedleArray } from './play-modal.js';
-import { day } from './play-modal.js';
+import { tempDay } from './play-modal.js';
 
 export function openAnalyticsModal() {
     const correctAnswerSection = document.getElementById('correctAnswerSection');
@@ -13,7 +13,7 @@ export function openAnalyticsModal() {
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
 
-    correctAnswer.textContent = tweedleArray[day].getName();
+    correctAnswer.textContent = tweedleArray[tempDay].getName();
 
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
