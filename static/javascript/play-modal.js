@@ -193,5 +193,21 @@ document.getElementById("menuIcon").addEventListener("click", function () {
                 popup.style.height = pos + "%";
             }
         }, 10);
+
+        // Populate the popup with buttons
+        var buttonContainer = document.getElementById("buttonContainer");
+        buttonContainer.style.display = "block";
+        buttonContainer.innerHTML = ""; // Clear previous buttons
+
+        tweedleArray.forEach(function (tweedle, index) {
+            var button = document.createElement("button");
+            button.textContent = "Day " + tweedle.getDay(); 
+            button.style.width = "80%";
+            button.style.height = "10%";
+            button.addEventListener("click", function () {
+                // Handle button click event here
+            });
+            buttonContainer.appendChild(button);
+        });
     } 
 });

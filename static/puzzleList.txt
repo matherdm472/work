@@ -8,10 +8,5 @@
     "name": "Josh Donaldson",
     "tweetsArray": ["My bat to ball skills are 100!! Also can I enter a competition for who can throw their bat the furthest??", "Thank you Kevin Mather. I sincerely mean it. You just said what everyone already knew, but now we @MLB_PLAYERS have official evidence that is going to help a lot of players. Again, thank you!! Bravo", "I’d like to say thank you to everyone for the love and support over the years !! I’ve had the opportunity to play with some great teammates and organizations. I wish nothing but the best to the New York Yankees.", "@Yankees third baseman @BringerOfRain20 is throwing darts 🎯  #HGVLPGA @GolfChannel", "@BringerOfRain20's portfolio includes 3 All-Star appearances, 2 Silver Slugger Awards, MVP and Hank Aaron Awards and a Comeback Player of the Year. He has homered against every MLB team in his tenure with the @Athletics, @BlueJays, @CleGuardians, @Braves, @Twins and @Yankees"],
     "day": 2
-},
-{
-    "name": "Josh Donaldson",
-    "tweetsArray": ["My bat to ball skills are 100!! Also can I enter a competition for who can throw their bat the furthest??", "Thank you Kevin Mather. I sincerely mean it. You just said what everyone already knew, but now we @MLB_PLAYERS have official evidence that is going to help a lot of players. Again, thank you!! Bravo", "I’d like to say thank you to everyone for the love and support over the years !! I’ve had the opportunity to play with some great teammates and organizations. I wish nothing but the best to the New York Yankees.", "@Yankees third baseman @BringerOfRain20 is throwing darts 🎯  #HGVLPGA @GolfChannel", "@BringerOfRain20's portfolio includes 3 All-Star appearances, 2 Silver Slugger Awards, MVP and Hank Aaron Awards and a Comeback Player of the Year. He has homered against every MLB team in his tenure with the @Athletics, @BlueJays, @CleGuardians, @Braves, @Twins and @Yankees"],
-    "day": 2
 }
 ]
