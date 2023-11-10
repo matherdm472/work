@@ -132,6 +132,7 @@ function handleSearch() {
             for(let i = 0; i < times; i++){
             confetti();
         }
+        searchInput.value = "";
         searchButton.disabled = true;
         searchInput.disabled = true;
         resultMap.set(tempDay, "right");
@@ -151,6 +152,7 @@ function handleSearch() {
         document.querySelector('#searchInput').value = '';
 
         if((currentlyAnimatingBoxIndex % boxes.length) == 4) {
+            searchInput.value = "";
             searchButton.disabled = true;
             searchInput.disabled = true;
             resultMap.set(tempDay, "wrong");
@@ -266,6 +268,7 @@ function resetMenu() {
     });
     document.querySelector('#answerStatus').textContent = "";
     showContent(0);
+    searchInput.value = "";
     searchButton.disabled = false;
     searchInput.disabled = false;
 }
