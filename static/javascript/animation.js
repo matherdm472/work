@@ -5,6 +5,7 @@ import { boxes } from './play-modal.js';
 
 export {animateWrongAnswer};
 export { currentlyAnimatingBoxIndex };
+export { updateAnimatedIndex };
 
 let currentlyAnimatingBoxIndex = 0;
 
@@ -36,4 +37,8 @@ function animateWrongAnswer() {
 
         nextContent();
     });
+}
+
+function updateAnimatedIndex(newIndex) {
+    currentlyAnimatingBoxIndex = newIndex;
 }

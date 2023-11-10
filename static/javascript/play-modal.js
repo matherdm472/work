@@ -1,8 +1,8 @@
 // play-modal.js
 
 import { closeModal } from './main.js';
-import { currentContentIndex } from './shared.js';
-import { animateWrongAnswer, currentlyAnimatingBoxIndex} from './animation.js';
+import { currentContentIndex, updateIndex } from './shared.js';
+import { animateWrongAnswer, currentlyAnimatingBoxIndex, updateAnimatedIndex} from './animation.js';
 import { filterSuggestions, displaySuggestions, suggestionsContainer } from './suggestions.js';
 import { openAnalyticsModal } from './analytics-modal.js';
 
@@ -174,8 +174,7 @@ var closeButton = document.getElementById("closePlayModal");
 
 closeButton.addEventListener("click", function(event) {
     tempDay = day;
-    contentArray = tweedleArray[tempDay].getTweetsArray();
-    showContent(0);
+    resetMenu();
 });
 
 document.getElementById("menuIcon").addEventListener("click", function () {
@@ -229,8 +228,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
                     buttonContainer.style.display = "none";
                 }
                 tempDay = tweedle.getDay() - 1;
-                contentArray = tweedleArray[tempDay].getTweetsArray();
-                showContent(0);
+                resetMenu();
             });
             buttonContainer.appendChild(button);
         });
@@ -244,3 +242,14 @@ document.getElementById("menuIcon").addEventListener("click", function () {
         });
     }
 });
+
+function resetMenu() {
+    contentArray = tweedleArray[tempDay].getTweetsArray();
+    numWrong = 0;
+    updateAnimatedIndex(0);
+    updateIndex(0);
+    boxes.forEach((box, i) => {
+        box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
+    });
+    showContent(0);
+}
