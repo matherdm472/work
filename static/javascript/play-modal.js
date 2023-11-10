@@ -15,7 +15,7 @@ export { tweedleArray };
 export { day };
 export { tempDay };
 
-let day = 15;
+let day = 16;
 let tempDay = day;
 
 function updateDay() {
@@ -190,8 +190,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
                 popup.style.height = pos + "%";
             }
         }, 10);
-    }
-    else {
+    } else {
         popup.style.display = "block";
         var pos = 0;
         var animation = setInterval(function () {
@@ -209,23 +208,33 @@ document.getElementById("menuIcon").addEventListener("click", function () {
         buttonContainer.innerHTML = ""; // Clear previous buttons
 
         tweedleArray.forEach(function (tweedle, index) {
-            if(index > day) {
+            if (index > day) {
                 return;
-            } 
-            var button = document.createElement("button");
-            if(tweedle.getDay() == day+1) {
-                button.textContent = "Day " + tweedle.getDay() + " (Today)"; 
-            } else {
-                button.textContent = "Day " + tweedle.getDay(); 
             }
+            var button = document.createElement("button");
+            button.textContent = "Day " + tweedle.getDay();
             button.style.width = "80%";
             button.style.height = "10%";
+
+            if (tweedle.getDay() == day + 1) {
+                button.style.backgroundColor = "#007bff";
+                button.textContent = "Day " + tweedle.getDay();
+            }
+
             button.addEventListener("click", function () {
-                tempDay = tweedle.getDay()-1;
+                tempDay = tweedle.getDay() - 1;
                 contentArray = tweedleArray[tempDay].getTweetsArray();
                 showContent(0);
             });
             buttonContainer.appendChild(button);
         });
-    } 
+
+        // Add a click event listener on the document to close the popup if clicked outside
+        document.addEventListener("click", function (event) {
+            if (!popup.contains(event.target) && event.target.id !== "menuIcon") {
+                popup.style.display = "none";
+                buttonContainer.style.display = "none";
+            }
+        });
+    }
 });
