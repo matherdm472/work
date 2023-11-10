@@ -110,6 +110,8 @@ boxes.forEach((box, i) => {
     box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
 });
 
+let resultMap = new Map();
+
 // Add an event listener to the search button
 function handleSearch() {
     // Get the user's input from the search bar
@@ -129,6 +131,7 @@ function handleSearch() {
         }
         searchButton.disabled = true;
         searchInput.disabled = true;
+        resultMap.set(tempDay, "right");
         closeModal("#playModal");
         openAnalyticsModal();
     } else {
@@ -146,6 +149,7 @@ function handleSearch() {
         if((currentlyAnimatingBoxIndex % boxes.length) == 4) {
             searchButton.disabled = true;
             searchInput.disabled = true;
+            resultMap.set(tempDay, "wrong");
             closeModal("#playModal");
             openAnalyticsModal();
             return;
@@ -212,13 +216,21 @@ document.getElementById("menuIcon").addEventListener("click", function () {
                 return;
             }
             var button = document.createElement("button");
-            button.textContent = "Day " + tweedle.getDay();
+            if(resultMap.has(tweedle.getDay()-1)) {
+                if(resultMap.get(tweedle.getDay()-1) === "right") {
+                    button.textContent = "Day " + tweedle.getDay() + " ✅";
+                } else {
+                    button.textContent = "Day " + tweedle.getDay() + " ❌";
+                }
+
+            } else {
+                button.textContent = "Day " + tweedle.getDay();
+            }
             button.style.width = "80%";
             button.style.height = "10%";
 
             if (tweedle.getDay() == day + 1) {
                 button.style.backgroundColor = "#007bff";
-                button.textContent = "Day " + tweedle.getDay();
             }
 
             button.addEventListener("click", function () {
@@ -253,4 +265,6 @@ function resetMenu() {
     });
     document.querySelector('#answerStatus').textContent = "";
     showContent(0);
+    searchButton.disabled = false;
+    searchInput.disabled = false;
 }
