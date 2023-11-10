@@ -13,23 +13,21 @@ export function openAnalyticsModal() {
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
 
-    const currentTweedle = tweedleArray[tempDay];
-    correctAnswer.textContent = currentTweedle.getName();
+    correctAnswer.textContent = tweedleArray[tempDay].getName();
 
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
-        feedbackSubtitle.textContent = `You lost Game #${currentTweedle.getDay()}. The correct answer was:`;
+        feedbackSubtitle.textContent = 'You lost Game #1. The correct answer was:';
     } else {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
-        feedbackSubtitle.textContent = `You won Game #${currentTweedle.getDay()} in:`;
+        feedbackSubtitle.textContent = 'You got Game #1 in:';
         guessCount.textContent = currentlyAnimatingBoxIndex + 1;
         // Set the specific box to blue
         clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
     }
     openModal('#analyticsModal');
 }
-
 
 // Function to update the countdown timer
 function updateCountdown() {
