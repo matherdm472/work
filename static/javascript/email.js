@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function openEmail(subject) {
-        var recipient = "your-email@example.com";
+        var recipient = "thetweedlegame@gmail.com";
         var body = ""; // You can add a default message if needed
 
         window.location.href = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
