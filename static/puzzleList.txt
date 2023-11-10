@@ -132,7 +132,7 @@
         "day": 12
     },
     {
-        "name": "Samuel L Jackson",
+        "name": "Samuel L. Jackson",
         "tweetsArray": [
             "At what point do we start the Rams coaching conversation??!!",
             "There's a Lot to be said for getting it RIGHT! Big Up to Denzel on Best Actor SAG Awards!# best of the best",

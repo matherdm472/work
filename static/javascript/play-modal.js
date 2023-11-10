@@ -15,7 +15,7 @@ export { tweedleArray };
 export { day };
 export { tempDay };
 
-let day = 10;
+let day = 15;
 let tempDay = day;
 
 function updateDay() {
