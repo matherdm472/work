@@ -111,6 +111,9 @@ boxes.forEach((box, i) => {
 });
 
 let resultMap = new Map();
+if(localStorage.getItem('resultMap')) {
+    resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
+}
 
 // Add an event listener to the search button
 function handleSearch() {
@@ -132,6 +135,7 @@ function handleSearch() {
         searchButton.disabled = true;
         searchInput.disabled = true;
         resultMap.set(tempDay, "right");
+        localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
         closeModal("#playModal");
         openAnalyticsModal();
     } else {
@@ -150,6 +154,7 @@ function handleSearch() {
             searchButton.disabled = true;
             searchInput.disabled = true;
             resultMap.set(tempDay, "wrong");
+            localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
             closeModal("#playModal");
             openAnalyticsModal();
             return;
