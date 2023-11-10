@@ -251,5 +251,6 @@ function resetMenu() {
     boxes.forEach((box, i) => {
         box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
     });
+    document.querySelector('#answerStatus').textContent = "";
     showContent(0);
 }
