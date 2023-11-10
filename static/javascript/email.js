@@ -1,3 +1,5 @@
+//email.js
+
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("report-bug").addEventListener("click", function () {
         openEmail("Bug Report");

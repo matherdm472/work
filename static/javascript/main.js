@@ -19,9 +19,11 @@ export function closeModal(modalId) {
 document.querySelector('#howToPlayButton').addEventListener('click', () => openModal('#instructionModal'));
 document.querySelector('#playButton').addEventListener('click', () => openModal('#playModal'));
 document.querySelector('#settingsButton').addEventListener('click', () => openModal('#settingsModal'));
+document.querySelector('#get-credits').addEventListener('click', () => openModal('#creditsModal'));
 
 document.querySelector('#closeModal').addEventListener('click', () => closeModal('#instructionModal'));
 document.querySelector('#closePlayModal').addEventListener('click', () => closeModal('#playModal'));
 document.querySelector('#closeSettingsModal').addEventListener('click', () => closeModal('#settingsModal'));
 document.querySelector('#closeAnalyticsModal').addEventListener('click', () => closeModal('#analyticsModal'));
+document.querySelector('#closeCreditsModal').addEventListener('click', () => closeModal('#creditsModal'));
 
