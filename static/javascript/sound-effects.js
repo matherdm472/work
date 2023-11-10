@@ -42,11 +42,3 @@ const savedSoundEffectMode = localStorage.getItem('soundEffectToggle');
         soundEffectCheckbox.checked = false; // Set it to true for checked, false for unchecked
         soundEffectCheckbox.dispatchEvent(new Event('change'));
     }
-
-    function openEmail() {
-        var recipient = "your-email@example.com";
-        var subject = "Bug Report";
-        var body = ""; // You can add a default message if needed
-
-        window.location.href = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-    }
