@@ -14,6 +14,7 @@ export { handleSearch };
 export { tweedleArray };
 export { day };
 export { tempDay };
+export { resetMenu };
 
 let day = 16;
 let tempDay = day;
