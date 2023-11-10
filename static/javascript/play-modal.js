@@ -170,8 +170,9 @@ document.addEventListener('click', event => {
     }
 });
 
-// Add an event listener to detect when the modal is closing
-playModal.addEventListener("transitionend", function(event) {
+var closeButton = document.getElementById("closePlayModal");
+
+closeButton.addEventListener("click", function(event) {
     tempDay = day;
     contentArray = tweedleArray[tempDay].getTweetsArray();
     showContent(0);
