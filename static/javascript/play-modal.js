@@ -16,7 +16,7 @@ export { day };
 export { tempDay };
 export { resetMenu };
 
-let day = 16;
+let day = 0;
 let tempDay = day;
 
 function updateDay() {
@@ -174,7 +174,13 @@ searchInput.addEventListener('input', () => {
     const userInput = searchInput.value;
     const filteredSuggestions = filterSuggestions(userInput);
     displaySuggestions(filteredSuggestions);
-})
+});
+
+searchInput.addEventListener('keyup', event => {
+    if(event.key === 'Backspace' && searchInput.value === '') {
+        displaySuggestions('');
+    }
+});
 
 document.addEventListener('click', event => {
     if (!suggestionsContainer.contains(event.target)) {
