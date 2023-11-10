@@ -13,3 +13,5 @@ function nextContent() {
 function updateIndex(newIndex) {
     currentContentIndex = newIndex;
 }
+
+

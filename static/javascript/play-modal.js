@@ -234,10 +234,6 @@ document.getElementById("menuIcon").addEventListener("click", function () {
             button.style.width = "80%";
             button.style.height = "10%";
 
-            if (tweedle.getDay() == day + 1) {
-                button.style.backgroundColor = "#007bff";
-            }
-
             button.addEventListener("click", function () {
                 if (tempDay !== tweedle.getDay() - 1) {
                     // If a different game is selected, close the modal
