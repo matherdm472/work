@@ -16,7 +16,6 @@ function animateWrongAnswer() {
 
     let currentBox = boxes[currentBoxIndex];
     let nextBox = boxes[nextBoxIndex];
-
     if (nextBoxIndex === 0) {
         // Return without animation
         return;
@@ -25,15 +24,17 @@ function animateWrongAnswer() {
     // Add the animation class to the current box
     currentBox.classList.add('move-box-animation');
     // Listen for the animation end event on the current box
-    currentBox.addEventListener('animationend', () => {
-        // Remove the animation class from the current box
-        currentBox.classList.remove('move-box-animation');
+    const animationPromise = new Promise(resolve => {
+        currentBox.addEventListener('animationend', () => {
+            currentBox.classList.remove('move-box-animation');
+            resolve();
+        });
+    });
 
-        // Set the next box to blue
+    // Wait for the animation to end before proceeding
+    animationPromise.then(() => {
         nextBox.style.backgroundColor = '#007bff';
-
-        // Update the currently animating box index after the animation is finished
-        currentlyAnimatingBoxIndex =  nextBoxIndex;
+        currentlyAnimatingBoxIndex = nextBoxIndex;
 
         nextContent();
     });
