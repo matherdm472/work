@@ -222,6 +222,11 @@ document.getElementById("menuIcon").addEventListener("click", function () {
             }
 
             button.addEventListener("click", function () {
+                if (tempDay !== tweedle.getDay() - 1) {
+                    // If a different game is selected, close the modal
+                    popup.style.display = "none";
+                    buttonContainer.style.display = "none";
+                }
                 tempDay = tweedle.getDay() - 1;
                 contentArray = tweedleArray[tempDay].getTweetsArray();
                 showContent(0);
