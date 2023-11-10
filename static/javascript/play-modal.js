@@ -191,14 +191,14 @@ closeButton.addEventListener("click", function(event) {
 
 document.getElementById("menuIcon").addEventListener("click", function () {
     var popup = document.getElementById("popupWindow");
-    if (popup.style.height >= "20%") {
-        var pos = 20;
+    if (popup.style.height >= "40%") {
+        var pos = 40;
         var animation = setInterval(function () {
             if (pos <= 0) {
                 popup.style.display = "none";
                 clearInterval(animation);
             } else {
-                pos -= 2; // Adjust the speed of the animation as needed
+                pos -= 4; // Adjust the speed of the animation as needed
                 popup.style.height = pos + "%";
             }
         }, 10);
@@ -206,10 +206,10 @@ document.getElementById("menuIcon").addEventListener("click", function () {
         popup.style.display = "block";
         var pos = 0;
         var animation = setInterval(function () {
-            if (pos >= 20) {
+            if (pos >= 40) {
                 clearInterval(animation);
             } else {
-                pos += 2; // Adjust the speed of the animation as needed
+                pos += 4; // Adjust the speed of the animation as needed
                 popup.style.height = pos + "%";
             }
         }, 10);
