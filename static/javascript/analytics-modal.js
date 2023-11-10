@@ -4,6 +4,7 @@ import { openModal } from './main.js';
 import { numWrong } from './play-modal.js';
 import { tweedleArray } from './play-modal.js';
 import { tempDay } from './play-modal.js';
+import { resetMenu } from './play-modal.js';
 
 export function openAnalyticsModal() {
     const correctAnswerSection = document.getElementById('correctAnswerSection');
@@ -18,6 +19,10 @@ export function openAnalyticsModal() {
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
         feedbackSubtitle.textContent = 'You lost Game #1. The correct answer was:';
+        clueBoxes.forEach((box, i) => {
+            box.style.backgroundColor = '';
+        });
+        guessCount.textContent = '';
     } else {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
@@ -27,6 +32,7 @@ export function openAnalyticsModal() {
         clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
     }
     openModal('#analyticsModal');
+    resetMenu();
 }
 
 // Function to update the countdown timer
