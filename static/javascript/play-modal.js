@@ -174,7 +174,13 @@ searchInput.addEventListener('input', () => {
     const userInput = searchInput.value;
     const filteredSuggestions = filterSuggestions(userInput);
     displaySuggestions(filteredSuggestions);
-})
+});
+
+searchInput.addEventListener('keyup', event => {
+    if(event.key === 'Backspace' && searchInput.value === '') {
+        displaySuggestions('');
+    }
+});
 
 document.addEventListener('click', event => {
     if (!suggestionsContainer.contains(event.target)) {
