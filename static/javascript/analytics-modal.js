@@ -32,7 +32,6 @@ export function openAnalyticsModal() {
         clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
     }
     openModal('#analyticsModal');
-    resetMenu();
 }
 
 // Function to update the countdown timer
@@ -63,19 +62,19 @@ function copyMessageToClipboard() {
     if ((numWrong) >= 5) {
         textToCopy += "⬜️⬜️⬜️⬜️⬜️";
     }
-    else if ((currentlyAnimatingBoxIndex + 1) === 1) {
+    else if ((numWrong) === 0) {
         textToCopy += "🟦⬜️⬜️⬜️⬜️";
     }
-    else if ((currentlyAnimatingBoxIndex + 1) === 2) {
+    else if ((numWrong) === 1) {
         textToCopy += "⬜️🟦⬜️⬜️⬜️";
     }
-    else if ((currentlyAnimatingBoxIndex + 1) === 3) {
+    else if ((numWrong) === 2) {
         textToCopy += "⬜️⬜️🟦⬜️⬜️";
     }
-    else if ((currentlyAnimatingBoxIndex + 1) === 4) {
+    else if ((numWrong) === 3) {
         textToCopy += "⬜️⬜️⬜️🟦⬜️";
     }
-    else if ((currentlyAnimatingBoxIndex + 1) === 5) {
+    else if ((numWrong) === 4) {
         textToCopy += "⬜️⬜️⬜️⬜️🟦";
     }
 
@@ -96,7 +95,16 @@ shareResultsButton.addEventListener('click', copyMessageToClipboard);
 // Hide the message initially
 document.querySelector('.message-to-copy').style.display = 'none';
 
+var closeAnalytics = document.getElementById("closeAnalyticsModal");
 
+closeAnalytics.addEventListener("click", function(event) {
+    const clueBoxes = document.querySelectorAll('.clue-box');
+    clueBoxes.forEach((box, i) => {
+        box.style.backgroundColor = '';
+    });
+    shareResultsButton.style.opacity = '1';
+    resetMenu();
+});
 
 
 
