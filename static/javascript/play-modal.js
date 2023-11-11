@@ -16,7 +16,7 @@ export { day };
 export { tempDay };
 export { resetMenu };
 
-let day = 16;
+let day = 0;
 let tempDay = day;
 
 function updateDay() {
