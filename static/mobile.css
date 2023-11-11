@@ -1,0 +1,46 @@
+/* Mobile Styles */
+@media only screen and (max-width: 430px) {
+    /* Global Styles */
+    body {
+        width: 100% !important;
+        height: 100vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #title img {
+        width: 200%; /* You can adjust this based on your needs */
+        max-width: 100%; /* Ensures the image doesn't exceed the container */
+        height: auto; /* Maintains aspect ratio */
+        display: block; /* Removes any default inline styles */
+        margin: 0 auto; /* Centers the image horizontally */
+    }
+
+    .popup {
+        top: 17%;
+        left: 5%;
+        width: 40%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-content {
+        margin: 10% auto;
+        width: 88%;
+        height: auto;
+    }
+
+    .close {
+        top: 8%;
+        right: 5%;
+    }
+
+    .content-container {
+        width: 100%; /* Adjust the width for smaller screens */
+    }
+}
