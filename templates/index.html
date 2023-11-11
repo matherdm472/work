@@ -4,6 +4,7 @@
     <title>Tweedle</title>
     <link rel="icon" type="image/tweedle-icon" href="static/icons/tweedle_web_icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-iA+bdZruEcRYBnD2f+rzcVtAPwI9SSpqq73N3G4Q2Aq4KC+9Zh8nt/SqQ85yE2xt" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Global Styles */
@@ -583,17 +584,6 @@
             animation-delay: 0.5s;
         }
 
-        .credits-section {
-            margin-bottom: 20px;
-        }
-
-        .credits-section h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: #333; 
-            text-decoration: underline;
-        }
-
         #creditsModal {
             display: none;
             position: fixed;
@@ -605,10 +595,37 @@
             z-index: 1;
         }
 
-        ul {
+        .credits-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 35px; /* Add padding around the icons */
+        }
+
+        .credits-section h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .credits-section ul {
             list-style-type: none;
             padding: 0;
+            font-size: 20px;
         }
+
+        .credits-section p {
+            margin: 0;
+        }
+
+        .credits-section i {
+            font-size: 60px; /* Adjust the font size of the icons */
+        }
+
+        /* Reverse the order for the Puzzle Master section */
+        .credits-section:nth-child(3) {
+            flex-direction: row-reverse;
+        }
+
     </style>
 </head>
 <body>
@@ -846,26 +863,40 @@
     <div id="creditsModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeCreditsModal">&times;</span>
+    
             <div class="credits-section">
-                <h2>Developers</h2>
-                <ul>
-                    <p>Egan Trahant</p>
-                    <p>Dylan Mather</p>
-                </ul>
+                <div>
+                    <h2>Developers</h2>
+                    <ul>
+                        <li>Egan Trahant</li>
+                        <li>Dylan Mather</li>
+                    </ul>
+                </div>
+                <i class="fas fa-code"></i>
             </div>
+    
             <hr class="setting-separator">
-            <div class="credits-section">
-                <h2>Puzzle Master</h2>
-                <ul>
-                    <p>Lee Meeker</p>
-                </ul>
+    
+            <div class="credits-section" style="flex-direction: row-reverse;">
+                <div>
+                    <h2>Puzzle Master</h2>
+                    <ul>
+                        <li>Lee Meeker</li>
+                    </ul>
+                </div>
+                <i class="fas fa-puzzle-piece"></i>
             </div>
+    
             <hr class="setting-separator">
+    
             <div class="credits-section">
-                <h2>Artist</h2>
-                <ul>
-                    <p>Luc Allain</p>
-                </ul>
+                <div>
+                    <h2>Artist</h2>
+                    <ul>
+                        <li>Luc Allain</li>
+                    </ul>
+                </div>
+                <i class="fas fa-paint-brush"></i>
             </div>
         </div>
     </div>
