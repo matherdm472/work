@@ -16,23 +16,20 @@ export { day };
 export { tempDay };
 export { resetMenu };
 
-let day = 0;
-let tempDay = day;
 
-function updateDay() {
-    const now = new Date();
-    const currentHour = now.getHours();
-    const currentMinute = now.getMinutes();
-    const currentSecond = now.getSeconds();
+const startDate = new Date('2023-11-11');
 
-    // Check if it's midnight (00:00:00)
-    if (currentHour === 0 && currentMinute === 0 && currentSecond === 0) {
-        day++;
-    }
+// Function to calculate the number of days passed
+function calculateDaysPassed() {
+    const currentDate = new Date();
+    const timeDifference = currentDate - startDate;
+    const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    return daysPassed;
 }
 
-// Call updateDay every second (1000 milliseconds)
-setInterval(updateDay, 1000);
+
+let day = calculateDaysPassed();
+let tempDay = day;
 
 //Tweedle Object
 class Tweedle {
