@@ -447,6 +447,7 @@ input:checked + .slider:before {
     padding: 10px;
     background-color: white;
     margin: 10px;
+    overflow: scroll;
 }
 
 .user-profile {
@@ -463,7 +464,7 @@ input:checked + .slider:before {
 }
 
 .tweet-content {
-    flex: 1;
+    height: 300px;
 }
 
 .user-info {
