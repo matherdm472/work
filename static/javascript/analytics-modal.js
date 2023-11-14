@@ -86,6 +86,9 @@ function copyMessageToClipboard() {
     document.body.removeChild(tempInput);
 
     shareResultsButton.style.opacity = '0.5';
+
+    document.querySelector('#copyMessageStatus').textContent = 'Copied Results!';
+    document.querySelector('#copyMessageStatus').style.color = 'blue';
 }
 
 // Attach event listener to the "Share Results" button
