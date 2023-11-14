@@ -18,7 +18,7 @@ export function openAnalyticsModal() {
 
     if (numWrong >= 5) {
         feedbackText.textContent = 'Better luck next time!';
-        feedbackSubtitle.textContent = 'You lost Game #1. The correct answer was:';
+        feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
         clueBoxes.forEach((box, i) => {
             box.style.backgroundColor = '';
         });
@@ -26,7 +26,7 @@ export function openAnalyticsModal() {
     } else {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
-        feedbackSubtitle.textContent = 'You got Game #1 in:';
+        feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
         guessCount.textContent = currentlyAnimatingBoxIndex + 1;
         // Set the specific box to blue
         clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
