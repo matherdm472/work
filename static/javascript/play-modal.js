@@ -99,6 +99,7 @@ let tweedleArray = [];
 let contentArray = tweedleArray[tempDay].getTweetsArray();
     
 function showContent(index) {
+    searchButton.textContent = "Skip";
     const contentElement = document.querySelector('.tweet-text');
     contentElement.textContent = contentArray[index];
         
@@ -129,26 +130,6 @@ boxes.forEach((box, i) => {
 });
 
 restoreSessionData();
-
-/*if(resultMap.has("numWrong" + tempDay)) {
-    numWrong = resultMap.get("numWrong" + tempDay);
-    updateAnimatedIndex(numWrong);
-    updateIndex(numWrong);
-    let j;
-    for(j = 0; j < numWrong; j++) {
-        boxes[j].style.backgroundColor = '#007bff';
-    }
-    document.querySelector('#answerStatus').textContent = "";
-    showContent(numWrong);
-    searchInput.value = "";
-    if(numWrong >= 5) {
-        searchButton.disabled = true;
-        searchInput.disabled = true;
-    } else {
-        searchButton.disabled = false;
-        searchInput.disabled = false;
-    }
-}*/
 
 // Function to save session data to localStorage
 function saveSessionData() {
@@ -254,6 +235,7 @@ document.querySelector('#searchButton').addEventListener('click', () => {
 });
 
 searchInput.addEventListener('input', () => {
+    searchButton.textContent = "Search";
     const userInput = searchInput.value;
     const filteredSuggestions = filterSuggestions(userInput);
     displaySuggestions(filteredSuggestions);
