@@ -280,7 +280,7 @@ closeButton.addEventListener("click", function(event) {
 
 document.getElementById("menuIcon").addEventListener("click", function () {
     var popup = document.getElementById("popupWindow");
-    if (popup.style.height >= "40%") {
+    if (popup.style.height >= "40%" && popup.style.display != "none") {
         var pos = 40;
         var animation = setInterval(function () {
             if (pos <= 0) {
