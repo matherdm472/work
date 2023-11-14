@@ -387,6 +387,7 @@ input:checked + .slider:before {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #000;
 }
 
 /* Dark Mode Styles */
