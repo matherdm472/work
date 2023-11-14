@@ -15,11 +15,10 @@
     }
 
     #title img {
-        width: 200%; /* You can adjust this based on your needs */
-        max-width: 100%; /* Ensures the image doesn't exceed the container */
-        height: auto; /* Maintains aspect ratio */
-        display: block; /* Removes any default inline styles */
-        margin: 0 auto; /* Centers the image horizontally */
+        width: 200%;
+        max-width: 100%; 
+        display: block;
+        margin: 0 auto; 
     }
 
     .popup {
@@ -41,6 +40,19 @@
     }
 
     .content-container {
-        width: 100%; /* Adjust the width for smaller screens */
+        width: 100%;
+    }
+
+    @keyframes moveBoxMobile {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(380%);
+        }
+    }
+
+    .move-box-animation {
+        animation: moveBoxMobile 0.25s linear forwards !important;
     }
 }

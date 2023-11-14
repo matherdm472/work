@@ -1,26 +1,5 @@
 [
-    {
-        "name": "Rob Gronkowski",
-        "tweetsArray": [
-            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
-            "I’m Back!!! See you Sunday! @NFLonFOX",
-            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
-            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
-            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
-        ],
-        "day": 1
-    },
-    {
-        "name": "Josh Donaldson",
-        "tweetsArray": [
-            "My bat to ball skills are 100!! Also can I enter a competition for who can throw their bat the furthest??",
-            "Thank you Kevin Mather. I sincerely mean it. You just said what everyone already knew, but now we @MLB_PLAYERS have official evidence that is going to help a lot of players. Again, thank you!! Bravo",
-            "I’d like to say thank you to everyone for the love and support over the years !! I’ve had the opportunity to play with some great teammates and organizations. I wish nothing but the best to the New York Yankees.",
-            "@Yankees third baseman @BringerOfRain20 is throwing darts 🎯 #HGVLPGA @GolfChannel",
-            "@BringerOfRain20's portfolio includes 3 All-Star appearances, 2 Silver Slugger Awards, MVP and Hank Aaron Awards and a Comeback Player of the Year. He has homered against every MLB team in his tenure with the @Athletics, @BlueJays, @CleGuardians, @Braves, @Twins and @Yankees"
-        ],
-        "day": 2
-    },
+    
     {
         "name": "Ryan Reynolds",
         "tweetsArray": [
@@ -30,7 +9,7 @@
             "You think that’s me? That’s Blake.",
             "Pew-Pew. #deadpool"
         ],
-        "day": 3
+        "day": 1
     },
     {
         "name": "Chris Stapleton",
@@ -41,7 +20,7 @@
             "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
             "Thank you, @Spotify. Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
         ],
-        "day": 4
+        "day": 2
     },
     {
         "name": "Nicole Scherzinger",
@@ -52,7 +31,7 @@
             "#REACT... coming Friday 🔥 @pussycatdolls",
             "Only a few more hours until the finale of an epic season of #themaskedsinger 🎉"
         ],
-        "day": 5
+        "day": 3
     },
     {
         "name": "Ben Affleck",
@@ -63,7 +42,7 @@
             "Appreciate the #GoneGirl love from @LesterHoltNBC and many more this week. Check out Gone Girl - in theaters TODAY.",
             "From one Batman to another: thank you #SFBatkid. Checkout @BatkidBeginsin select theaters this Friday: http://batkidbegins.com"
         ],
-        "day": 6
+        "day": 4
     },
     {
         "name": "Joe Biden",
@@ -74,7 +53,7 @@
             "Twelve years ago, I had the honor of being gifted one of the pens President Obama used to sign the Affordable Care Act into law. Today, I gifted one to him as we work to strengthen the law and lower health care costs for hardworking Americans.",
             "This year, Chile and the United States celebrate 200 years of bilateral relations. And today, our partnership is stronger than it’s ever been."
         ],
-        "day": 7
+        "day": 5
     },
     {
         "name": "Sean Astin",
@@ -85,7 +64,7 @@
             "It’s a great day in America!!! “RUDY” is being re-released in theaters for 2 days :-)))",
             "Before Rudy, Before Samwise, Before Bob, There was this little guy and a dream. Now, my mom paid for this private dance class, but surely we can all agree, access to arts & music didn’t harm my future!!!"
         ],
-        "day": 8
+        "day": 6
     },
     {
         "name": "Drew Scott",
@@ -96,7 +75,7 @@
             "THIS is how excited I am about the Season 7 premiere of Property Brothers: #ForeverHome tonight",
             "Monday morning meeting with Jonathan! #PropertyBrothers"
         ],
-        "day": 9
+        "day": 7
     },
     {
         "name": "Mike Trout",
@@ -107,7 +86,7 @@
             "Very honored to be picked to represent the American League in the All-Star Game. Thank you team and fans for your support. #Angels #VoteGRich",
             "It’s happening! A dream come true for my family and I to work with @TigerWoods to bring Trout National - The Reserve to our hometown."
         ],
-        "day": 10
+        "day": 8
     },
     {
         "name": "Dennis Rodman",
@@ -118,7 +97,7 @@
             "At HOF for my boy Scottie Pippen. Congrats my brother!",
             "Michael Jordan, happy birthday my friend & teammate. You're the greatest basketball player of all time. Love you bro!"
         ],
-        "day": 11
+        "day": 9
     },
     {
         "name": "Taylor Swift",
@@ -129,7 +108,7 @@
             "Okay so while my new re-records are NOT done, my friend @VancityReynolds asked me if he could use a snippet of one for a LOLsome commercial he wrote so...here’s a sneak peak of Love Story! Working hard to get the music to you soon!!",
             "Just had the best time in Denver!! And we got to be the first tour to play in that stadium 2 nights 😝 It’s really hitting me that we only have 3 cities left on the US Eras Tour. This has been my favorite adventure of all. I appreciate and cherish every second of it. See you 🔜 Seattle!!"
         ],
-        "day": 12
+        "day": 10
     },
     {
         "name": "Samuel L. Jackson",
@@ -140,7 +119,7 @@
             "Happy Birthday Q T!!!!! Shout him out folks, it's a Tarantino vintage year!",
             "How boot that MUTHAFUQQIN DJANGO trailer!!!!!!"
         ],
-        "day": 13
+        "day": 11
     },
     {
         "name": "Danny DeVito",
@@ -151,7 +130,7 @@
             "Had a blast at the LA TV Critics Award dig Somebody tell me how many times I said Balls? Very Honored.",
             "48 DAYS UNTIL THE NEW SEASON OF IT'S ALWYAS SUNNY IN PHILADELPHIA FX BABY"
         ],
-        "day": 14
+        "day": 12
     },
     {
         "name": "Dolly Parton",
@@ -162,7 +141,7 @@
             "Maybe my next #Jolene collab will be with @BTS_twt? What do y'all think? #GRAMMYs",
             "Just came across this photo of me at my favorite place! What’s your favorite ride at @Dollywood?"
         ],
-        "day": 15
+        "day": 13
     },
     {
         "name": "Jackie Chan",
@@ -173,7 +152,7 @@
             "\"Your focus needs more focus.\" - Mr. Han in The Karate Kid",
             "\"We should hang out\" - Monkey in Kung Fu Panda"
         ],
-        "day": 16
+        "day": 14
     },
     {
         "name": "Ice Cube",
@@ -184,7 +163,40 @@
             "No. NWA started out as a straight underground rap group with no expectations of commercial success. Fans and the media turns us into a mainstream juggernaut.",
             "You two sons of bitches are goin to college...22 Jump Street released 5 years ago."
         ],
+        "day": 15
+    },
+    {
+        "name": "Jimmy Kimmel",
+        "tweetsArray": [
+            "On behalf of myself and Kim Jong-Un, thanks to @TIME for including us among the #TIME100 most influential people.",
+            "I’m fully-laminated and ready to host the #Emmys LIVE tonight at 8e|5p on #ABC!",
+            "The only thing worse than quarantine is finding out Matt Damon has been in your house the whole time…",
+            "Happy 75th birthday to David “Dave” @Letterman - the best and funniest talk show host ever, whether he likes it or not, and my favorite new YouTuber",
+            "19 years ago tonight, our show premiered on ABC. They said it wouldn’t last, which was a weird thing for ABC to say. Sadly for many, it did. Thanks to those who stuck with us and those who joined along the way"
+        ],
+        "day": 16
+    },
+    {
+        "name": "Rob Gronkowski",
+        "tweetsArray": [
+            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
+            "I’m Back!!! See you Sunday! @NFLonFOX",
+            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
+            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
+            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
+        ],
         "day": 17
+    },
+    {
+        "name": "Josh Donaldson",
+        "tweetsArray": [
+            "My bat to ball skills are 100!! Also can I enter a competition for who can throw their bat the furthest??",
+            "Thank you Kevin Mather. I sincerely mean it. You just said what everyone already knew, but now we @MLB_PLAYERS have official evidence that is going to help a lot of players. Again, thank you!! Bravo",
+            "I’d like to say thank you to everyone for the love and support over the years !! I’ve had the opportunity to play with some great teammates and organizations. I wish nothing but the best to the New York Yankees.",
+            "@Yankees third baseman @BringerOfRain20 is throwing darts 🎯 #HGVLPGA @GolfChannel",
+            "@BringerOfRain20's portfolio includes 3 All-Star appearances, 2 Silver Slugger Awards, MVP and Hank Aaron Awards and a Comeback Player of the Year. He has homered against every MLB team in his tenure with the @Athletics, @BlueJays, @CleGuardians, @Braves, @Twins and @Yankees"
+        ],
+        "day": 18
     }
 ]
 
