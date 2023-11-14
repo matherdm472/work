@@ -111,18 +111,87 @@ function showContent(index) {
     contentContainer.style.maxHeight = `${maxHeightPercentage}%`;
 }
 
-showContent(currentContentIndex);
-
 let numWrong = 0;
+
+//Map contains:
+//int day(will just be an int equal to some tempDay) : contains "right" or "wrong" for whether user got the puzzle completely right or wrong that day
+//string numWrong#(format ex. numWrong0 where 0 is tempDay=0) : Note that tempDay would just be concatinated onto numWrong to get how many user got right or wrong in a day
+let resultMap = new Map();
+if(localStorage.getItem('resultMap')) {
+    resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
+}
+
+showContent(currentContentIndex);
 
 let boxes = document.querySelectorAll('.box');
 boxes.forEach((box, i) => {
     box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
 });
 
-let resultMap = new Map();
-if(localStorage.getItem('resultMap')) {
-    resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
+restoreSessionData();
+
+/*if(resultMap.has("numWrong" + tempDay)) {
+    numWrong = resultMap.get("numWrong" + tempDay);
+    updateAnimatedIndex(numWrong);
+    updateIndex(numWrong);
+    let j;
+    for(j = 0; j < numWrong; j++) {
+        boxes[j].style.backgroundColor = '#007bff';
+    }
+    document.querySelector('#answerStatus').textContent = "";
+    showContent(numWrong);
+    searchInput.value = "";
+    if(numWrong >= 5) {
+        searchButton.disabled = true;
+        searchInput.disabled = true;
+    } else {
+        searchButton.disabled = false;
+        searchInput.disabled = false;
+    }
+}*/
+
+// Function to save session data to localStorage
+function saveSessionData() {
+    localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
+}
+
+// Function to restore session data from localStorage
+function restoreSessionData() {
+    if (localStorage.getItem('resultMap')) {
+        resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
+
+        // Restore the number of wrong answers and update the UI
+        if (resultMap.has("numWrong" + tempDay)) {
+            numWrong = resultMap.get("numWrong" + tempDay);
+            updateAnimatedIndex(numWrong);
+            updateIndex(numWrong);
+            var i;
+            if(numWrong <= 4) {
+                for (i = 0; i <= numWrong; i++) {
+                    boxes[i].style.backgroundColor = '#007bff';
+                }
+            } else {
+                boxes.forEach((box, i) => {
+                    box.style.backgroundColor = '#007bff';
+                });
+            }
+            document.querySelector('#answerStatus').textContent = "";
+            if(numWrong < 5) showContent(numWrong);
+            else showContent(4);
+            searchInput.value = "";
+            if (numWrong >= 5 || resultMap.get(tempDay) === "right") {
+                document.querySelector('#answerStatus').textContent = "You have already finished this Tweedle!";
+                if(resultMap.get(tempDay) === "right") document.querySelector('#answerStatus').style.color = 'green';
+                else if(resultMap.get(tempDay) === "wrong") document.querySelector('#answerStatus').style.color = 'red';
+                else document.querySelector('#answerStatus').style.color = 'blue';
+                searchButton.disabled = true;
+                searchInput.disabled = true;
+            } else {
+                searchButton.disabled = false;
+                searchInput.disabled = false;
+            }
+        }
+    }
 }
 
 // Add an event listener to the search button
@@ -146,7 +215,8 @@ function handleSearch() {
         searchButton.disabled = true;
         searchInput.disabled = true;
         resultMap.set(tempDay, "right");
-        localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
+        resultMap.set("numWrong" + tempDay, numWrong);
+        saveSessionData();
         closeModal("#playModal");
         openAnalyticsModal();
     } else {
@@ -155,6 +225,9 @@ function handleSearch() {
         document.querySelector('#answerStatus').textContent = 'Incorrect';
         document.querySelector('#answerStatus').style.color = 'red';
         document.querySelector('#wrongAnswerSound').play();
+
+        resultMap.set("numWrong" + tempDay, numWrong);
+        saveSessionData();
 
         animateWrongAnswer();
 
@@ -166,7 +239,8 @@ function handleSearch() {
             searchButton.disabled = true;
             searchInput.disabled = true;
             resultMap.set(tempDay, "wrong");
-            localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
+            resultMap.set("numWrong" + tempDay, numWrong);
+            saveSessionData();
             closeModal("#playModal");
             openAnalyticsModal();
             return;
@@ -278,15 +352,19 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 function resetMenu() {
     updatePlayGameTitle();
     contentArray = tweedleArray[tempDay].getTweetsArray();
-    numWrong = 0;
-    updateAnimatedIndex(0);
-    updateIndex(0);
-    boxes.forEach((box, i) => {
-        box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
-    });
-    document.querySelector('#answerStatus').textContent = "";
-    showContent(0);
-    searchInput.value = "";
-    searchButton.disabled = false;
-    searchInput.disabled = false;
+    if(resultMap.has("numWrong" + tempDay)) {
+        restoreSessionData();
+    } else {
+        numWrong = 0;
+        updateAnimatedIndex(0);
+        updateIndex(0);
+        boxes.forEach((box, i) => {
+            box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
+        });
+        document.querySelector('#answerStatus').textContent = "";
+        showContent(0);
+        searchInput.value = "";
+        searchButton.disabled = false;
+        searchInput.disabled = false;
+    }
 }
