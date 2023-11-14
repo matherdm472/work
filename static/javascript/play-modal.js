@@ -17,7 +17,7 @@ export { tempDay };
 export { resetMenu };
 
 
-const startDate = new Date('2023-11-13');
+const startDate = new Date('2023-11-14');
 
 // Function to calculate the number of days passed
 function calculateDaysPassed() {
