@@ -12,127 +12,6 @@
         "day": 1
     },
     {
-        "name": "Chris Stapleton",
-        "tweetsArray": [
-            "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
-            "What a joy to get to perform with Miss Mavis, Maren, Marty & Morgane. Getting to be a part of this performance was a CMA highlight for me.",
-            "The first glass of E.H. Taylor, Jr. I ever had was in the studio. Vance Powell, engineer of both music & good times, brought a bottle to the session for inspiration. That week we recorded an entire album, and that album was Traveller.",
-            "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
-            "Thank you, @Spotify. Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
-        ],
-        "day": 2
-    },
-    {
-        "name": "Nicole Scherzinger",
-        "tweetsArray": [
-            "The new @HerbalEssences collections bring me back! PLUS, their new ad stars me :) Tune into @thegrammys! #firsttime",
-            "I'm so excited to announce that I will be playing Sina #Moana's mother in @DisneyMoana. In theatres from Nov 23rd!",
-            "17 years since ‘Come To Me’ with the incredible @diddy went to no.4 in the UK singles chart ❤️‍🔥 it’s so amazing to see you all still loving this one 💫",
-            "#REACT... coming Friday 🔥 @pussycatdolls",
-            "Only a few more hours until the finale of an epic season of #themaskedsinger 🎉"
-        ],
-        "day": 3
-    },
-    {
-        "name": "Ben Affleck",
-        "tweetsArray": [
-            "Yes, unequivocally. Every actor should take a directing class. RT @emerosheaa: directing have helped you to become a better actor? #ARGO",
-            "Reunited with this good lookin’ group! #TheAccountant",
-            "Come hang with me and Tom in Boston! I’m also legally required to tell you that Matt Damon will be there too.",
-            "Appreciate the #GoneGirl love from @LesterHoltNBC and many more this week. Check out Gone Girl - in theaters TODAY.",
-            "From one Batman to another: thank you #SFBatkid. Checkout @BatkidBeginsin select theaters this Friday: http://batkidbegins.com"
-        ],
-        "day": 4
-    },
-    {
-        "name": "Joe Biden",
-        "tweetsArray": [
-            "Five straight 100-point games. A record 23-and-0 run. One of the most exciting Women's Final Fours ever. And LSU’s first-ever national basketball title. In this team, we saw hope, pride, and purpose.",
-            "Happy National Ice Cream Day, folks.",
-            "It’s time to finish the job and ban assault weapons and high-capacity magazines. Because who in God’s name needs a 100-round magazine on a gun? That's a weapon of war.",
-            "Twelve years ago, I had the honor of being gifted one of the pens President Obama used to sign the Affordable Care Act into law. Today, I gifted one to him as we work to strengthen the law and lower health care costs for hardworking Americans.",
-            "This year, Chile and the United States celebrate 200 years of bilateral relations. And today, our partnership is stronger than it’s ever been."
-        ],
-        "day": 5
-    },
-    {
-        "name": "Sean Astin",
-        "tweetsArray": [
-            "I always love 'Bring Your Family to Work' Day. My wife, Christine and our two youngest daughters Elizabeth and Bella had a swell time. #StrangerThings #bobnewbysuperhero",
-            "Richard Donner had the biggest, boomiest voice you could imagine. He commanded attention and he laughed like no man has ever laughed before. Dick was so much fun. What I perceived in him, as a 12-year-old kid, is that he cared. I love how much he cared. - Goonies Never Say Die",
-            "By request, here is a photograph of Ali & me. We were in my dressing room on set of The Lord of the Rings. #LOTR She played Eleanor. All grown up now. Pretty please, follow Ali on her brand new twitter account (1 tweet). Singer/Songwriter - Her 1st Album drops on Christmas Eve.",
-            "It’s a great day in America!!! “RUDY” is being re-released in theaters for 2 days :-)))",
-            "Before Rudy, Before Samwise, Before Bob, There was this little guy and a dream. Now, my mom paid for this private dance class, but surely we can all agree, access to arts & music didn’t harm my future!!!"
-        ],
-        "day": 6
-    },
-    {
-        "name": "Drew Scott",
-        "tweetsArray": [
-            "Who said you can’t dance and renovate at the same time? 😂",
-            "If nothing else, I think this season of #BroVsBro has proven who the more mature twin is... ahem, 💁🏻‍♂️.",
-            "Get ready for a lot of bleeps, a lot of laughs and a lot of Hart. 😄 I don't think I’ve ever laughed so much during demolition. 😂 Catch an all-new #CelebIOU with @KevinHart4Real at 9|8c on @HGTV!",
-            "THIS is how excited I am about the Season 7 premiere of Property Brothers: #ForeverHome tonight",
-            "Monday morning meeting with Jonathan! #PropertyBrothers"
-        ],
-        "day": 7
-    },
-    {
-        "name": "Mike Trout",
-        "tweetsArray": [
-            "Grew up watching Jeter play. Always aspired to be the player he was on and off the field. #TheCaptain",
-            "It’s been something special to witness what you’ve accomplished as a teammate. You have put together a season of your own… WELL DESERVED, #SHOTIME!!! #MVP",
-            "It’s hard to sum up into words what these last couple of weeks have meant to me. I had the time of my life representing that USA on my chest! The energy was electric and made the WBC a moment I’ll always cherish. So thank you all so much. It was an honor to be your captain. 🇺🇸",
-            "Very honored to be picked to represent the American League in the All-Star Game. Thank you team and fans for your support. #Angels #VoteGRich",
-            "It’s happening! A dream come true for my family and I to work with @TigerWoods to bring Trout National - The Reserve to our hometown."
-        ],
-        "day": 8
-    },
-    {
-        "name": "Dennis Rodman",
-        "tweetsArray": [
-            "Bulls blow past Magic to claim seventh straight win - No sports league does the holiday season like the NBA, matching the best and most exciting teams against each other.",
-            "Much respect to President Trump and Kim Jong Un for their upcoming historic meeting. I said it back in 2014 that doors will open. #Peace #Love #NotWar",
-            "Thing about my career is this - numbers don't lie. Can @HulkHogan out-hustle ME? How does he expect to win Thanksgiving @TheMXCasino?",
-            "At HOF for my boy Scottie Pippen. Congrats my brother!",
-            "Michael Jordan, happy birthday my friend & teammate. You're the greatest basketball player of all time. Love you bro!"
-        ],
-        "day": 9
-    },
-    {
-        "name": "Taylor Swift",
-        "tweetsArray": [
-            "I was so excited when @OfficialALW asked me to write an original song with him for @catsmovie. “Beautiful Ghosts” is performed in the film by the extraordinary Francesca Hayward who plays “Victoria” & reprised by Dame Judi Dench (!!!!!) who plays “Old Deuteronomy” 😺 Coming soon!",
-            "Tonight the story continues, as the music video for “willow” drops at midnight eastern.",
-            "Happy Father’s Day to all the dads but mostly mine, who called me yesterday to remind me he still has guitar picks from the Red Tour, ‘if they’re needed’.",
-            "Okay so while my new re-records are NOT done, my friend @VancityReynolds asked me if he could use a snippet of one for a LOLsome commercial he wrote so...here’s a sneak peak of Love Story! Working hard to get the music to you soon!!",
-            "Just had the best time in Denver!! And we got to be the first tour to play in that stadium 2 nights 😝 It’s really hitting me that we only have 3 cities left on the US Eras Tour. This has been my favorite adventure of all. I appreciate and cherish every second of it. See you 🔜 Seattle!!"
-        ],
-        "day": 10
-    },
-    {
-        "name": "Samuel L. Jackson",
-        "tweetsArray": [
-            "At what point do we start the Rams coaching conversation??!!",
-            "There's a Lot to be said for getting it RIGHT! Big Up to Denzel on Best Actor SAG Awards!# best of the best",
-            "Can-a muh fukkah say fuck on here?",
-            "Happy Birthday Q T!!!!! Shout him out folks, it's a Tarantino vintage year!",
-            "How boot that MUTHAFUQQIN DJANGO trailer!!!!!!"
-        ],
-        "day": 11
-    },
-    {
-        "name": "Danny DeVito",
-        "tweetsArray": [
-            "Sadness. Todd Haimes. I’m gonna miss you my dear friend. Rest in peace sweet buddy.",
-            "Happy Birthday Timmy, Lots of Love from Jimmy, The Hideous Penguin Boy",
-            "I know I do this commercial ….but seriously I’m on my way to Jersey Mikes because today all the proceeds go to charity. Make sure you ask for extra Juice.",
-            "Had a blast at the LA TV Critics Award dig Somebody tell me how many times I said Balls? Very Honored.",
-            "48 DAYS UNTIL THE NEW SEASON OF IT'S ALWYAS SUNNY IN PHILADELPHIA FX BABY"
-        ],
-        "day": 12
-    },
-    {
         "name": "Dolly Parton",
         "tweetsArray": [
             "I got to chat with Hayley Williams about my debut rock album ’Rockstar’ and more! ❤️‍🔥",
@@ -141,18 +20,7 @@
             "Maybe my next #Jolene collab will be with @BTS_twt? What do y'all think? #GRAMMYs",
             "Just came across this photo of me at my favorite place! What’s your favorite ride at @Dollywood?"
         ],
-        "day": 13
-    },
-    {
-        "name": "Jackie Chan",
-        "tweetsArray": [
-            "Another martial arts hero has left us….",
-            "Chinese New Year Giveaway! 新年送紅包！Would you like a chance to receive a lucky red packet?",
-            "Yes, I am so happy. Thank you to all the judge and audience in spain. My movie little big soldier won audience award. So happy!",
-            "\"Your focus needs more focus.\" - Mr. Han in The Karate Kid",
-            "\"We should hang out\" - Monkey in Kung Fu Panda"
-        ],
-        "day": 14
+        "day": 2
     },
     {
         "name": "Ice Cube",
@@ -163,7 +31,7 @@
             "No. NWA started out as a straight underground rap group with no expectations of commercial success. Fans and the media turns us into a mainstream juggernaut.",
             "You two sons of bitches are goin to college...22 Jump Street released 5 years ago."
         ],
-        "day": 15
+        "day": 3
     },
     {
         "name": "Jimmy Kimmel",
@@ -173,6 +41,138 @@
             "The only thing worse than quarantine is finding out Matt Damon has been in your house the whole time…",
             "Happy 75th birthday to David “Dave” @Letterman - the best and funniest talk show host ever, whether he likes it or not, and my favorite new YouTuber",
             "19 years ago tonight, our show premiered on ABC. They said it wouldn’t last, which was a weird thing for ABC to say. Sadly for many, it did. Thanks to those who stuck with us and those who joined along the way"
+        ],
+        "day": 4
+    },
+    {
+        "name": "Taylor Swift",
+        "tweetsArray": [
+            "I was so excited when @OfficialALW asked me to write an original song with him for @catsmovie. “Beautiful Ghosts” is performed in the film by the extraordinary Francesca Hayward who plays “Victoria” & reprised by Dame Judi Dench (!!!!!) who plays “Old Deuteronomy” 😺 Coming soon!",
+            "Tonight the story continues, as the music video for “willow” drops at midnight eastern.",
+            "Happy Father’s Day to all the dads but mostly mine, who called me yesterday to remind me he still has guitar picks from the Red Tour, ‘if they’re needed’.",
+            "Okay so while my new re-records are NOT done, my friend @VancityReynolds asked me if he could use a snippet of one for a LOLsome commercial he wrote so...here’s a sneak peak of Love Story! Working hard to get the music to you soon!!",
+            "Just had the best time in Denver!! And we got to be the first tour to play in that stadium 2 nights 😝 It’s really hitting me that we only have 3 cities left on the US Eras Tour. This has been my favorite adventure of all. I appreciate and cherish every second of it. See you 🔜 Seattle!!"
+        ],
+        "day": 5
+    },
+    {
+        "name": "Chris Stapleton",
+        "tweetsArray": [
+            "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
+            "What a joy to get to perform with Miss Mavis, Maren, Marty & Morgane. Getting to be a part of this performance was a CMA highlight for me.",
+            "The first glass of E.H. Taylor, Jr. I ever had was in the studio. Vance Powell, engineer of both music & good times, brought a bottle to the session for inspiration. That week we recorded an entire album, and that album was Traveller.",
+            "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
+            "Thank you, @Spotify. Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
+        ],
+        "day": 6
+    },
+    {
+        "name": "Nicole Scherzinger",
+        "tweetsArray": [
+            "The new @HerbalEssences collections bring me back! PLUS, their new ad stars me :) Tune into @thegrammys! #firsttime",
+            "I'm so excited to announce that I will be playing Sina #Moana's mother in @DisneyMoana. In theatres from Nov 23rd!",
+            "17 years since ‘Come To Me’ with the incredible @diddy went to no.4 in the UK singles chart ❤️‍🔥 it’s so amazing to see you all still loving this one 💫",
+            "#REACT... coming Friday 🔥 @pussycatdolls",
+            "Only a few more hours until the finale of an epic season of #themaskedsinger 🎉"
+        ],
+        "day": 7
+    },
+    {
+        "name": "Ben Affleck",
+        "tweetsArray": [
+            "Yes, unequivocally. Every actor should take a directing class. RT @emerosheaa: directing have helped you to become a better actor? #ARGO",
+            "Reunited with this good lookin’ group! #TheAccountant",
+            "Come hang with me and Tom in Boston! I’m also legally required to tell you that Matt Damon will be there too.",
+            "Appreciate the #GoneGirl love from @LesterHoltNBC and many more this week. Check out Gone Girl - in theaters TODAY.",
+            "From one Batman to another: thank you #SFBatkid. Checkout @BatkidBeginsin select theaters this Friday: http://batkidbegins.com"
+        ],
+        "day": 8
+    },
+    {
+        "name": "Joe Biden",
+        "tweetsArray": [
+            "Five straight 100-point games. A record 23-and-0 run. One of the most exciting Women's Final Fours ever. And LSU’s first-ever national basketball title. In this team, we saw hope, pride, and purpose.",
+            "Happy National Ice Cream Day, folks.",
+            "It’s time to finish the job and ban assault weapons and high-capacity magazines. Because who in God’s name needs a 100-round magazine on a gun? That's a weapon of war.",
+            "Twelve years ago, I had the honor of being gifted one of the pens President Obama used to sign the Affordable Care Act into law. Today, I gifted one to him as we work to strengthen the law and lower health care costs for hardworking Americans.",
+            "This year, Chile and the United States celebrate 200 years of bilateral relations. And today, our partnership is stronger than it’s ever been."
+        ],
+        "day": 9
+    },
+    {
+        "name": "Sean Astin",
+        "tweetsArray": [
+            "I always love 'Bring Your Family to Work' Day. My wife, Christine and our two youngest daughters Elizabeth and Bella had a swell time. #StrangerThings #bobnewbysuperhero",
+            "Richard Donner had the biggest, boomiest voice you could imagine. He commanded attention and he laughed like no man has ever laughed before. Dick was so much fun. What I perceived in him, as a 12-year-old kid, is that he cared. I love how much he cared. - Goonies Never Say Die",
+            "By request, here is a photograph of Ali & me. We were in my dressing room on set of The Lord of the Rings. #LOTR She played Eleanor. All grown up now. Pretty please, follow Ali on her brand new twitter account (1 tweet). Singer/Songwriter - Her 1st Album drops on Christmas Eve.",
+            "It’s a great day in America!!! “RUDY” is being re-released in theaters for 2 days :-)))",
+            "Before Rudy, Before Samwise, Before Bob, There was this little guy and a dream. Now, my mom paid for this private dance class, but surely we can all agree, access to arts & music didn’t harm my future!!!"
+        ],
+        "day": 10
+    },
+    {
+        "name": "Jackie Chan",
+        "tweetsArray": [
+            "Another martial arts hero has left us….",
+            "Chinese New Year Giveaway! 新年送紅包！Would you like a chance to receive a lucky red packet?",
+            "Yes, I am so happy. Thank you to all the judge and audience in spain. My movie little big soldier won audience award. So happy!",
+            "\"Your focus needs more focus.\" - Mr. Han in The Karate Kid",
+            "\"We should hang out\" - Monkey in Kung Fu Panda"
+        ],
+        "day": 11
+    },
+    {
+        "name": "Drew Scott",
+        "tweetsArray": [
+            "Who said you can’t dance and renovate at the same time? 😂",
+            "If nothing else, I think this season of #BroVsBro has proven who the more mature twin is... ahem, 💁🏻‍♂️.",
+            "Get ready for a lot of bleeps, a lot of laughs and a lot of Hart. 😄 I don't think I’ve ever laughed so much during demolition. 😂 Catch an all-new #CelebIOU with @KevinHart4Real at 9|8c on @HGTV!",
+            "THIS is how excited I am about the Season 7 premiere of Property Brothers: #ForeverHome tonight",
+            "Monday morning meeting with Jonathan! #PropertyBrothers"
+        ],
+        "day": 12
+    },
+    {
+        "name": "Mike Trout",
+        "tweetsArray": [
+            "Grew up watching Jeter play. Always aspired to be the player he was on and off the field. #TheCaptain",
+            "It’s been something special to witness what you’ve accomplished as a teammate. You have put together a season of your own… WELL DESERVED, #SHOTIME!!! #MVP",
+            "It’s hard to sum up into words what these last couple of weeks have meant to me. I had the time of my life representing that USA on my chest! The energy was electric and made the WBC a moment I’ll always cherish. So thank you all so much. It was an honor to be your captain. 🇺🇸",
+            "Very honored to be picked to represent the American League in the All-Star Game. Thank you team and fans for your support. #Angels #VoteGRich",
+            "It’s happening! A dream come true for my family and I to work with @TigerWoods to bring Trout National - The Reserve to our hometown."
+        ],
+        "day": 13
+    },
+    {
+        "name": "Dennis Rodman",
+        "tweetsArray": [
+            "Bulls blow past Magic to claim seventh straight win - No sports league does the holiday season like the NBA, matching the best and most exciting teams against each other.",
+            "Much respect to President Trump and Kim Jong Un for their upcoming historic meeting. I said it back in 2014 that doors will open. #Peace #Love #NotWar",
+            "Thing about my career is this - numbers don't lie. Can @HulkHogan out-hustle ME? How does he expect to win Thanksgiving @TheMXCasino?",
+            "At HOF for my boy Scottie Pippen. Congrats my brother!",
+            "Michael Jordan, happy birthday my friend & teammate. You're the greatest basketball player of all time. Love you bro!"
+        ],
+        "day": 14
+    },
+    {
+        "name": "Samuel L. Jackson",
+        "tweetsArray": [
+            "At what point do we start the Rams coaching conversation??!!",
+            "There's a Lot to be said for getting it RIGHT! Big Up to Denzel on Best Actor SAG Awards!# best of the best",
+            "Can-a muh fukkah say fuck on here?",
+            "Happy Birthday Q T!!!!! Shout him out folks, it's a Tarantino vintage year!",
+            "How boot that MUTHAFUQQIN DJANGO trailer!!!!!!"
+        ],
+        "day": 15
+    },
+    {
+        "name": "Danny DeVito",
+        "tweetsArray": [
+            "Sadness. Todd Haimes. I’m gonna miss you my dear friend. Rest in peace sweet buddy.",
+            "Happy Birthday Timmy, Lots of Love from Jimmy, The Hideous Penguin Boy",
+            "I know I do this commercial ….but seriously I’m on my way to Jersey Mikes because today all the proceeds go to charity. Make sure you ask for extra Juice.",
+            "Had a blast at the LA TV Critics Award dig Somebody tell me how many times I said Balls? Very Honored.",
+            "48 DAYS UNTIL THE NEW SEASON OF IT'S ALWYAS SUNNY IN PHILADELPHIA FX BABY"
         ],
         "day": 16
     },
@@ -186,17 +186,6 @@
             "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
         ],
         "day": 17
-    },
-    {
-        "name": "Josh Donaldson",
-        "tweetsArray": [
-            "My bat to ball skills are 100!! Also can I enter a competition for who can throw their bat the furthest??",
-            "Thank you Kevin Mather. I sincerely mean it. You just said what everyone already knew, but now we @MLB_PLAYERS have official evidence that is going to help a lot of players. Again, thank you!! Bravo",
-            "I’d like to say thank you to everyone for the love and support over the years !! I’ve had the opportunity to play with some great teammates and organizations. I wish nothing but the best to the New York Yankees.",
-            "@Yankees third baseman @BringerOfRain20 is throwing darts 🎯 #HGVLPGA @GolfChannel",
-            "@BringerOfRain20's portfolio includes 3 All-Star appearances, 2 Silver Slugger Awards, MVP and Hank Aaron Awards and a Comeback Player of the Year. He has homered against every MLB team in his tenure with the @Athletics, @BlueJays, @CleGuardians, @Braves, @Twins and @Yankees"
-        ],
-        "day": 18
     }
 ]
 
