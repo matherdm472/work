@@ -17,7 +17,7 @@ export { tempDay };
 export { resetMenu };
 
 
-const startDate = new Date('2023-11-11');
+const startDate = new Date('2023-11-13');
 
 // Function to calculate the number of days passed
 function calculateDaysPassed() {
@@ -30,6 +30,18 @@ function calculateDaysPassed() {
 
 let day = calculateDaysPassed();
 let tempDay = day;
+
+function updatePlayGameTitle() {
+    const playGameTitle = document.querySelector('.play-game-title');
+    const menuIcon = document.querySelector('#menuIcon');
+    const newTitle = `Tweedle Day #${tempDay + 1}`;
+    
+    playGameTitle.textContent = newTitle;
+    playGameTitle.appendChild(menuIcon); // Append the menu icon back to the title
+}
+
+updatePlayGameTitle();
+
 
 //Tweedle Object
 class Tweedle {
@@ -221,6 +233,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
         var buttonContainer = document.getElementById("buttonContainer");
         buttonContainer.style.display = "block";
         buttonContainer.innerHTML = ""; // Clear previous buttons
+        
 
         tweedleArray.forEach(function (tweedle, index) {
             if (index > day) {
@@ -263,6 +276,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 });
 
 function resetMenu() {
+    updatePlayGameTitle();
     contentArray = tweedleArray[tempDay].getTweetsArray();
     numWrong = 0;
     updateAnimatedIndex(0);
