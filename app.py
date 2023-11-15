@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 
 app = Flask(__name__)
 
@@ -12,6 +12,11 @@ def before_request():
 @app.route('/')
 def index():
     return render_template('index.html')
+
+# Route to serve robots.txt
+@app.route('/robots.txt')
+def serve_robots():
+    return send_from_directory('/Users/dylanmather/Desktop/work/', 'robots.txt')
 
 if __name__ == '__main__':
     app.run(debug=True)
