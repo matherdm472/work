@@ -106,6 +106,7 @@ closeAnalytics.addEventListener("click", function(event) {
         box.style.backgroundColor = '';
     });
     shareResultsButton.style.opacity = '1';
+    document.querySelector('#copyMessageStatus').textContent = '';
     resetMenu();
 });
 
