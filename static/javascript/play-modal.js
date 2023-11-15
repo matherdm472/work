@@ -26,7 +26,7 @@ function calculateDaysPassed(startDate) {
 
     // Set the time of the startDate to midnight CST (00:00:00)
     const startOfDay = new Date(startDate);
-    startOfDay.setUTCHours(6, 0, 0, 0); // Adjust to UTC midnight
+    startOfDay.setUTCHours(0, 0, 0, 0); // Adjust to UTC midnight
 
     const timeDifference = currentCST - startOfDay;
     const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
