@@ -27,7 +27,8 @@ export function openAnalyticsModal() {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
         feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
-        guessCount.textContent = currentlyAnimatingBoxIndex + 1;
+        if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
+        else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
         // Set the specific box to blue
         clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
     }
