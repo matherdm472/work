@@ -17,18 +17,25 @@ export { tempDay };
 export { resetMenu };
 
 
-const startDate = new Date('2023-11-14');
-
 // Function to calculate the number of days passed
-function calculateDaysPassed() {
+function calculateDaysPassed(startDate) {
+    // Create a Date object with the current time in CST
     const currentDate = new Date();
-    const timeDifference = currentDate - startDate;
+    const cstOffset = -6 * 60; // CST offset is UTC-6
+    const currentCST = new Date(currentDate.getTime() + cstOffset * 60000);
+
+    // Set the time of the startDate to midnight CST (00:00:00)
+    const startOfDay = new Date(startDate);
+    startOfDay.setUTCHours(6, 0, 0, 0); // Adjust to UTC midnight
+
+    const timeDifference = currentCST - startOfDay;
     const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
     return daysPassed;
 }
 
-
-let day = calculateDaysPassed();
+const startDate = new Date('2023-11-14');
+let day = calculateDaysPassed(startDate);
 let tempDay = day;
 
 function updatePlayGameTitle() {
