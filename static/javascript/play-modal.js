@@ -251,6 +251,7 @@ searchInput.addEventListener('input', () => {
 searchInput.addEventListener('keyup', event => {
     if(event.key === 'Backspace' && searchInput.value === '') {
         displaySuggestions('');
+        searchButton.textContent = "Skip";
     }
 });
 
