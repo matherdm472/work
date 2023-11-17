@@ -58,7 +58,7 @@ setInterval(updateCountdown, 1000);
 
 function copyMessageToClipboard() {
     const messageToCopy = document.querySelector('.message-to-copy p');
-    let textToCopy = "I played today's thetweedle.com and here are my results! \n";
+    let textToCopy = 'I played Day #' + (tempDay + 1) + ' of thetweedle.com and here are my results! \n';
 
     if ((numWrong) >= 5) {
         textToCopy += "⬜️⬜️⬜️⬜️⬜️";
