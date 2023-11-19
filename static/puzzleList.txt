@@ -56,6 +56,17 @@
         "day": 5
     },
     {
+        "name": "Emma Watson",
+        "tweetsArray": [
+            "'I-was-terrified-by-my-life-as-a-child-star'-errr non. Please read full article @PORTERmagazine",
+            "@Mariana_gde @russellcrowe is a great actor. Working one on one with him was one of the richest experiences I have ever had as an actress.",
+            "Introducing Meg March! X @LittleWomen",
+            "Beauty and the Beast is on the cover of the new issue of @totalfilm, out later this week! 🌹 @beourguest",
+            "Just getting ready for the world premiere of Deathly Hallows Part 2. So excited - and it has stopped raining! See you on the red carpet x"
+        ],
+        "day": 6
+    },
+    {
         "name": "Nicole Scherzinger",
         "tweetsArray": [
             "The new @HerbalEssences collections bring me back! PLUS, their new ad stars me :) Tune into @thegrammys! #firsttime",
@@ -179,24 +190,13 @@
     {
         "name": "Jon Bon Jovi",
         "tweetsArray": [
-            "On a steel horse I ride",
             "Backstage at the Monsters Of Rock festival in Mannheim, Germany on August 3, 1986 #tbt",
+            "On a steel horse I ride",
             "It’s the 25th Anniversary of “These Days,” so I thought I would give it a listen and quick review. Oh, and I want to hear from you. What’s your favorite song? Tell us and we’ll pick 5 random winners who will receive an autographed copy.",
             "It’s My Life has 1 billion views on @YouTube… thanks to everyone who had a part in making this video so special.",
             "Up next in the #JBJCovers series is the incredibly talented @PostMalone (taking some creative liberty) singing Wanted Dead Or Alive #tbt"
         ],
         "day": 18
-    },
-    {
-        "name": "Emma Watson",
-        "tweetsArray": [
-            "'I-was-terrified-by-my-life-as-a-child-star'-errr non. Please read full article @PORTERmagazine",
-            "@Mariana_gde @russellcrowe is a great actor. Working one on one with him was one of the richest experiences I have ever had as an actress.",
-            "Introducing Meg March! X @LittleWomen",
-            "Beauty and the Beast is on the cover of the new issue of @totalfilm, out later this week! 🌹 @beourguest",
-            "Just getting ready for the world premiere of Deathly Hallows Part 2. So excited - and it has stopped raining! See you on the red carpet x"
-        ],
-        "day": 19
     },
     {
         "name" : "Serena Williams",
@@ -207,7 +207,7 @@
             "Me and @andyroddick decided to play mixed doubles Australia! We Love Aussie! ...... Book it its real!",
             "6 days until #Wimbledon 15 years ago a boy from Switzerland and a girl from the US, both 21, shared the stage at Wimbledon for the first time.. and it wouldn’t be the last. 😏 🐐 🐐"
         ],
-        "day": 20
+        "day": 19
     }
 ]
 
