@@ -15,6 +15,7 @@ export { tweedleArray };
 export { day };
 export { tempDay };
 export { resetMenu };
+export { resetDay };
 
 
 // Function to calculate the number of days passed
@@ -31,6 +32,7 @@ function calculateDaysPassed(startDate) {
     const timeDifference = currentCST - startOfDay;
     const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
+    console.log(daysPassed);
     return daysPassed;
 }
 
@@ -174,6 +176,7 @@ function restoreSessionData() {
                 else document.querySelector('#answerStatus').style.color = 'blue';
                 searchButton.disabled = true;
                 searchInput.disabled = true;
+                openAnalyticsModal();
             } else {
                 searchButton.disabled = false;
                 searchInput.disabled = false;
@@ -357,4 +360,9 @@ function resetMenu() {
         searchButton.disabled = false;
         searchInput.disabled = false;
     }
+}
+
+//resets tempDay to the day it currently is
+function resetDay() {
+    tempDay = day;
 }

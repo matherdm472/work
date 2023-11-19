@@ -5,6 +5,8 @@ import { numWrong } from './play-modal.js';
 import { tweedleArray } from './play-modal.js';
 import { tempDay } from './play-modal.js';
 import { resetMenu } from './play-modal.js';
+import { resetDay } from './play-modal.js';
+import { closeModal } from './main.js';
 
 export function openAnalyticsModal() {
     const correctAnswerSection = document.getElementById('correctAnswerSection');
@@ -108,6 +110,8 @@ closeAnalytics.addEventListener("click", function(event) {
     });
     shareResultsButton.style.opacity = '1';
     document.querySelector('#copyMessageStatus').textContent = '';
+    closeModal('#playModal');
+    resetDay();
     resetMenu();
 });
 
