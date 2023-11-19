@@ -32,7 +32,6 @@ function calculateDaysPassed(startDate) {
     const timeDifference = currentCST - startOfDay;
     const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
-    console.log(daysPassed);
     return daysPassed;
 }
 
@@ -98,8 +97,6 @@ let tweedleArray = [];
             let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
             tweedleArray.push(tweedle);
         });
-
-        console.log(tweedleArray);
     } else {
         console.error('Error:', xhr.status, xhr.statusText);
     }

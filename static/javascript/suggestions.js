@@ -10,7 +10,6 @@ fetch('/static/celebrities.txt')
     .then(response => response.text())
     .then(data => {
         allSuggestions = data.split('\n').filter(Boolean);
-        console.log(allSuggestions);
     })
 
 // Function to filter suggestions based on user input
