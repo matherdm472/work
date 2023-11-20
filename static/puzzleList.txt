@@ -56,15 +56,37 @@
         "day": 5
     },
     {
-        "name": "Chris Stapleton",
+        "name": "Emma Watson",
         "tweetsArray": [
-            "Happy anniversary, Morgane. Every day is a day I love you more than the day before.",
-            "What a joy to get to perform with Miss Mavis, Maren, Marty & Morgane. Getting to be a part of this performance was a CMA highlight for me.",
-            "The first glass of E.H. Taylor, Jr. I ever had was in the studio. Vance Powell, engineer of both music & good times, brought a bottle to the session for inspiration. That week we recorded an entire album, and that album was Traveller.",
-            "The Star-Spangled Banner (Live from Super Bowl LVII) is out now. @NFL @RocNation @EQDistro",
-            "Thank you, @Spotify. Listen to 'Tennessee Whiskey' on Spotify's 2010s Country playlist."
+            "'I-was-terrified-by-my-life-as-a-child-star'-errr non. Please read full article @PORTERmagazine",
+            "@Mariana_gde @russellcrowe is a great actor. Working one on one with him was one of the richest experiences I have ever had as an actress.",
+            "Introducing Meg March! X @LittleWomen",
+            "Beauty and the Beast is on the cover of the new issue of @totalfilm, out later this week! 🌹 @beourguest",
+            "Just getting ready for the world premiere of Deathly Hallows Part 2. So excited - and it has stopped raining! See you on the red carpet x"
         ],
         "day": 6
+    },
+    {
+        "name": "Jon Bon Jovi",
+        "tweetsArray": [
+            "Backstage at the Monsters Of Rock festival in Mannheim, Germany on August 3, 1986 #tbt",
+            "On a steel horse I ride",
+            "It’s the 25th Anniversary of “These Days,” so I thought I would give it a listen and quick review. Oh, and I want to hear from you. What’s your favorite song? Tell us and we’ll pick 5 random winners who will receive an autographed copy.",
+            "It’s My Life has 1 billion views on @YouTube… thanks to everyone who had a part in making this video so special.",
+            "Up next in the #JBJCovers series is the incredibly talented @PostMalone (taking some creative liberty) singing Wanted Dead Or Alive #tbt"
+        ],
+        "day": 7
+    },
+    {
+        "name" : "Serena Williams",
+        "tweetsArray": [
+            "I’m not used to working out with no goal or to be honest - no championship in my mind. This is super weird.",
+            "It completely breaks my heart when I leave the house and Olympia @OlympiaOhanian gets upset and starts crying....",
+            "I'm tweeting from Venus bed now! Comfy!!! Hahaha rahhhhhh hahaha",
+            "Me and @andyroddick decided to play mixed doubles Australia! We Love Aussie! ...... Book it its real!",
+            "6 days until #Wimbledon 15 years ago a boy from Switzerland and a girl from the US, both 21, shared the stage at Wimbledon for the first time.. and it wouldn’t be the last. 😏 🐐 🐐"
+        ],
+        "day": 8
     },
     {
         "name": "Nicole Scherzinger",
@@ -75,7 +97,7 @@
             "#REACT... coming Friday 🔥 @pussycatdolls",
             "Only a few more hours until the finale of an epic season of #themaskedsinger 🎉"
         ],
-        "day": 7
+        "day": 9
     },
     {
         "name": "Ben Affleck",
@@ -86,7 +108,7 @@
             "Appreciate the #GoneGirl love from @LesterHoltNBC and many more this week. Check out Gone Girl - in theaters TODAY.",
             "From one Batman to another: thank you #SFBatkid. Checkout @BatkidBeginsin select theaters this Friday: http://batkidbegins.com"
         ],
-        "day": 8
+        "day": 10
     },
     {
         "name": "Joe Biden",
@@ -97,7 +119,7 @@
             "Twelve years ago, I had the honor of being gifted one of the pens President Obama used to sign the Affordable Care Act into law. Today, I gifted one to him as we work to strengthen the law and lower health care costs for hardworking Americans.",
             "This year, Chile and the United States celebrate 200 years of bilateral relations. And today, our partnership is stronger than it’s ever been."
         ],
-        "day": 9
+        "day": 11
     },
     {
         "name": "Sean Astin",
@@ -108,7 +130,7 @@
             "It’s a great day in America!!! “RUDY” is being re-released in theaters for 2 days :-)))",
             "Before Rudy, Before Samwise, Before Bob, There was this little guy and a dream. Now, my mom paid for this private dance class, but surely we can all agree, access to arts & music didn’t harm my future!!!"
         ],
-        "day": 10
+        "day": 12
     },
     {
         "name": "Jackie Chan",
@@ -119,7 +141,7 @@
             "\"Your focus needs more focus.\" - Mr. Han in The Karate Kid",
             "\"We should hang out\" - Monkey in Kung Fu Panda"
         ],
-        "day": 11
+        "day": 13
     },
     {
         "name": "Drew Scott",
@@ -130,7 +152,7 @@
             "THIS is how excited I am about the Season 7 premiere of Property Brothers: #ForeverHome tonight",
             "Monday morning meeting with Jonathan! #PropertyBrothers"
         ],
-        "day": 12
+        "day": 14
     },
     {
         "name": "Mike Trout",
@@ -141,7 +163,7 @@
             "Very honored to be picked to represent the American League in the All-Star Game. Thank you team and fans for your support. #Angels #VoteGRich",
             "It’s happening! A dream come true for my family and I to work with @TigerWoods to bring Trout National - The Reserve to our hometown."
         ],
-        "day": 13
+        "day": 15
     },
     {
         "name": "Dennis Rodman",
@@ -152,7 +174,7 @@
             "At HOF for my boy Scottie Pippen. Congrats my brother!",
             "Michael Jordan, happy birthday my friend & teammate. You're the greatest basketball player of all time. Love you bro!"
         ],
-        "day": 14
+        "day": 16
     },
     {
         "name": "Samuel L. Jackson",
@@ -163,7 +185,7 @@
             "Happy Birthday Q T!!!!! Shout him out folks, it's a Tarantino vintage year!",
             "How boot that MUTHAFUQQIN DJANGO trailer!!!!!!"
         ],
-        "day": 15
+        "day": 17
     },
     {
         "name": "Danny DeVito",
@@ -174,7 +196,7 @@
             "Had a blast at the LA TV Critics Award dig Somebody tell me how many times I said Balls? Very Honored.",
             "48 DAYS UNTIL THE NEW SEASON OF IT'S ALWYAS SUNNY IN PHILADELPHIA FX BABY"
         ],
-        "day": 16
+        "day": 18
     },
     {
         "name": "Rob Gronkowski",
@@ -185,7 +207,7 @@
             "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
             "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
         ],
-        "day": 17
+        "day": 19
     }
 ]
 
