@@ -8,33 +8,116 @@ import { resetMenu } from './play-modal.js';
 import { resetDay } from './play-modal.js';
 import { closeModal } from './main.js';
 
-export function openAnalyticsModal() {
+export async function openAnalyticsModal() {
     const correctAnswerSection = document.getElementById('correctAnswerSection');
     const correctAnswer = document.getElementById('correctAnswer');
     const guessCount = document.getElementById('guessCount');
     const clueBoxes = document.querySelectorAll('.clue-box');
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
+    var data;
 
     correctAnswer.textContent = tweedleArray[tempDay].getName();
 
     if (numWrong >= 5) {
-        feedbackText.textContent = 'Better luck next time!';
-        feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
-        clueBoxes.forEach((box, i) => {
+        try {
+            data = await updateAnalytics('puzzle' + tempDay, 'wrong');
+            feedbackText.textContent = 'Better luck next time!';
+            feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
+            clueBoxes.forEach((box, i) => {
             box.style.backgroundColor = '';
-        });
-        guessCount.textContent = '';
+            });
+            guessCount.textContent = '';
+            updateAnalyticsUI(data);
+        } catch (error) {
+            console.error('Error updating analytics:', error);
+        }
     } else {
         // Less than 4 incorrect clues
-        feedbackText.textContent = 'Congrats!';
-        feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
-        if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
-        else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
-        // Set the specific box to blue
-        clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
+        try {
+            // Less than 4 incorrect clues
+            if (numWrong === 0) data = await updateAnalytics('puzzle' + tempDay, 'one');
+            else if (numWrong === 1) data = await updateAnalytics('puzzle' + tempDay, 'two');
+            else if (numWrong === 2) data = await updateAnalytics('puzzle' + tempDay, 'three');
+            else if (numWrong === 3) data = await updateAnalytics('puzzle' + tempDay, 'four');
+            else if (numWrong === 4) data = await updateAnalytics('puzzle' + tempDay, 'five');
+            feedbackText.textContent = 'Congrats!';
+            feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
+            if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
+            else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
+            // Set the specific box to blue
+            clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
+            updateAnalyticsUI(data);
+        } catch (error) {
+            console.error('Error updating analytics:', error);
+        }
     }
-    openModal('#analyticsModal');
+}
+
+function updateAnalyticsUI(data) {
+    const analytics = document.querySelectorAll('.analytics');
+    if (data && data.attempts) {
+        const analyticsArray = ['one', 'two', 'three', 'four', 'five', 'wrong'];
+
+        analyticsArray.forEach((attempt, i) => {
+            const attemptValue = data.attempts[attempt];
+            if(attempt === 'wrong') {
+                analytics[i].textContent = `Incorrect: ${attemptValue}`;
+            } else if (analytics[i] && i === 0) { // Check if analytics[i] is defined and is one attempt
+                analytics[i].textContent = `${i + 1} Attempt: ${attemptValue}`;
+            } else if (analytics[i]) { // Check if analytics[i] is defined
+                analytics[i].textContent = `${i + 1} Attempts: ${attemptValue}`;
+            } else {
+                console.error(`Element at index ${i} in 'analytics' array is undefined.`);
+            }
+        });
+        openModal('#analyticsModal');
+    } else {
+        console.error('Invalid data format:', data);
+    }
+}
+
+//view analytics Modal without updating asnwer count
+export async function viewAnalyticsModal() {
+    const correctAnswerSection = document.getElementById('correctAnswerSection');
+    const correctAnswer = document.getElementById('correctAnswer');
+    const guessCount = document.getElementById('guessCount');
+    const clueBoxes = document.querySelectorAll('.clue-box');
+    const feedbackText = document.getElementById('feedback-text');
+    const feedbackSubtitle = document.getElementById('feedback-subtitle');
+    var data;
+
+    correctAnswer.textContent = tweedleArray[tempDay].getName();
+
+    if (numWrong >= 5) {
+        try {
+            data = await getAnalytics('puzzle' + tempDay);
+            feedbackText.textContent = 'Better luck next time!';
+            feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
+            clueBoxes.forEach((box, i) => {
+            box.style.backgroundColor = '';
+            });
+            guessCount.textContent = '';
+            updateAnalyticsUI(data)
+        } catch (error) {
+            console.error('Error updating analytics:', error);
+        }
+    } else {
+        // Less than 4 incorrect clues
+        try {
+            // Less than 4 incorrect clues
+            data = await getAnalytics('puzzle' + tempDay);
+            feedbackText.textContent = 'Congrats!';
+            feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
+            if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
+            else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
+            // Set the specific box to blue
+            clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
+            updateAnalyticsUI(data);
+        } catch (error) {
+            console.error('Error updating analytics:', error);
+        }
+    }
 }
 
 // Function to update the countdown timer
@@ -115,6 +198,40 @@ closeAnalytics.addEventListener("click", function(event) {
     resetMenu();
 });
 
+function updateAnalytics(puzzleName, result) {
+    return fetch(`/update_analytics/${puzzleName}/${result}`, {
+        method: 'POST',
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .catch(error => {
+        // Handle errors
+        console.error('Fetch error:', error);
+    });
+}
 
+function getAnalytics(puzzleName) {
+    return fetch(`/get_analytics/${puzzleName}`, {
+        method: 'GET',
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .catch(error => {
+        // Handle errors
+        console.error('Fetch error:', error);
+    });
+}
 
+var playAgainButton = document.getElementById("playAnotherButton");
 
+playAgainButton.addEventListener("click", function(event) {
+    closeModal('#analyticsModal');
+});

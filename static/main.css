@@ -69,6 +69,7 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
+    overflow-y: scroll;
 }
 
 .popup {
@@ -643,4 +644,21 @@ input:checked + .slider:before {
 /* Reverse the order for the Puzzle Master section */
 .credits-section:nth-child(3) {
     flex-direction: row-reverse;
+}
+
+/*player analytics*/
+.analyticsData {
+
+}
+
+.analytics {
+
+}
+
+.play-again {
+    vertical-align: top;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }

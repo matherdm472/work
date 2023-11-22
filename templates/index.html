@@ -210,7 +210,9 @@
     </div>
     <div id="analyticsModal" class="modal">
         <div class="modal-content">
-            <span class="close" id="closeAnalyticsModal">&times;</span>
+            <div class="play-again">
+                <button type="button" id="playAnotherButton" style="vertical-align: top;">Play Another?</button>
+            </div><span class="close" id="closeAnalyticsModal">&times;</span>
             <div id="analyticsContent">
                 <div id="feedback">
                     <p id="feedback-text"></p>
@@ -236,6 +238,15 @@
                     <div class="next-game">
                         <p>Next Game In:</p>
                         <p id="countdown"></p>
+                    </div>
+                    <div class="analyticsData">
+                        <p>Other Players Got It In:</p>
+                        <div class="analytics"></div>
+                        <div class="analytics"></div>
+                        <div class="analytics"></div>
+                        <div class="analytics"></div>
+                        <div class="analytics"></div>
+                        <div class="analytics"></div>
                     </div>
                 </div>
             </div>
@@ -291,5 +302,6 @@
     <script type="module" src="/static/javascript/dark-mode.js"></script>
     <script type="module" src="/static/javascript/email.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ import { closeModal } from './main.js';
 import { currentContentIndex, updateIndex } from './shared.js';
 import { animateWrongAnswer, currentlyAnimatingBoxIndex, updateAnimatedIndex} from './animation.js';
 import { filterSuggestions, displaySuggestions, suggestionsContainer } from './suggestions.js';
-import { openAnalyticsModal } from './analytics-modal.js';
+import { openAnalyticsModal, viewAnalyticsModal } from './analytics-modal.js';
 
 export { contentArray };
 export { showContent };
@@ -173,7 +173,7 @@ function restoreSessionData() {
                 else document.querySelector('#answerStatus').style.color = 'blue';
                 searchButton.disabled = true;
                 searchInput.disabled = true;
-                openAnalyticsModal();
+                viewAnalyticsModal();
             } else {
                 searchButton.disabled = false;
                 searchInput.disabled = false;
