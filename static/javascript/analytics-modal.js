@@ -54,6 +54,7 @@ export async function openAnalyticsModal() {
     }
 }
 
+/*
 function updateAnalyticsUI(data) {
     const analytics = document.querySelectorAll('.analytics');
     if (data && data.attempts) {
@@ -76,6 +77,48 @@ function updateAnalyticsUI(data) {
         console.error('Invalid data format:', data);
     }
 }
+*/
+
+function updateAnalyticsUI(data) {
+    const analyticsArray = ['one', 'two', 'three', 'four', 'five', 'wrong'];
+
+    let totalAttempts = 0;
+    let correctAttempts = 0;
+
+    analyticsArray.forEach((attempt, i) => {
+        const attemptValue = data.attempts[attempt];
+
+        // Assuming you have an element with class 'analytics-container' for each attempt
+        const analyticsContainer = document.querySelector(`.analytics-container[data-attempt="${attempt}"]`);
+
+        if (analyticsContainer) {
+            if (attempt === 'wrong') {
+                analyticsContainer.textContent = `Incorrect: ${attemptValue}`;
+            } else {
+                totalAttempts += (i + 1) * attemptValue;
+                correctAttempts += attemptValue;
+            }
+        } else {
+            console.error(`Element with data-attempt="${attempt}" is undefined.`);
+        }
+    });
+
+    if (correctAttempts > 0) {
+        const totalPercentage = (correctAttempts / totalAttempts) * 100;
+        const averageAttempts = totalAttempts / correctAttempts;
+
+        // Update the HTML elements with the calculated values
+        document.getElementById('percentageNumber').textContent = `${totalPercentage.toFixed(2)}%`;
+        document.getElementById('averageNumber').textContent = `${averageAttempts.toFixed(2)}`;
+    }
+
+    openModal('#analyticsModal');
+}
+
+
+
+
+
 
 //view analytics Modal without updating asnwer count
 export async function viewAnalyticsModal() {
@@ -120,7 +163,6 @@ export async function viewAnalyticsModal() {
     }
 }
 
-// Function to update the countdown timer
 function updateCountdown() {
     const countdownElement = document.getElementById('countdown');
     const now = new Date();
@@ -137,7 +179,8 @@ function updateCountdown() {
     countdownElement.textContent = countdownText;
 }
 
-// Update the countdown timer initially and then every second
+
+//Update the countdown timer initially and then every second
 updateCountdown();
 setInterval(updateCountdown, 1000);
 

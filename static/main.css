@@ -98,6 +98,7 @@ body {
     width: 40%;
     height: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
 }
 
 .modal-content p {
@@ -522,7 +523,10 @@ input:checked + .slider:before {
 
 #analyticsModal {
     text-align: center;
+}
 
+#analyticsContent{
+    margin-top: -5%;
 }
 
 #guessCount {
@@ -554,6 +558,7 @@ input:checked + .slider:before {
     margin: 5px;
     border: 1px solid #000;
 }
+
 
 #feedback-text{
     font-size: 40px;
@@ -648,11 +653,28 @@ input:checked + .slider:before {
 
 /*player analytics*/
 .analyticsData {
-
+    display: flex;
+    justify-content: space-around; /* Adjust this property for spacing */
 }
 
-.analytics {
+.analytics-container {
+    text-align: center;
+}
 
+.number {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #1DA1F2;
+}
+
+.label {
+    font-size: 18px;
+    color: #555;
+}
+
+.intro-text{
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .play-again {
