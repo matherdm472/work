@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory
+from flask import Flask, render_template, request, redirect, Response
 
 app = Flask(__name__)
 
@@ -14,13 +14,11 @@ def index():
     return render_template('index.html')
 
 @app.route('/robots.txt')
-def serve_robots():
-    robots_content = """
-    User-agent: *
-    Disallow:
-
-    """
-    return robots_content, 200, {'Content-Type': 'text/plain'}
+def noindex():
+    content = "User-Agent: *\nDisallow: /\n"
+    response = Response(response=content, status=200, mimetype="text/plain")
+    response.headers["Content-Type"] = "text/plain; charset=utf-8"
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True)
