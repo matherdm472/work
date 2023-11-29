@@ -15,7 +15,7 @@ def index():
 
 @app.route('/robots.txt')
 def noindex():
-    content = "User-Agent: *\nDisallow: /\n"
+    content = "User-Agent: *\nAllow: /\n"
     response = Response(response=content, status=200, mimetype="text/plain")
     response.headers["Content-Type"] = "text/plain; charset=utf-8"
     return response
