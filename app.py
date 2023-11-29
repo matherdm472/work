@@ -13,10 +13,14 @@ def before_request():
 def index():
     return render_template('index.html')
 
-# Route to serve robots.txt
 @app.route('/robots.txt')
 def serve_robots():
-    return send_from_directory('/Users/dylanmather/Desktop/work/', 'robots.txt')
+    robots_content = """
+    User-agent: *
+    Disallow:
+
+    """
+    return robots_content, 200, {'Content-Type': 'text/plain'}
 
 if __name__ == '__main__':
     app.run(debug=True)
