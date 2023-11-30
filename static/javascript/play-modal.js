@@ -133,6 +133,9 @@ showContent(currentContentIndex);
 let boxes = document.querySelectorAll('.box');
 boxes.forEach((box, i) => {
     box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
+    box.addEventListener('click', () => {
+        handleClueBoxClick(i);
+    });
 });
 
 // Function to save session data to localStorage
@@ -365,4 +368,15 @@ function resetMenu() {
 //resets tempDay to the day it currently is
 function resetDay() {
     tempDay = day;
+}
+
+function handleClueBoxClick(boxNum) {
+    console.log("Trying");
+    if(boxes[boxNum].style.backgroundColor === "rgb(0, 123, 255)") {
+        console.log("Yes");
+        showContent(boxNum);
+    } else {
+        console.log("No");
+        //maybe we can play an animation where the gray box gets a red border and shakes to show they can't view yet
+    }
 }
