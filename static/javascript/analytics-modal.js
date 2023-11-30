@@ -88,9 +88,9 @@ function updateAnalyticsUI(data) {
     analyticsArray.forEach((attempt, i) => {
         const attemptValue = data.attempts[attempt];
 
-        if (attempt !== 'wrong') {
+        if (attempt !== 'wrong' && attemptValue != 0) {
             totalAttempts += (i + 1) * attemptValue;
-            wonGames = wonGames + 1;
+            wonGames++;
         }
     });
 
