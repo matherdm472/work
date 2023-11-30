@@ -206,7 +206,7 @@
             "If you would have told me, 32 years ago today when Full House first aired.....",
             "#FBF Jesse and The Rippers reunion soundchecking before @jimmyfallon! @ 30 Rockefeller Plaza"
         ],
-        "day": 20
+        "day": 19
     },
     {
         "name": "Tom Hanks",
@@ -217,7 +217,7 @@
             "Barkhad Abdi!  BAFTA  winner!  He IS the captain now !  Somali champion !!!",
             "GUMP opens in IMAX Friday. Forrest would wonder who Mr. IMAX  is and how he makes movies so big."
         ],
-        "day": 21
+        "day": 20
     }
 ]
 
