@@ -16,7 +16,7 @@ export { day };
 export { tempDay };
 export { resetMenu };
 export { resetDay };
-
+export { restoreSessionData };
 
 // Function to calculate the number of days passed
 function calculateDaysPassed(startDate) {
@@ -135,8 +135,6 @@ boxes.forEach((box, i) => {
     box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
 });
 
-restoreSessionData();
-
 // Function to save session data to localStorage
 function saveSessionData() {
     localStorage.setItem('resultMap', JSON.stringify(Array.from(resultMap.entries())));
@@ -147,6 +145,7 @@ function restoreSessionData() {
     if (localStorage.getItem('resultMap')) {
         resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
 
+        console.log("Restoring Play Session Data");
         // Restore the number of wrong answers and update the UI
         if (resultMap.has("numWrong" + tempDay)) {
             numWrong = resultMap.get("numWrong" + tempDay);
@@ -171,10 +170,11 @@ function restoreSessionData() {
                 if(resultMap.get(tempDay) === "right") document.querySelector('#answerStatus').style.color = 'green';
                 else if(resultMap.get(tempDay) === "wrong") document.querySelector('#answerStatus').style.color = 'red';
                 else document.querySelector('#answerStatus').style.color = 'blue';
-                searchButton.disabled = true;
+                searchButton.textContent = "View Analytics";
                 searchInput.disabled = true;
-                viewAnalyticsModal();
+                //viewAnalyticsModal();
             } else {
+                searchButton.textContent = "Skip";
                 searchButton.disabled = false;
                 searchInput.disabled = false;
             }
@@ -238,7 +238,11 @@ function handleSearch() {
 
 document.querySelector('#searchButton').addEventListener('click', () => {
     // Call the handling function when the search button is clicked
-    handleSearch();
+    if(searchButton.textContent === "View Analytics") {
+        viewAnalyticsModal();
+    } else {
+        handleSearch();
+    }
 });
 
 searchInput.addEventListener('input', () => {
@@ -319,7 +323,6 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 
             button.addEventListener("click", function () {
                 if (tempDay !== tweedle.getDay() - 1) {
-                    // If a different game is selected, close the modal
                     popup.style.display = "none";
                     buttonContainer.style.display = "none";
                 }

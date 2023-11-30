@@ -87,19 +87,10 @@ function updateAnalyticsUI(data) {
 
     analyticsArray.forEach((attempt, i) => {
         const attemptValue = data.attempts[attempt];
-
-        // Assuming you have an element with class 'analytics-container' for each attempt
-        const analyticsContainer = document.querySelector(`.analytics-container[data-attempt="${attempt}"]`);
-
-        if (analyticsContainer) {
-            if (attempt === 'wrong') {
-                analyticsContainer.textContent = `Incorrect: ${attemptValue}`;
-            } else {
+        
+        if(attempt != 'wrong') {
                 totalAttempts += (i + 1) * attemptValue;
                 correctAttempts += attemptValue;
-            }
-        } else {
-            console.error(`Element with data-attempt="${attempt}" is undefined.`);
         }
     });
 
@@ -114,11 +105,6 @@ function updateAnalyticsUI(data) {
 
     openModal('#analyticsModal');
 }
-
-
-
-
-
 
 //view analytics Modal without updating asnwer count
 export async function viewAnalyticsModal() {
@@ -276,5 +262,14 @@ function getAnalytics(puzzleName) {
 var playAgainButton = document.getElementById("playAnotherButton");
 
 playAgainButton.addEventListener("click", function(event) {
+    const clueBoxes = document.querySelectorAll('.clue-box');
+    clueBoxes.forEach((box, i) => {
+        box.style.backgroundColor = '';
+    });
+    shareResultsButton.style.opacity = '1';
+    document.querySelector('#copyMessageStatus').textContent = '';
+    resetDay();
+    resetMenu();
     closeModal('#analyticsModal');
+    openModal('#playModal');
 });

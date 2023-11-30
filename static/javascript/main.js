@@ -5,6 +5,7 @@ import './play-modal.js';
 import './dark-mode.js';
 import './animation.js';
 import './analytics-modal.js';
+import { restoreSessionData } from './play-modal.js';
 
 export function openModal(modalId) {
     document.querySelector(modalId).style.display = 'block';
@@ -17,7 +18,10 @@ export function closeModal(modalId) {
 
 //event listeners to open and close modals
 document.querySelector('#howToPlayButton').addEventListener('click', () => openModal('#instructionModal'));
-document.querySelector('#playButton').addEventListener('click', () => openModal('#playModal'));
+document.querySelector('#playButton').addEventListener('click', () => {
+    restoreSessionData();
+    openModal('#playModal');
+});
 document.querySelector('#settingsButton').addEventListener('click', () => openModal('#settingsModal'));
 document.querySelector('#get-credits').addEventListener('click', () => openModal('#creditsModal'));
 
