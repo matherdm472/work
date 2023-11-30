@@ -83,24 +83,28 @@ function updateAnalyticsUI(data) {
     const analyticsArray = ['one', 'two', 'three', 'four', 'five', 'wrong'];
 
     let totalAttempts = 0;
-    let correctAttempts = 0;
+    let wonGames = 0;
 
     analyticsArray.forEach((attempt, i) => {
         const attemptValue = data.attempts[attempt];
-        
-        if(attempt != 'wrong') {
-                totalAttempts += (i + 1) * attemptValue;
-                correctAttempts += attemptValue;
+
+        if (attempt !== 'wrong') {
+            totalAttempts += (i + 1) * attemptValue;
+            wonGames = wonGames + 1;
         }
     });
 
-    if (correctAttempts > 0) {
-        let totalPercentage = (correctAttempts / totalAttempts) * 100;
-        let averageAttempts = totalAttempts / correctAttempts;
+    if (wonGames > 0) {
+        const totalPercentage = (wonGames / (wonGames + data.attempts['wrong'])) * 100;
+        const averageAttempts = totalAttempts / wonGames;
 
         // Update the HTML elements with the calculated values
         document.getElementById('percentageNumber').textContent = `${totalPercentage.toFixed(2)}%`;
         document.getElementById('averageNumber').textContent = `${averageAttempts.toFixed(2)}`;
+    } else {
+        // No games won, set N/A for average attempts
+        document.getElementById('percentageNumber').textContent = 'N/A';
+        document.getElementById('averageNumber').textContent = 'N/A';
     }
 
     openModal('#analyticsModal');
