@@ -43,6 +43,14 @@
         width: 100%;
     }
 
+    #correctAnswer{
+        font-size: 50px;
+    }
+
+    #guessCount{
+        font-size: 25px;
+    }
+
     @keyframes moveBoxMobile {
         0% {
             transform: translateX(0);

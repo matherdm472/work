@@ -210,9 +210,7 @@
     </div>
     <div id="analyticsModal" class="modal">
         <div class="modal-content">
-            <div class="play-again">
-                <button type="button" id="playAnotherButton" style="vertical-align: top;">Play Another?</button>
-            </div><span class="close" id="closeAnalyticsModal">&times;</span>
+            <span class="close" id="closeAnalyticsModal">&times;</span>
             <div id="analyticsContent">
                 <div id="feedback">
                     <p id="feedback-text"></p>
@@ -236,13 +234,17 @@
                     <div class="message-to-copy">
                         <p>Your message to be copied goes here.</p>
                     </div>
+                    <div class="play-more-text"> Want to play more? </div>
+                    <button id="playAnotherButton" class="button">
+                        <img src="/static/icons/play.png" alt="play" width="40" height="40">
+                    </button>
+                    <hr class="setting-separator"> <!-- Horizontal line separator -->
                     <div class="intro-text">Let's see how others are doing:</div>
                     <div class="analyticsData">
                         <div class="analytics-container">
                             <div class="number" id="percentageNumber">0.00%</div>
                             <div class="label">Correct Percentage</div>
                         </div>
-                    
                         <div class="analytics-container">
                             <div class="number" id="averageNumber">0.00</div>
                             <div class="label">Average Attempts</div>

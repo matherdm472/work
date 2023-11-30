@@ -532,13 +532,13 @@ input:checked + .slider:before {
 }
 
 #guessCount {
-    font-size: 80px;
+    font-size: 30px;
     color: #1DA1F2;
     margin: 10px 0;
 }
 
 #correctAnswer{
-    font-size: 40px;
+    font-size: 60px;
     color: #1DA1F2; 
     margin: 10px 0;
 }
@@ -685,6 +685,11 @@ input:checked + .slider:before {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.play-more-text{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 ::-webkit-scrollbar {
