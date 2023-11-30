@@ -95,8 +95,8 @@ function updateAnalyticsUI(data) {
     });
 
     if (correctAttempts > 0) {
-        const totalPercentage = (correctAttempts / totalAttempts) * 100;
-        const averageAttempts = totalAttempts / correctAttempts;
+        let totalPercentage = (correctAttempts / totalAttempts) * 100;
+        let averageAttempts = totalAttempts / correctAttempts;
 
         // Update the HTML elements with the calculated values
         document.getElementById('percentageNumber').textContent = `${totalPercentage.toFixed(2)}%`;

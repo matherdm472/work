@@ -371,12 +371,14 @@ function resetDay() {
 }
 
 function handleClueBoxClick(boxNum) {
-    console.log("Trying");
     if(boxes[boxNum].style.backgroundColor === "rgb(0, 123, 255)") {
-        console.log("Yes");
-        showContent(boxNum);
+        if(searchButton.textContent === "View Analytics") {
+            showContent(boxNum);
+            searchButton.textContent = "View Analytics";
+        } else {
+            showContent(boxNum);
+        }
     } else {
-        console.log("No");
         //maybe we can play an animation where the gray box gets a red border and shakes to show they can't view yet
     }
 }
