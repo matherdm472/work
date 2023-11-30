@@ -4,6 +4,8 @@ body {
     background-color: #e4decd;
     width: 100%;
     height: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent; /* color of the scrollbar and its track */
 }
 
 /* Logo Styles */
@@ -69,6 +71,7 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
+    overflow-y: scroll;
 }
 
 .popup {
@@ -97,6 +100,7 @@ body {
     width: 40%;
     height: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
 }
 
 .modal-content p {
@@ -428,6 +432,10 @@ input:checked + .slider:before {
     color: white;
 }
 
+.dark-mode .label {
+    color: white;
+}
+
 /* Subtitle and Digit Styles */
 .subtitle-part {
     font-size: 30px;
@@ -521,17 +529,20 @@ input:checked + .slider:before {
 
 #analyticsModal {
     text-align: center;
+}
 
+#analyticsContent{
+    margin-top: -5%;
 }
 
 #guessCount {
-    font-size: 80px;
+    font-size: 30px;
     color: #1DA1F2;
     margin: 10px 0;
 }
 
 #correctAnswer{
-    font-size: 40px;
+    font-size: 60px;
     color: #1DA1F2; 
     margin: 10px 0;
 }
@@ -553,6 +564,7 @@ input:checked + .slider:before {
     margin: 5px;
     border: 1px solid #000;
 }
+
 
 #feedback-text{
     font-size: 40px;
@@ -643,4 +655,96 @@ input:checked + .slider:before {
 /* Reverse the order for the Puzzle Master section */
 .credits-section:nth-child(3) {
     flex-direction: row-reverse;
+}
+
+/*player analytics*/
+.analyticsData {
+    display: flex;
+    justify-content: center;;
+}
+
+.analytics-container {
+    align-items: center;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #cc539e;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.intro-text{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.play-again {
+    vertical-align: top;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.play-more-text{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px; /* Adjust the border-radius for roundness */
+}
+
+body .no-scroll {
+    scrollbar-color: transparent transparent;
+    transition: scrollbar-color 1s ease-in-out;
+}
+
+/* socials */
+.social-section {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-item {
+    text-align: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.icon {
+    width: 60px; /* Adjust the size of the icons */
+    height: 60px;
 }

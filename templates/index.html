@@ -230,14 +230,56 @@
                             <i class="fas fa-share"></i> Share Results
                         </button>
                     </div>
+                    <hr class="setting-separator"> <!-- Horizontal line separator -->
                     <div id="copyMessageStatus"></div>
                     <div class="message-to-copy">
                         <p>Your message to be copied goes here.</p>
                     </div>
+                    <div class="play-more-text"> Want to play more? </div>
+                    <button id="playAnotherButton" class="button">
+                        <img src="/static/icons/play.png" alt="play" width="40" height="40">
+                    </button>
+                    <hr class="setting-separator"> <!-- Horizontal line separator -->
+                    <div class="intro-text">Let's see how others are doing:</div>
+                    <div class="analyticsData">
+                        <div class="analytics-container">
+                            <div class="circle">
+                                <div class="number" id="percentageNumber">0.00%</div>
+                            </div>
+                            <div class="label">Players solving this puzzle correctly</div>
+                        </div>
+                        <div class="analytics-container">
+                            <div class="circle">
+                                <div class="number" id="averageNumber">0.00</div>
+                            </div>
+                            <div class="label">Average attempts to solve correctly</div>
+                        </div>
+                    </div>  
+                    <hr class="setting-separator"> <!-- Horizontal line separator -->
                     <div class="next-game">
                         <p>Next Game In:</p>
                         <p id="countdown"></p>
                     </div>
+                    <!--
+                    <hr class="setting-separator">
+                    <div class="social-section">
+                        <p>Follow our Socials!</p>
+                        <div class="social-icons">
+                            <div class="social-item">
+                                <img src="/static/icons/instagram-icon.png" alt="Instagram Icon" class="icon">
+                                <p>@tweedlegame</p>
+                            </div>
+                            <div class="social-item">
+                                <img src="/static/icons/twitter-icon.png" alt="Twitter Icon" class="icon">
+                                <p>@tweedlegame</p>
+                            </div>
+                            <div class="social-item">
+                                <img src="/static/icons/tiktok-icon.png" alt="TikTok Icon" class="icon">
+                                <p>@tweedlegame</p>
+                            </div>
+                        </div>
+                    </div>    
+                    -->
                 </div>
             </div>
         </div>
@@ -292,5 +334,19 @@
     <script type="module" src="/static/javascript/dark-mode.js"></script>
     <script type="module" src="/static/javascript/email.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        let timeout;
+
+        document.addEventListener('scroll', function () {
+            clearTimeout(timeout);
+
+            document.body.classList.remove('no-scroll');
+
+            timeout = setTimeout(function () {
+                document.body.classList.add('no-scroll');
+            }, 1000);
+        });
+    </script>
 </body>
 </html>

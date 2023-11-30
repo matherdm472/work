@@ -43,6 +43,25 @@
         width: 100%;
     }
 
+    #correctAnswer{
+        font-size: 50px;
+    }
+
+    #guessCount{
+        font-size: 25px;
+    }
+
+    .circle{
+        width: 130px;
+        height: 130px;
+    }
+
+    .analytics-container {
+        align-items: center;
+        padding: 0 20px;
+        text-align: center;
+    }
+
     @keyframes moveBoxMobile {
         0% {
             transform: translateX(0);
