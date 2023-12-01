@@ -4,7 +4,7 @@ import { closeModal } from './main.js';
 import { currentContentIndex, updateIndex } from './shared.js';
 import { animateWrongAnswer, currentlyAnimatingBoxIndex, updateAnimatedIndex} from './animation.js';
 import { filterSuggestions, displaySuggestions, suggestionsContainer } from './suggestions.js';
-import { openAnalyticsModal, viewAnalyticsModal } from './analytics-modal.js';
+import { openAnalyticsModal } from './analytics-modal.js';
 
 export { contentArray };
 export { showContent };
@@ -15,8 +15,7 @@ export { tweedleArray };
 export { day };
 export { tempDay };
 export { resetMenu };
-export { resetDay };
-export { restoreSessionData };
+
 
 // Function to calculate the number of days passed
 function calculateDaysPassed(startDate) {
@@ -97,6 +96,8 @@ let tweedleArray = [];
             let tweedle = new Tweedle(item.name, item.tweetsArray, item.day);
             tweedleArray.push(tweedle);
         });
+
+        console.log(tweedleArray);
     } else {
         console.error('Error:', xhr.status, xhr.statusText);
     }
@@ -133,10 +134,9 @@ showContent(currentContentIndex);
 let boxes = document.querySelectorAll('.box');
 boxes.forEach((box, i) => {
     box.style.backgroundColor = i === currentContentIndex ? '#007bff' : 'gray';
-    box.addEventListener('click', () => {
-        handleClueBoxClick(i);
-    });
 });
+
+restoreSessionData();
 
 // Function to save session data to localStorage
 function saveSessionData() {
@@ -148,7 +148,6 @@ function restoreSessionData() {
     if (localStorage.getItem('resultMap')) {
         resultMap = new Map(JSON.parse(localStorage.getItem('resultMap')));
 
-        console.log("Restoring Play Session Data");
         // Restore the number of wrong answers and update the UI
         if (resultMap.has("numWrong" + tempDay)) {
             numWrong = resultMap.get("numWrong" + tempDay);
@@ -173,11 +172,9 @@ function restoreSessionData() {
                 if(resultMap.get(tempDay) === "right") document.querySelector('#answerStatus').style.color = 'green';
                 else if(resultMap.get(tempDay) === "wrong") document.querySelector('#answerStatus').style.color = 'red';
                 else document.querySelector('#answerStatus').style.color = 'blue';
-                searchButton.textContent = "View Analytics";
+                searchButton.disabled = true;
                 searchInput.disabled = true;
-                //viewAnalyticsModal();
             } else {
-                searchButton.textContent = "Skip";
                 searchButton.disabled = false;
                 searchInput.disabled = false;
             }
@@ -241,11 +238,7 @@ function handleSearch() {
 
 document.querySelector('#searchButton').addEventListener('click', () => {
     // Call the handling function when the search button is clicked
-    if(searchButton.textContent === "View Analytics") {
-        viewAnalyticsModal();
-    } else {
-        handleSearch();
-    }
+    handleSearch();
 });
 
 searchInput.addEventListener('input', () => {
@@ -326,6 +319,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 
             button.addEventListener("click", function () {
                 if (tempDay !== tweedle.getDay() - 1) {
+                    // If a different game is selected, close the modal
                     popup.style.display = "none";
                     buttonContainer.style.display = "none";
                 }
@@ -362,23 +356,5 @@ function resetMenu() {
         searchInput.value = "";
         searchButton.disabled = false;
         searchInput.disabled = false;
-    }
-}
-
-//resets tempDay to the day it currently is
-function resetDay() {
-    tempDay = day;
-}
-
-function handleClueBoxClick(boxNum) {
-    if(boxes[boxNum].style.backgroundColor === "rgb(0, 123, 255)") {
-        if(searchButton.textContent === "View Analytics") {
-            showContent(boxNum);
-            searchButton.textContent = "View Analytics";
-        } else {
-            showContent(boxNum);
-        }
-    } else {
-        //maybe we can play an animation where the gray box gets a red border and shakes to show they can't view yet
     }
 }

@@ -1,4 +1,5 @@
 [
+    
     {
         "name": "Ryan Reynolds",
         "tweetsArray": [
@@ -198,26 +199,15 @@
         "day": 18
     },
     {
-        "name": "John Stamos",
+        "name": "Rob Gronkowski",
         "tweetsArray": [
-            "When a Beach Boy wanders into your shot! Amazing show last night. Thank you @peacecenter! See you in Nashville - Sunday @theryman",
-            "Ladies first!  And young Blackie wasn't as innocent as he seemed.  Thank God for Soap Opera's and thank God for #GENERALHOSPITAL and all the wonderful cast and crew members for teaching me so much.  Skills I've used my entire career.   #Grateful",
-            "Check out - Me, Bob, Dave, Candace, Jodie and an Olsen’s Halloween costumes this year.  Can you tell who we’re going as?",
-            "If you would have told me, 32 years ago today when Full House first aired.....",
-            "#FBF Jesse and The Rippers reunion soundchecking before @jimmyfallon! @ 30 Rockefeller Plaza"
+            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
+            "I’m Back!!! See you Sunday! @NFLonFOX",
+            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
+            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
+            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
         ],
         "day": 19
-    },
-    {
-        "name": "Tom Hanks",
-        "tweetsArray": [
-            "A hurried worker left a glove. Slow down!",
-            "Big Day for Skyline High School in Oakland, CA!  Glad to be a part of it!  Hanx, ‘74.",
-            "50 years ago. 1.  Send men to the moon. 2.  Return them safely to the Earth. Not easy. Apollo 13.",
-            "Barkhad Abdi!  BAFTA  winner!  He IS the captain now !  Somali champion !!!",
-            "GUMP opens in IMAX Friday. Forrest would wonder who Mr. IMAX  is and how he makes movies so big."
-        ],
-        "day": 20
     }
 ]
 
