@@ -218,6 +218,72 @@
             "GUMP opens in IMAX Friday. Forrest would wonder who Mr. IMAX  is and how he makes movies so big."
         ],
         "day": 20
+    },
+    {
+        "name": "Elton John",
+        "tweetsArray": [
+            "The loss of @ArethaFranklin is a blow for everybody who loves real music: Music from the heart, the soul and the Church. Her voice was unique, her piano playing underrated – she was one of my favourite pianists.",
+            "All my life I’ve tried to use music to bring people together. Yet it saddens me to see how misinformation is now being used to divide our world. I’ve decided to no longer use Twitter, given their recent change in policy which will allow misinformation to flourish unchecked.",
+            "I’m bursting with pride at winning the @goldenglobes award for Best Original Song with Bernie Taupin. In over 52 years of writing songs, Bernie and I have never won an award together.",
+            "Thank you @AppleMusic for choosing #ColdHeart as this week's Hottest Song 🚀",
+            "I’m so proud of #Rocketman and getting to share my story in full colour 🌈 I hope the movie inspires others to ride the highs and lows and #BeExtraordinary."
+        ],
+        "day": 21
+    },
+    {   
+        "name": "Shaquille O’Neal",
+        "tweetsArray": [
+            "Yes, it’s true. Sometimes I wish I was a little bit smaller…just like my favorite @Pepsi mini cans 🙌🏾 #PepsiPartner #IWish #PepsiMinis",
+            "who needs to kno ball, when you kno how to ball? THEMOSTDOMINANTBALLER EVER",
+            "Always good seeing my brother @YaoMing",
+            "Im telling you..I treat my DJ sets like game 7's 🏆",
+            "To all my people in Atlanta, especially in Georgia Tech. Get ready, it’s about to be cracking! Shaqaroni pizza for everybody"
+        ],
+        "day": 22
+    },
+    {
+        "name": "Stephen King",
+        "tweetsArray": [
+            "No such thing as too many books.",
+            "My favorite tee-shirt bears a quote from John Waters: 'If you go home with somebody and they don't have books, don't fuck 'em.'",
+            "I have a book coming out Tuesday. It's called BILLY SUMMERS. I think it's a good one.",
+            "TIME wanted me to be their Person of the Year, but I said no! Won’t pose with Pennywise the Clown on my lap! Sorry, TIME! Sad!!!",
+            "While I was writing THE SHINING and THE STAND, I lived on 42nd Street in Boulder, a 5-minute walk from the Table Mesa King Soopers."
+        ],
+        "day": 23
+    },
+    {
+        "name": "Dwayne Johnson",
+        "tweetsArray": [
+            "Today's the day 💥XFL 2024 Season Tickets ON SALE NOW Be part of the family. Get your tix today",
+            "Great talk with @joerogan and fuck we had some laughs. 🌶️ 🍍",
+            "Chills 🤯🌋#BlackAdam is a GREAT TIME at the movies — here’s an insane AUDIENCE ERUPTION at the end of BLACK ADAM from last night in France 🇫🇷. We opened #1 in France, Korea & Indonesia and the rest of the world opens TONIGHT. Have FUN tonight.",
+            "Wow thank you so much @WWE universe. It’s always my honor and privilege to come home. ~ people’s champ ✊🏾",
+            "First person to find Britt outside Pizzaria Bianco and say “Do you smell what the Rock is cookin’?” wins! #FastFind"
+        ],
+        "day": 24
+    },
+    {
+        "name": "Phil Robertson",
+        "tweetsArray": [
+            "Eat. Sleep. Duck hunt. Baptize someone. Repeat.",
+            "The same people who see black panthers in Louisiana, they also say OJ didn't do it. I'm looking at you, Si. Last day",
+            "Imagine if Al, Jason, Willie & Jep had grown up playing in Times Square instead of on the river bank. In NYC for ITW",
+            "Miss Kay is healing after she took a fall & ended up with 15 stitches and 2 bruised ribs. She stuck with me, so taking care of her is the least I can do. Thank you for the prayers. Our family is grateful.",
+            "Missing Duck Dynasty? In the Woods starts today! #HappyHappyHappy @BeardlessBro says you've got to check it out"
+        ],
+        "day": 25
+    },
+    {
+        "name": "Lenny Kravitz",
+        "tweetsArray": [
+            "Last night with @eltonofficial took me on a journey through my whole life. His music has been a major part of the soundtrack of my experiences and will always remain in my soul. Thank you for your gifts as a musician, a storyteller, and a humanitarian.",
+            "1991 Mama Said European Tour. #tbt 📸: David Hindley",
+            "Thank you @Tromboneshorty for your beautiful interpretation of “It Ain’t Over ‘Til It’s Over.” Love you brother.",
+            "It’s been 10 years since I portrayed the character Cinna in the premiere of The Hunger Games, and later Catching Fire.",
+            "It was so wonderful to create a new version of “Fly Away” with these incredible young Junkanoo musicians in The Bahamas. #FlyAwayBahamas #FlyAwayJunkanoo #BahamasStrong"
+        ],
+        "day": 26
     }
 ]
 
