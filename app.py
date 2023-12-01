@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect, Response, url_for, send_from_directory, jsonify
-from flask_sqlalche import SQLAlchemy
+from flask import Flask, render_template, request, redirect, url_for, send_from_directory, jsonify
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///puzzle_db.db'
@@ -16,12 +16,10 @@ def before_request():
 def index():
     return render_template('index.html')
 
+# Route to serve robots.txt
 @app.route('/robots.txt')
-def noindex():
-    content = "User-Agent: *\nAllow: /\n"
-    response = Response(response=content, status=200, mimetype="text/plain")
-    response.headers["Content-Type"] = "text/plain; charset=utf-8"
-    return response
+def serve_robots():
+    return send_from_directory('/Users/dylanmather/Desktop/work/', 'robots.txt')
 
 class Puzzle(db.Model):
     id = db.Column(db.Integer, primary_key=True)
