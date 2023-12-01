@@ -284,6 +284,28 @@
             "It was so wonderful to create a new version of “Fly Away” with these incredible young Junkanoo musicians in The Bahamas. #FlyAwayBahamas #FlyAwayJunkanoo #BahamasStrong"
         ],
         "day": 26
+    },
+    {
+        "name": "Reese Witherspoon",
+        "tweetsArray": [
+            "What a legend and a trailblazer! Barbara Walters always exuded intelligence and grace in every encounter. Her curiosity and kindness came through in every interview. Every time I was interviewed by her, I felt her genuine warmth. Sending so much love to her family and fans.",
+            "To the woman in the parking lot who just asked me if I was Carrie Underwood : You officially made my day!",
+            "I have fallen in love with so many costumes over the years and I keep one from every movie. But one special dress stands out! My Oscar dress in 2006: it was a 1957 Christian Dior bought at a vintage store in Paris. So dreamy! ✨",
+            "Meet Marilee! She has been my double in 5 movies and now she is helping out on #BigLittleLies! Don’t we look alike?! 👯‍♀️",
+            "It’s Legally Blonde’s 15th Anniversary, y’all! 💖💁🏼 Show me how you’re celebrating by using #LegallyBlonde15 🎀💋"
+        ],
+        "day": 27
+    },
+    {
+        "name": "Howie Mandel",
+        "tweetsArray": [
+            "RT @TVMoJoe: At theater showing Gremlins on very big screen. And just realized: I never actually saw it! --- enjoy me as voice of gizmo",
+            "Just finished taping tonight show with jay Leno and Hannibal means. Watch tonight",
+            "As a Germaphobe, I am thrilled to be the first Co-Host on the brand new germ free set on LIVE with KELLY next...",
+            "I am absolutely shocked. In my ten years on #AGT, I haven't seen anything this precise, athletic, and dangerous done by a group of young people. Well done and congratulations on the Golden Buzzer @v_unbeatable",
+            "I spent my time on Deal or no Deal just standing there telling people to open their cases while 26 women just stared at me like I was just a sexual object."
+        ],
+        "day": 28
     }
 ]
 
