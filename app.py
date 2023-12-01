@@ -1,8 +1,14 @@
+import os
 from flask import Flask, render_template, request, redirect, Response, url_for, send_from_directory, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///puzzle_db.db'
+# Use SQLite URI for local development and Postgre for Production
+default_database_uri = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', default_database_uri)
+
+# Silence the deprecation warning
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 @app.before_request
