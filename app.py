@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, Response, url_for, send_from_directory, jsonify
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalche import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///puzzle_db.db'
