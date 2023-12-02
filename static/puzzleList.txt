@@ -1,5 +1,4 @@
 [
-    
     {
         "name": "Ryan Reynolds",
         "tweetsArray": [
@@ -199,15 +198,114 @@
         "day": 18
     },
     {
-        "name": "Rob Gronkowski",
+        "name": "John Stamos",
         "tweetsArray": [
-            "We’re cooking with Kmet and the Commanders on @fdsportsbook🔥🔥🔥",
-            "I’m Back!!! See you Sunday! @NFLonFOX",
-            "Tommy, since I already wrote you a long retirement message last year, this time I shall say, welcome to the 2x retired club. You’re a legend and you always will be, my friend ♥️🏉 @TomBrady",
-            "What do you say @TomBrady, one more touchdown pass at the @Autograph party today for old time’s sake?",
-            "The Gronk Spike returns to @EAMaddenNFL tomorrow 😤 @EASPORTS_MUTx #EAathlete #ad"
+            "When a Beach Boy wanders into your shot! Amazing show last night. Thank you @peacecenter! See you in Nashville - Sunday @theryman",
+            "Ladies first!  And young Blackie wasn't as innocent as he seemed.  Thank God for Soap Opera's and thank God for #GENERALHOSPITAL and all the wonderful cast and crew members for teaching me so much.  Skills I've used my entire career.   #Grateful",
+            "Check out - Me, Bob, Dave, Candace, Jodie and an Olsen’s Halloween costumes this year.  Can you tell who we’re going as?",
+            "If you would have told me, 32 years ago today when Full House first aired.....",
+            "#FBF Jesse and The Rippers reunion soundchecking before @jimmyfallon! @ 30 Rockefeller Plaza"
         ],
         "day": 19
+    },
+    {
+        "name": "Tom Hanks",
+        "tweetsArray": [
+            "A hurried worker left a glove. Slow down!",
+            "Big Day for Skyline High School in Oakland, CA!  Glad to be a part of it!  Hanx, ‘74.",
+            "50 years ago. 1.  Send men to the moon. 2.  Return them safely to the Earth. Not easy. Apollo 13.",
+            "Barkhad Abdi!  BAFTA  winner!  He IS the captain now !  Somali champion !!!",
+            "GUMP opens in IMAX Friday. Forrest would wonder who Mr. IMAX  is and how he makes movies so big."
+        ],
+        "day": 20
+    },
+    {
+        "name": "Elton John",
+        "tweetsArray": [
+            "The loss of @ArethaFranklin is a blow for everybody who loves real music: Music from the heart, the soul and the Church. Her voice was unique, her piano playing underrated – she was one of my favourite pianists.",
+            "All my life I’ve tried to use music to bring people together. Yet it saddens me to see how misinformation is now being used to divide our world. I’ve decided to no longer use Twitter, given their recent change in policy which will allow misinformation to flourish unchecked.",
+            "I’m bursting with pride at winning the @goldenglobes award for Best Original Song with Bernie Taupin. In over 52 years of writing songs, Bernie and I have never won an award together.",
+            "Thank you @AppleMusic for choosing #ColdHeart as this week's Hottest Song 🚀",
+            "I’m so proud of #Rocketman and getting to share my story in full colour 🌈 I hope the movie inspires others to ride the highs and lows and #BeExtraordinary."
+        ],
+        "day": 21
+    },
+    {   
+        "name": "Shaquille O’Neal",
+        "tweetsArray": [
+            "Yes, it’s true. Sometimes I wish I was a little bit smaller…just like my favorite @Pepsi mini cans 🙌🏾 #PepsiPartner #IWish #PepsiMinis",
+            "who needs to kno ball, when you kno how to ball? THEMOSTDOMINANTBALLER EVER",
+            "Always good seeing my brother @YaoMing",
+            "Im telling you..I treat my DJ sets like game 7's 🏆",
+            "To all my people in Atlanta, especially in Georgia Tech. Get ready, it’s about to be cracking! Shaqaroni pizza for everybody"
+        ],
+        "day": 22
+    },
+    {
+        "name": "Stephen King",
+        "tweetsArray": [
+            "No such thing as too many books.",
+            "My favorite tee-shirt bears a quote from John Waters: 'If you go home with somebody and they don't have books, don't fuck 'em.'",
+            "I have a book coming out Tuesday. It's called BILLY SUMMERS. I think it's a good one.",
+            "TIME wanted me to be their Person of the Year, but I said no! Won’t pose with Pennywise the Clown on my lap! Sorry, TIME! Sad!!!",
+            "While I was writing THE SHINING and THE STAND, I lived on 42nd Street in Boulder, a 5-minute walk from the Table Mesa King Soopers."
+        ],
+        "day": 23
+    },
+    {
+        "name": "Dwayne Johnson",
+        "tweetsArray": [
+            "Today's the day 💥XFL 2024 Season Tickets ON SALE NOW Be part of the family. Get your tix today",
+            "Great talk with @joerogan and fuck we had some laughs. 🌶️ 🍍",
+            "Chills 🤯🌋#BlackAdam is a GREAT TIME at the movies — here’s an insane AUDIENCE ERUPTION at the end of BLACK ADAM from last night in France 🇫🇷. We opened #1 in France, Korea & Indonesia and the rest of the world opens TONIGHT. Have FUN tonight.",
+            "Wow thank you so much @WWE universe. It’s always my honor and privilege to come home. ~ people’s champ ✊🏾",
+            "First person to find Britt outside Pizzaria Bianco and say “Do you smell what the Rock is cookin’?” wins! #FastFind"
+        ],
+        "day": 24
+    },
+    {
+        "name": "Phil Robertson",
+        "tweetsArray": [
+            "Eat. Sleep. Duck hunt. Baptize someone. Repeat.",
+            "The same people who see black panthers in Louisiana, they also say OJ didn't do it. I'm looking at you, Si. Last day",
+            "Imagine if Al, Jason, Willie & Jep had grown up playing in Times Square instead of on the river bank. In NYC for ITW",
+            "Miss Kay is healing after she took a fall & ended up with 15 stitches and 2 bruised ribs. She stuck with me, so taking care of her is the least I can do. Thank you for the prayers. Our family is grateful.",
+            "Missing Duck Dynasty? In the Woods starts today! #HappyHappyHappy @BeardlessBro says you've got to check it out"
+        ],
+        "day": 25
+    },
+    {
+        "name": "Lenny Kravitz",
+        "tweetsArray": [
+            "Last night with @eltonofficial took me on a journey through my whole life. His music has been a major part of the soundtrack of my experiences and will always remain in my soul. Thank you for your gifts as a musician, a storyteller, and a humanitarian.",
+            "1991 Mama Said European Tour. #tbt 📸: David Hindley",
+            "Thank you @Tromboneshorty for your beautiful interpretation of “It Ain’t Over ‘Til It’s Over.” Love you brother.",
+            "It’s been 10 years since I portrayed the character Cinna in the premiere of The Hunger Games, and later Catching Fire.",
+            "It was so wonderful to create a new version of “Fly Away” with these incredible young Junkanoo musicians in The Bahamas. #FlyAwayBahamas #FlyAwayJunkanoo #BahamasStrong"
+        ],
+        "day": 26
+    },
+    {
+        "name": "Reese Witherspoon",
+        "tweetsArray": [
+            "What a legend and a trailblazer! Barbara Walters always exuded intelligence and grace in every encounter. Her curiosity and kindness came through in every interview. Every time I was interviewed by her, I felt her genuine warmth. Sending so much love to her family and fans.",
+            "To the woman in the parking lot who just asked me if I was Carrie Underwood : You officially made my day!",
+            "I have fallen in love with so many costumes over the years and I keep one from every movie. But one special dress stands out! My Oscar dress in 2006: it was a 1957 Christian Dior bought at a vintage store in Paris. So dreamy! ✨",
+            "Meet Marilee! She has been my double in 5 movies and now she is helping out on #BigLittleLies! Don’t we look alike?! 👯‍♀️",
+            "It’s Legally Blonde’s 15th Anniversary, y’all! 💖💁🏼 Show me how you’re celebrating by using #LegallyBlonde15 🎀💋"
+        ],
+        "day": 27
+    },
+    {
+        "name": "Howie Mandel",
+        "tweetsArray": [
+            "RT @TVMoJoe: At theater showing Gremlins on very big screen. And just realized: I never actually saw it! --- enjoy me as voice of gizmo",
+            "Just finished taping tonight show with jay Leno and Hannibal means. Watch tonight",
+            "As a Germaphobe, I am thrilled to be the first Co-Host on the brand new germ free set on LIVE with KELLY next...",
+            "I am absolutely shocked. In my ten years on #AGT, I haven't seen anything this precise, athletic, and dangerous done by a group of young people. Well done and congratulations on the Golden Buzzer @v_unbeatable",
+            "I spent my time on Deal or no Deal just standing there telling people to open their cases while 26 women just stared at me like I was just a sexual object."
+        ],
+        "day": 28
     }
 ]
 
