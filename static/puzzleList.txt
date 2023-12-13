@@ -328,6 +328,17 @@
             "NEVER has a voice coach hand made me a gift!!! Thank you Kelly Clarkson!!! I didn’t want Adam in my picture... What an absolute dickhead."
         ],
         "day": 30
+    },
+    {
+        "name": "Sylvester Stallone",
+        "tweetsArray": [
+            "My buddy 'BILLY' you never know where you’re going to get help writing your next screenplay… Thank you, my furry friend.",
+            "Everyone should try to paint what they are feeling ! Keep Punching!",
+            "Happy 21st birthday to our wonderful daughter, Scarlet! You bring pure joy into our lives!",
+            "A nostalgic throwback to when I was training for Rambo three with the great Franco Colombo who is standing in the background. The good old days.",
+            "A time capsule before Rocky was made in 1976"
+        ],
+        "day": 31
     }
 ]
 
