@@ -339,6 +339,17 @@
             "A time capsule before Rocky was made in 1976"
         ],
         "day": 31
+    },
+    {
+        "name": "Adam Sandler",
+        "tweetsArray": [
+            "Go get em Duke",
+            "Shooting movies is fun. Back together with the Rock",
+            "Congrats to my movie partner Jennifer Aniston on the hard work and all her funniness! @peopleschoice",
+            "25 years today and yet the jury’s still out: shampoo or conditioner? Love, Billy.",
+            "Whoa! Way to feel the flow, @TigerWoods! Huge congrats! Love, Happy Gilmore"
+        ],
+        "day": 32
     }
 ]
 
