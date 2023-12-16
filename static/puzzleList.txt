@@ -361,6 +361,39 @@
             "Trying to decide who to save TONIGHT on @dancingabc. Who do you want to stay in the competition? @ Dancing With The Stars"
         ],
         "day": 33
+    },
+    {
+        "name": "Al Roker",
+        "tweetsArray": [
+            "Finally hit 91 in NYC. 1st time for meteorological summer in NYC since keeping records 1869.",
+            "This morning our show reminded us of another classic that had their folks in boxes #bradybunch",
+            "With the moustache, I think I look like Idris Elba when in reality, I look like a black Jeffrey Tambor. Not sure",
+            "Got plans Monday? After the 3rd Hour of Today, tune in for my @propelify chat with entertainment execs, Madison Merritt of @eonegroup & Michael Smith of @npr as we discuss #DiversityandInclusion in Media. This insightful talk is free here","Got plans Monday? After the 3rd Hour of Today, tune in for my @propelify chat with entertainment execs, Madison Merritt of @eonegroup & Michael Smith of @npr as we discuss #DiversityandInclusion in Media. This insightful talk is free here",
+            "Hey, @MikeTrout I know you’re a HUGE #weather #geek so I would love to do weather with you on @TODAYshow"
+        ],
+        "day": 34
+    },
+    {
+        "name": "Gordon Ramsay",
+        "tweetsArray": [
+            "Looking to cook something up tonight with #Uncharted ?? This ribeye might do the trick !",
+            "@RealStevenAdams teach me how to dunk and I'll teach you how to make the perfect Wellington.....Deal ?",
+            "We lost a fantastic chef today in Gary Rhodes. He was a chef who put British Cuisine on the map. Sending all the love and prayers to your wife and kids. You’ll be missed Gx",
+            "Dear America, I'm praying tonight that the chefs in @HellsKitchenFOX can get through a service mistake free.....I don't think my prayers will be answered....See you at 8/7c",
+            "Let’s take this to the Next Level….#NextLevelChef starts NOW !"
+        ],
+        "day": 35
+    },
+    {
+        "name": "Miley Cyrus",
+        "tweetsArray": [
+            "Performing at The Grammys today! Here's a photo of my dad  being hunky in the '90s at the @RecordingAcad!!!",
+            "Gale is pretty sexy ;) RT @YO_NAT OBSESSED W THE HUNGER GAMES",
+            "It is no secret that I was into partying in my teens and early 20’s. I have not only smoked, but advocated for weed, I’ve experimented with drugs, my biggest song to date is about dancing on molly and snorting lines in the bathroom.",
+            "I swung on a wrecking ball naked.",
+            "Ketchup may be a great hand moisturizer BUT NOT sanitizer! Happy Hannah-Versary! #14YearsOfHannahMontana ❤️"
+        ],
+        "day": 36
     }
 ]
 
