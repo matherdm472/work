@@ -350,6 +350,17 @@
             "Whoa! Way to feel the flow, @TigerWoods! Huge congrats! Love, Happy Gilmore"
         ],
         "day": 32
+    },
+    {
+        "name": "Derek Hough",
+        "tweetsArray": [
+            "Good luck to Charlie and Meryl. Cannot wait to see you create magic on the ice. You can do it !!!!! #olympics",
+            "I was hired to be julianne's personal dress holder for tonight's Emmys. Nailed it!…",
+            "'Hold my gaze.' Heart broken by the news of our dear friend and mentor Len Goodman. Still hard to fully process but filled with gratitude knowing I had the privilege of working beside this absolute legend. We will miss you dearly Len. We love you ❤️ Rest In Peace my friend",
+            "My toughest critic and judge is actually gonna be a judge on DWTS. Uh oh!!! Congrats Jules !! Gonna be a fun and interesting season 😃👍",
+            "Trying to decide who to save TONIGHT on @dancingabc. Who do you want to stay in the competition? @ Dancing With The Stars"
+        ],
+        "day": 33
     }
 ]
 
