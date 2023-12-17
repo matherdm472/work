@@ -4,8 +4,16 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 # Use SQLite URI for local development and Postgre for Production
-default_database_uri = 'sqlite:///test.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', default_database_uri)
+
+# Configure PostgreSQL database
+db_url = os.environ.get('DATABASE_URL')
+if db_url:
+    # Extract the database name from the DATABASE_URL
+    db_name = db_url.split("/")[-1]
+    app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+else:
+    # If DATABASE_URL is not available, use a default local database
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
 # Silence the deprecation warning
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False

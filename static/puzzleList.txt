@@ -231,7 +231,7 @@
         "day": 21
     },
     {   
-        "name": "Shaquille O’Neal",
+        "name": "Shaquille O'Neal",
         "tweetsArray": [
             "Yes, it’s true. Sometimes I wish I was a little bit smaller…just like my favorite @Pepsi mini cans 🙌🏾 #PepsiPartner #IWish #PepsiMinis",
             "who needs to kno ball, when you kno how to ball? THEMOSTDOMINANTBALLER EVER",
@@ -306,8 +306,93 @@
             "I spent my time on Deal or no Deal just standing there telling people to open their cases while 26 women just stared at me like I was just a sexual object."
         ],
         "day": 28
+    },
+    {
+        "name": "Seth MacFarlane",
+        "tweetsArray": [
+            "I wonder how long until Fox invites Putin to be on The Masked Singer.",
+            "Surprise! @LizGillies and I are back with more music! And at long last, we’ve got what you’ve been asking us for: a Christmas record!  'We Wish You The Merriest' is coming to you this holiday season! Here’s a sneak peek!",
+            "Even when the cameras aren’t rolling, Ted’s devotion to method acting demands that he remain a bear. @peacock",
+            "Tucker Carlson’s latest opinion piece once again makes me wish Family Guy was on any other network. Look, Fox, we both know this marriage isn’t working anymore. The sex is only once a year, I don’t get along with your mother, and well… I’ve been having an affair with NBC.",
+            "A message from Stewie and Brian:"
+        ],
+        "day": 29
+    },
+    {
+        "name": "Blake Shelton",
+        "tweetsArray": [
+            "Im so drunk right now I just walked in to Kentucky Fried Chicken and shouted 'Finger licking good?!! Can yall dump my order in my pants?!'",
+            "Re-writing my favorite Florida Georgia Line song... 'Baby that's wrong it makes me wanna roll my window down and puke..'",
+            "Well it wasn't easy but I decided to be honest and tell Miranda that Taylor Swifts song 'Wildest Dreams' is about me.. Shes still laughing.",
+            "I love country music!!!!!!! Thanks for the good time #CMASummerJam! @gwenstefani @CountryMusic",
+            "NEVER has a voice coach hand made me a gift!!! Thank you Kelly Clarkson!!! I didn’t want Adam in my picture... What an absolute dickhead."
+        ],
+        "day": 30
+    },
+    {
+        "name": "Sylvester Stallone",
+        "tweetsArray": [
+            "My buddy 'BILLY' you never know where you’re going to get help writing your next screenplay… Thank you, my furry friend.",
+            "Everyone should try to paint what they are feeling ! Keep Punching!",
+            "Happy 21st birthday to our wonderful daughter, Scarlet! You bring pure joy into our lives!",
+            "A nostalgic throwback to when I was training for Rambo three with the great Franco Colombo who is standing in the background. The good old days.",
+            "A time capsule before Rocky was made in 1976"
+        ],
+        "day": 31
+    },
+    {
+        "name": "Adam Sandler",
+        "tweetsArray": [
+            "Go get em Duke",
+            "Shooting movies is fun. Back together with the Rock",
+            "Congrats to my movie partner Jennifer Aniston on the hard work and all her funniness! @peopleschoice",
+            "25 years today and yet the jury’s still out: shampoo or conditioner? Love, Billy.",
+            "Whoa! Way to feel the flow, @TigerWoods! Huge congrats! Love, Happy Gilmore"
+        ],
+        "day": 32
+    },
+    {
+        "name": "Derek Hough",
+        "tweetsArray": [
+            "Good luck to Charlie and Meryl. Cannot wait to see you create magic on the ice. You can do it !!!!! #olympics",
+            "I was hired to be julianne's personal dress holder for tonight's Emmys. Nailed it!…",
+            "'Hold my gaze.' Heart broken by the news of our dear friend and mentor Len Goodman. Still hard to fully process but filled with gratitude knowing I had the privilege of working beside this absolute legend. We will miss you dearly Len. We love you ❤️ Rest In Peace my friend",
+            "My toughest critic and judge is actually gonna be a judge on DWTS. Uh oh!!! Congrats Jules !! Gonna be a fun and interesting season 😃👍",
+            "Trying to decide who to save TONIGHT on @dancingabc. Who do you want to stay in the competition? @ Dancing With The Stars"
+        ],
+        "day": 33
+    },
+    {
+        "name": "Al Roker",
+        "tweetsArray": [
+            "Finally hit 91 in NYC. 1st time for meteorological summer in NYC since keeping records 1869.",
+            "This morning our show reminded us of another classic that had their folks in boxes #bradybunch",
+            "With the moustache, I think I look like Idris Elba when in reality, I look like a black Jeffrey Tambor. Not sure",
+            "Got plans Monday? After the 3rd Hour of Today, tune in for my @propelify chat with entertainment execs, Madison Merritt of @eonegroup & Michael Smith of @npr as we discuss #DiversityandInclusion in Media. This insightful talk is free here","Got plans Monday? After the 3rd Hour of Today, tune in for my @propelify chat with entertainment execs, Madison Merritt of @eonegroup & Michael Smith of @npr as we discuss #DiversityandInclusion in Media. This insightful talk is free here",
+            "Hey, @MikeTrout I know you’re a HUGE #weather #geek so I would love to do weather with you on @TODAYshow"
+        ],
+        "day": 34
+    },
+    {
+        "name": "Gordon Ramsay",
+        "tweetsArray": [
+            "Looking to cook something up tonight with #Uncharted ?? This ribeye might do the trick !",
+            "@RealStevenAdams teach me how to dunk and I'll teach you how to make the perfect Wellington.....Deal ?",
+            "We lost a fantastic chef today in Gary Rhodes. He was a chef who put British Cuisine on the map. Sending all the love and prayers to your wife and kids. You’ll be missed Gx",
+            "Dear America, I'm praying tonight that the chefs in @HellsKitchenFOX can get through a service mistake free.....I don't think my prayers will be answered....See you at 8/7c",
+            "Let’s take this to the Next Level….#NextLevelChef starts NOW !"
+        ],
+        "day": 35
+    },
+    {
+        "name": "Miley Cyrus",
+        "tweetsArray": [
+            "Performing at The Grammys today! Here's a photo of my dad  being hunky in the '90s at the @RecordingAcad!!!",
+            "Gale is pretty sexy ;) RT @YO_NAT OBSESSED W THE HUNGER GAMES",
+            "It is no secret that I was into partying in my teens and early 20’s. I have not only smoked, but advocated for weed, I’ve experimented with drugs, my biggest song to date is about dancing on molly and snorting lines in the bathroom.",
+            "I swung on a wrecking ball naked.",
+            "Ketchup may be a great hand moisturizer BUT NOT sanitizer! Happy Hannah-Versary! #14YearsOfHannahMontana ❤️"
+        ],
+        "day": 36
     }
 ]
-
-    
-    

@@ -54,31 +54,6 @@ export async function openAnalyticsModal() {
     }
 }
 
-/*
-function updateAnalyticsUI(data) {
-    const analytics = document.querySelectorAll('.analytics');
-    if (data && data.attempts) {
-        const analyticsArray = ['one', 'two', 'three', 'four', 'five', 'wrong'];
-
-        analyticsArray.forEach((attempt, i) => {
-            const attemptValue = data.attempts[attempt];
-            if(attempt === 'wrong') {
-                analytics[i].textContent = `Incorrect: ${attemptValue}`;
-            } else if (analytics[i] && i === 0) { // Check if analytics[i] is defined and is one attempt
-                analytics[i].textContent = `${i + 1} Attempt: ${attemptValue}`;
-            } else if (analytics[i]) { // Check if analytics[i] is defined
-                analytics[i].textContent = `${i + 1} Attempts: ${attemptValue}`;
-            } else {
-                console.error(`Element at index ${i} in 'analytics' array is undefined.`);
-            }
-        });
-        openModal('#analyticsModal');
-    } else {
-        console.error('Invalid data format:', data);
-    }
-}
-*/
-
 function updateAnalyticsUI(data) {
     const analyticsArray = ['one', 'two', 'three', 'four', 'five', 'wrong'];
 
@@ -88,9 +63,9 @@ function updateAnalyticsUI(data) {
     analyticsArray.forEach((attempt, i) => {
         const attemptValue = data.attempts[attempt];
 
-        if (attempt !== 'wrong' && attemptValue != 0) {
+        if (attempt != 'wrong' && attemptValue != 0) {
             totalAttempts += (i + 1) * attemptValue;
-            wonGames++;
+            wonGames += attemptValue;
         }
     });
 
