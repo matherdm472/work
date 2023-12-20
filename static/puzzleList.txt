@@ -394,6 +394,17 @@
             "Ketchup may be a great hand moisturizer BUT NOT sanitizer! Happy Hannah-Versary! #14YearsOfHannahMontana ❤️"
         ],
         "day": 36
+    },
+    {
+        "name": "Salma Hayek",
+        "tweetsArray": [
+            "Happy Birthday 🎈 old man. Feliz cumpleaños 🎊 viejo!",
+            "Back in the day they used to say I’ll looked like Winona Ryder, what do you think? En aquellos tiempos me decían que me parecía a Winona Ryder, que piensan?",
+            "So happy for the 3 ANNIE AWARDS nominations that 'Kahlil Gibran's The Prophet' got today, including BEST ANIMATED FEATURE-INDEPENDENT.",
+            "Cracking my self up while doing ADR for my movie 'Like A Boss' coming out in January.",
+            "I wonder what Frida would think about gifs. Me pregunto qué pensaría Frida de los gifs."
+        ],
+        "day": 37
     }
 ]
 
