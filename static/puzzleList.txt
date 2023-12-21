@@ -405,6 +405,17 @@
             "I wonder what Frida would think about gifs. Me pregunto qué pensaría Frida de los gifs."
         ],
         "day": 37
+    },
+    {
+        "name": "Ben Shapiro",
+        "tweetsArray": [
+            "Bella Hadid is truly one of the dumbest people alive. Every member of the British Mandate Palestine football team was Jewish.",
+            "RIP Rush Limbaugh, the creator of talk radio and by extension the alternative media, an indispensable and iconic conservative voice.",
+            "When I quit Breitbart, they were upset I called them Trump Pravda and specifically singled out Bannon as the betrayer of Andrew's legacy.",
+            ".@MattWalshBlog’s producer got approved for the removal of his testicles in just #22minutes. Matt joined me on my show today to talk more about his thread exposing the lies behind 'gender-affirming care.' Check it out:",
+            "One of the Daily Wire subscribers just gave us an absolutely inspiring message I thought I would share: buy a man a plane ticket, he will fly once; push him out of the airplane, and he will fly for the rest of his life."
+        ],
+        "day": 38
     }
 ]
 
