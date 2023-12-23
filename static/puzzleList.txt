@@ -427,6 +427,39 @@
             "Do YOU want an authentic Iron Man helmet & signed placard from me? 24 hours to ENTER:"
         ],
         "day": 39
+    },
+    {
+        "name": "Michael B. Jordan",
+        "tweetsArray": [
+            "Honored. See you on the pitch @afcbournemouth",
+            "I’m excited to join #chasesapphire as a storyteller and creative to show the out of the box experiences available exclusively to Sapphire Reserve cardmembers.",
+            "New trailer for @marvel first family The Fantastic Four!! #HumanTorch",
+            "Wakanda Forever. #blackpanther #teamkillmonger",
+            "Happy holidays from the Creed family, to yours! #Creed3"
+        ],
+        "day": 40
+    },
+    {
+        "name": "Rob Lowe",
+        "tweetsArray": [
+            "The head of a major Hollywood studio stepping down to basically run Snapchat, tells you all you need to know about the state of movies today",
+            "I’m on Ellen today talking Mental Samurai, which premieres TOMORROW on @FOXTV!! #MentalSamurai",
+            "Had such a blast catching up with fellow brat packer, @AndrewTMcCarthy and going down memory lane. Only on an all new LITERALLY! Link in bio.",
+            "Has there ever been a more industrious, versatile (and successful) cast than 'Parks And Rec'? Blockbusters, books, tours, new shows, etc.",
+            "18th birthday on the set of The Outsiders. 57th on the set of 911 Lonestar. In between have been amazing gifts professionally and personally. I am a grateful man. Thank you for the birthday wishes. Means a lot. Love you all!"
+        ],
+        "day": 41
+    },
+    {
+        "name": "Phil Jackson",
+        "tweetsArray": [
+            "For those folks that disagree with my SAnt statement think this: A dynasty definition is a sequential ruler…sorry the Spurs did not win 2xs.",
+            "Former teammate Walt Bellamy-the “Big Bell” has ceased to ring…R.I.P. Bells. He helped my rookie teammate, Walt Frazier, and I break in NBA",
+            "In the triangle offensive link you just posted everything is good, but the details…where the devil resides. Footwork/passing/ how to step.",
+            "Here's what: We have brought change to the Knicks team. The real dimension of change is how much the players what to unite in this change",
+            "Listen friends of bball; don’t get hung up on words. I was most fortunate to have the chance to coach two of the greatest gds. EVER MJ/Kobe"
+        ],
+        "day": 42
     }
 ]
 
