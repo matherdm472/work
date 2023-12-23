@@ -460,6 +460,17 @@
             "Listen friends of bball; don’t get hung up on words. I was most fortunate to have the chance to coach two of the greatest gds. EVER MJ/Kobe"
         ],
         "day": 42
+    },
+    {
+        "name": "Charlie Sheen",
+        "tweetsArray": [
+            "Update: Sober Valley Lodge;  Rachel has left the building..., We're sad.... Over it... Applications now being accepted!  #winner",
+            "oh, by the way, nice try this morning Brooke. you are a chubby weirdo who will lose at every turn trying to get between me and my boys. c",
+            "I came up with a PERFECT holiday idea! Denise and Phil Robertson should get married! then he can practice the Bestiality he hates! c :)",
+            "Lost a compadre from Platoon Friday...Heart...RIP FRANCESCO QUINN. Much love and compassion to his wife Valentina and his 3 kids c xo",
+            "Surrounded by friends and watching the premier of Two and a Half Men. Odd... But cool..!  So far a lot of laughs!! N..."
+        ],
+        "day": 43
     }
 ]
 
