@@ -493,6 +493,17 @@
             "Jaden with me on the set of the Matrix. I can’t believe he’s about to be 20🙃"
         ],
         "day": 45
+    },
+    {
+        "name": "Neil Patrick Harris",
+        "tweetsArray": [
+            "Today is the 10 Year Anniversary of the release of HAROLD & KUMAR GO TO WHITE CASTLE! So a big...um...wait, what was I talking about..?",
+            "Be you. Be proud. #NationalComingOutDay ❤️ @Davidburtka",
+            "Writing my book. Stuck on the Doogie chapter. Any Howser related questions that you've always wanted to ask? Go for it: Include #QfodDoog",
+            "I just uttered my last word as Barney 'Awesomepants' Stinson today. Nine years. Man, time sure flies when you're having fun...",
+            "Just finished the initial read thru of the final How I Met Your Mother.  Ever. Holy moly. Just... holy dang moly. #soproud"
+        ],
+        "day": 46
     }
 ]
 
