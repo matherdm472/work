@@ -504,6 +504,28 @@
             "Just finished the initial read thru of the final How I Met Your Mother.  Ever. Holy moly. Just... holy dang moly. #soproud"
         ],
         "day": 46
+    },
+    {
+        "name": "Mark Hamill",
+        "tweetsArray": [
+            "The Force is STRONG with Zelenskyy #StandWithUkraineNOW 🇺🇦🇺🇸",
+            "I was so lucky to have worked with this woman. I loved her deeply. She welcomed me, taught me & calmed me when I made my Broadway debut opposite her brilliant Tony-winning performance in The Elephant Man. #RIPCarole",
+            "SHOUT OUT to a certain friend for no particular reason other than being the best Harrison Ford he could possibly be. 🎂",
+            "Tell your friend the same thing I said to @Disney in 2012: 'If #HarrisonFord does it, I'll do it.'",
+            "It's #NationalPretendSiblingDay ❤️ to my super cool space-sis Carrie Frances It's been said that this photo was taken at the exact moment we found out that Luke & Leia were twins. Actually, it was the exact moment we 1st saw George Lucas' bank statement."
+        ],
+        "day": 47
+    },
+    {
+        "name": "Roger Goodell",
+        "tweetsArray": [
+            "Looking forward to playing in 2 Turkey Bowl games tmrw – 1 w/ high school buddies & 1 w/ my family",
+            "Art played important roles as a key advisor to Pete Rozelle and Paul Tagliabue, and also built championship teams in Cleveland and Baltimore",
+            "great seeing some of the former Jets I used to intern for back in 1983. here's Joe Klecko with my new friend Dante.",
+            "These Raiders fans are great. They're saying, 'Pleased to meet you, Commish..how about a picture?.. Raiders baby, all day!'",
+            "Happy Draft Day, NFL fans. Good luck to every team. A quick tour of my basement where I’ll be announcing picks for the 2020 #NFLDraft. See you tonight!"
+        ],
+        "day": 48
     }
 ]
 
