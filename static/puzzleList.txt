@@ -482,6 +482,17 @@
             "Congrats to my partner in laughs @JordanPeele on his first Oscar. #oscarssopeele. #VFOscars"
         ],
         "day": 44
+    },
+    {
+        "name": "Jada Pinkett Smith",
+        "tweetsArray": [
+            "At the Oscars...people of color are always welcomed to give out awards...even entertain, (pt. 1)",
+            "During this time I often think about the many thoughtful debates @2PAC & I’d have around the relationship between racism, sexism, misogyny, poverty & how they play a crucial part in the oppression of Black people & other communities of color so that capitalism could exist/thrive.",
+            "I believe @alfonso_ribeiro and I went on one date. Before I was even on A Different World 😜 This is a little fun piece from the episode streaming now. I hope you check out @RedTableTalk",
+            "That daddy/daughter love I never had ... but it makes my heart smile that Willow does 🙌🏾✨",
+            "Jaden with me on the set of the Matrix. I can’t believe he’s about to be 20🙃"
+        ],
+        "day": 45
     }
 ]
 
