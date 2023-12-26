@@ -471,6 +471,17 @@
             "Surrounded by friends and watching the premier of Two and a Half Men. Odd... But cool..!  So far a lot of laughs!! N..."
         ],
         "day": 43
+    },
+    {
+        "name": "Keegan-Michael Key",
+        "tweetsArray": [
+            "I’m always excited to see @RealChalamet! Congrats brother on the @goldenglobes nomination! @wonkamovie in theaters December 15th! 😃 🍫 👍🏽",
+            "Super proud and excited to be working with @TheElisaKey and @NatGeo on our show Brain Games!",
+            "Thank you @netflixfilm for giving me the opportunity to work alongside Eddie Murphy; my comedy hero. @dolemiteismyname - coming to theaters and Netflix this Fall. Make your own legend. @realwesleysnipe",
+            "Good news: Substitute Teacher is coming back. Bad news: we're not putting it online. If you want to see watch tonight! 10:30/9:30c #MrGarvey",
+            "Congrats to my partner in laughs @JordanPeele on his first Oscar. #oscarssopeele. #VFOscars"
+        ],
+        "day": 44
     }
 ]
 
