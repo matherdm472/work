@@ -537,6 +537,17 @@
             "On set #bts shot of Troy Bolton and Chad Danforth for all the fans watching the #HSM marathon today! - #TeamZE"
         ],
         "day": 49
+    },
+    {
+        "name": "Channing Tatum",
+        "tweetsArray": [
+            "I'm headed to Springfield! Catch my guest-voice appearance on @TheSimpsons this SUN at 8/7c on @FOXTV! #TheSimpsons",
+            "Took this just days after jenna & I (mostly jenna) brought our little girl into the world...",
+            "Worked with John Bernecker on 22 Jump Street. I want to send my deepest condolences to his family. Such a good guy. What an incredible loss.",
+            "'STEP UP' is on TBS right now. Who's watching?",
+            "Think there's still Magic in this Mike? Check out the new trailer and let me know. #MagicMikeXXL #ComeAgain"
+        ],
+        "day": 50
     }
 ]
 
