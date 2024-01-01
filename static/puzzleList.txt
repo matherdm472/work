@@ -526,6 +526,17 @@
             "Happy Draft Day, NFL fans. Good luck to every team. A quick tour of my basement where I’ll be announcing picks for the 2020 #NFLDraft. See you tonight!"
         ],
         "day": 48
+    },
+    {
+        "name": "Zac Efron",
+        "tweetsArray": [
+            "My whole family went to the premiere.  It's totally weird.  I was sitting next to my mom and little brother for the love scenes.  Awkward!",
+            "I want to thank everyone who put their hearts and souls into THE GREATEST SHOWMAN. THE DREAM TEAM of virtuous renegades who made the impossible come true - Congrats on the HFPA nominations 🎉",
+            "Yes, I can't wait to do another musical.  I'm just waiting for the right time and the right one.",
+            "Back and bi's #baywatch",
+            "On set #bts shot of Troy Bolton and Chad Danforth for all the fans watching the #HSM marathon today! - #TeamZE"
+        ],
+        "day": 49
     }
 ]
 
