@@ -548,6 +548,17 @@
             "Think there's still Magic in this Mike? Check out the new trailer and let me know. #MagicMikeXXL #ComeAgain"
         ],
         "day": 50
+    },
+    {
+        "name": "Jerry Seinfeld",
+        "tweetsArray": [
+            "When @mets get hot it's different from Knicks, Yanks or Rangers. It feels like something crazy is happening. #thebest #backinthenygroove",
+            "Liz was always the sweetest, nicest TV mom a son could wish for. Every time she came on our show it was the coziest feeling for me. So lucky to have known her.",
+            "What about 'Bee Movie 2'? What's going on with that? Should I? Any interest?",
+            "12 comedians, 12 hand-picked cars, and of course endless coffee. New episodes of Comedians In Cars Getting Coffee stream July 6, only on @NetflixIsAJoke.",
+            "In 1988 at the Westway Diner on 9th Ave, Larry David and I hatched an idea for a show about a comedian but with no story. Ted Sarandos was 24 years old working as a sales manager for a Blockbuster distributor in Phoenix."
+        ],
+        "day": 51
     }
 ]
 
