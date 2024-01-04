@@ -559,6 +559,17 @@
             "In 1988 at the Westway Diner on 9th Ave, Larry David and I hatched an idea for a show about a comedian but with no story. Ted Sarandos was 24 years old working as a sales manager for a Blockbuster distributor in Phoenix."
         ],
         "day": 51
+    },
+    {
+        "name": "Ed Helms",
+        "tweetsArray": [
+            "It’s official...THE FAKE NEWS IS REAL!!! Tune in Dec 13th at 10pm on Comedy Central",
+            "Why is my whole flight watching the debate when Vacation is on the movie menu? Deeply offended! #Debates2016",
+            "Is this an actual news headline, or a pitch for Hangover 4?",
+            "Wow! I am literally welling up looking at you two awesome people in this awesome photo. So damn grateful for all those good ol' days at Dunder Mifflin!",
+            "I’ll never forget the day I met punk icon Mose Schrute (I’m tweeting this as Andy Bernard)"
+        ],
+        "day": 52
     }
 ]
 
