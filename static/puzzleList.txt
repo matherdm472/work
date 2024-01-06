@@ -581,6 +581,17 @@
             "1999 audience members. 2019 audience members. Thank you to all who celebrated the 20th Anniversary of The Sixth Sense with me at the @PhilaFilmCenter in honor of the @MNSFund. It's a privilege to share my stories with you."
         ],
         "day": 53
+    },
+    {
+        "name": "Camila Cabello",
+        "tweetsArray": [
+            "the Palm trees and the ocean and the sun here remind me so much of living in Cuba and i feel this mix of nostalgia and peace and bliss 💗😌✨",
+            "Happy birthday to this guy!!!! ! He plays the prince in our Cinderella film, (spoiler alert: it’s quite a different take on the story 👀) and it’s his BIRTHDAY today ! Can’t wait for u guys to see us be this stupid on the big screen 🥳🥳🥳 love you lots nickster @nickgalitzine",
+            "my Valentine’s got a ponytail! happy love and friendship day @ShawnMendes",
+            "important announcement: according to the girls of fifth harmony, if i were a vegetable, id be asparagus and if i were a fruit id be a banana",
+            "celebrating 1 billion streams i decided to put out a live version of Havana from my London show, this is one of my favorites to perform live and never gets old  #HavanaLive 🌹🌹"
+        ],
+        "day": 54
     }
 ]
 
