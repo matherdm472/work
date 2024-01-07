@@ -592,6 +592,17 @@
             "celebrating 1 billion streams i decided to put out a live version of Havana from my London show, this is one of my favorites to perform live and never gets old  #HavanaLive 🌹🌹"
         ],
         "day": 54
+    },
+    {
+        "name": "Chris Hansen",
+        "tweetsArray": [
+            "On the set of the the untitled film on White Boy Rick! A story I broke in Detroit around 1987.  My cameo!",
+            "In the woods near Chapel Hill, NC for Killer Instinct! @DiscoveryID #IDAddicts",
+            "Dateline NBC revisits the family who was evicted from their home in Las Vegas last year to see how they are doin..",
+            "After NCAA basketball switch over to NBC for my Dateline investigation... Inside The Financial Fiasco. I am really proud of this one. 7p ...",
+            "He was a cop, a school administrator and now one of the latest predators I’ve caught. Details soon!"
+        ],
+        "day": 55
     }
 ]
 
