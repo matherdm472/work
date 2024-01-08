@@ -603,6 +603,17 @@
             "He was a cop, a school administrator and now one of the latest predators I’ve caught. Details soon!"
         ],
         "day": 55
+    },
+    {
+        "name": "Ric Flair",
+        "tweetsArray": [
+            "To Be The Man, You Gotta Beat The Man! WOOOOO!",
+            "Reunited In Texas! WOOOOO! @undertaker",
+            ".@joerogan, You’re Getting A Lot Of Attention For Calling Me Out! The Only Way To Resolve This Is To Have Me On The Show. I’ll Put You In The Figure Four Leg Lock & We’ll See If You Can Take It! LFG! WOOOOO!",
+            "I Moved To Charlotte In 1974 With $150 In My Pocket. Jimmy Crockett Was My Friend And My Boss. I Can’t Put Into Words How Much He Did For Me And My Career. His Influence And Persistence Helped Me Become The World Champion. My Thoughts And Prayers Are With The Crockett Family! 🙏🏻",
+            "Today Is The Ten Year Anniversary Of My Retirement Match With Shawn Michaels! Thank You Shawn And The WWE For Making My WrestleMania Moment So Special! @WWE"
+        ],
+        "day": 56
     }
 ]
 
