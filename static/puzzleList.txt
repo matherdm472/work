@@ -614,6 +614,28 @@
             "Today Is The Ten Year Anniversary Of My Retirement Match With Shawn Michaels! Thank You Shawn And The WWE For Making My WrestleMania Moment So Special! @WWE"
         ],
         "day": 56
+    },
+    {
+        "name": "Katy Perry",
+        "tweetsArray": [
+            "Thx @CBS 4 including our lil pas de bourree on the list of Greatest Super Bowl Halftimes! Kick off 🏈wknd 2night @ 9!",
+            "OMG #ORLANDOBLOOM LOOKING INSANELY HANDSOME AT THE #GOLDENGLOBES HAPPY ANNIVERSARY MY LOVE ♥️",
+            "Just finished a gorgeous shoot with the lovely Mark Seliger. It was TRES scandal, doing a 'california gurl' shoot on a New York beach!!! :)",
+            "'Baby you’re a firework' is a 10 but women in the US have fewer rights than an actual sparkler smh",
+            "#TBT This weekend marked the 10th anniversary of the release of I Kissed A Girl! 💋 Thank you for believing in me then, and growing with me since 🌱 #doublethrowback"
+        ],
+        "day": 57
+    },
+    {
+        "name": "Bill Nye",
+        "tweetsArray": [
+            "I’m here to save the world... but not without the help of some fine folks like @karliekloss, @schwarzenegger and even @tylerthecreator, to name a few. See for yourself when Season 3 drops May 11 on @netflix. Carry on...",
+            "Air Force One. In the tail is a hydraulic tube I worked on in 1978 during my time at Boeing. My goodness.",
+            "Mr @LeoDiCaprio told the truth about climate change. There's a great deal to do. Let's get to work.",
+            "The evidence is 'Unde NYE able.' See for yourself.",
+            "Happy (socially distanced) Halloween from your friendly neighborhood Science Guy..."
+        ],
+        "day": 58
     }
 ]
 
