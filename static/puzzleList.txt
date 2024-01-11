@@ -636,6 +636,17 @@
             "Happy (socially distanced) Halloween from your friendly neighborhood Science Guy..."
         ],
         "day": 58
+    },
+    {
+        "name": "Selena Gomez",
+        "tweetsArray": [
+            "Chef @CurtisStone shared some of his favorite Australian treats with me, and let’s just say...Vegemite is not my favorite. Get ready for the Twitter Cook Along today at 4 p.m. PT!",
+            "Just found out I got nominated for 2 Kids Choice Awards and Wizards got nominated too!! Ahhhhhhh so blessed!... ",
+            "Next is... 'I, I Love You Like A Love Song Baby...' ;) next singles cominnnnn. Ready??",
+            "Did you watch the premiere of my new video A Year Without Rain last night on Disney Channel? You can watch it...",
+            "Cant wait to get back to Wizards and for everyone to see the Wizards of Waverly Place The Movie coming soon!!"
+        ],
+        "day": 59
     }
 ]
 
