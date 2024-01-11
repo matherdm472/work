@@ -647,6 +647,17 @@
             "Cant wait to get back to Wizards and for everyone to see the Wizards of Waverly Place The Movie coming soon!!"
         ],
         "day": 59
+    },
+    {
+        "name": "J. K. Rowling",
+        "tweetsArray": [
+            "'Damn those lefties and their so-called science. What are they REALLY up to, that's the question. Bet you $10 it's something gay.'",
+            "All any author wants is for their books to be read, so thank *you* ❤️✨",
+            "My one-year-old son just looked up from Twitter and said, 'Mummy, why have you made these very real children sad with your heinous yet unevidenced bigotry?' Then he ran upstairs and burned all his Potter books. I was so damn ashamed I almost forgot the kid was imaginary.",
+            "Today's the day Albus Severus Potter boards the Hogwarts Express at King's Cross for the first time #19yearslater ⚡️",
+            "Robert Galbraith wrote a chapter of the next #Strike book in a trailer on the set of the next #FantasticBeasts movie today 🧙‍♂️🕵️"
+        ],
+        "day": 60
     }
 ]
 
