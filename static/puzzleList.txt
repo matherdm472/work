@@ -658,6 +658,17 @@
             "My one-year-old son just looked up from Twitter and said, 'Mummy, why have you made these very real children sad with your heinous yet unevidenced bigotry?' Then he ran upstairs and burned all his Potter books. I was so damn ashamed I almost forgot the kid was imaginary."
         ],
         "day": 60
+    },
+    {
+        "name": "Viola Davis",
+        "tweetsArray": [
+            "Congrats to all of the #Oscar nominees especially @maryjblige, @octaviaspencer, @JordanPeele, #DeeRees, #DenzelWashington #DanielKaluuya and #GetOut!",
+            "I’m deeply honored and excited to bring this incredible story of these badass female warriors to life. Get ready for THE WOMAN KING, exclusively in movie theaters this Fall!! 🎬👸🏿👑 @WomanKingMovie #BlackHistoryMonth 🤎🤎🤎",
+            "Oi Brazil! Please tune into @CanalSony for Season 3 premiere of How To Get Away With Murder at 9pm. You can't miss it! #MurderNoSony #HTGAWM",
+            "It changed our lives. What an experience. My takeaway? It was the deepest, most intimate, joyful time I spent in the company of women. We are powerful together. The audience received the overflow of the love that we had for each other.❤️💕🌸 #TheHelp #7YearAnniversary #FBF",
+            "Denzel...you are a great director. Great actor and great man!!! #Fences....see you on the big screen!!!!"
+        ],
+        "day": 61
     }
 ]
 
