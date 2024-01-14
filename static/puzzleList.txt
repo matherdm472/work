@@ -669,6 +669,17 @@
             "Denzel...you are a great director. Great actor and great man!!! #Fences....see you on the big screen!!!!"
         ],
         "day": 61
+    },
+    {
+        "name": "Tiger Woods",
+        "tweetsArray": [
+            "What a great night watching @RafaelNadal. Just an incredible performance and awesome way to close out the match. Thanks to @Rolex for hosting us.",
+            "Life came full circle for me this year. Happy Father’s Day Pops and to all Fathers. You’ve taught me so much about the game and how to be there for Sam and Charlie. We miss you.",
+            "Congrats to my niece Cheyenne on winning her first professional event on SunCoast Ladies Series Tour! Won by 4, very proud.",
+            "Pretty cool that at dinner tonight 3 of us sitting next to each other have won a combined 14 green jackets.",
+            "Can’t wait to play in Capital One’s: The Match with @McIlroyRory against @JustinThomas34 and @JordanSpieth to raise money for Hurricane Ian relief. See you boys under the lights on December 10th."
+        ],
+        "day": 62
     }
 ]
 
