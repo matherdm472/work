@@ -680,6 +680,17 @@
             "Can’t wait to play in Capital One’s: The Match with @McIlroyRory against @JustinThomas34 and @JordanSpieth to raise money for Hurricane Ian relief. See you boys under the lights on December 10th."
         ],
         "day": 62
+    },
+    {
+        "name": "Lance Armstrong",
+        "tweetsArray": [
+            "Alright Scotland - it's on. Twitter ride! Meet 5pm tomorrow (Sunday) in Dornoch (Sutherland County) at The Eagle Pub. 30 mile loop.",
+            "Heading to Portland on Monday to celebrate 15 Years Fighting Cancer with my partners at Nike #WhyILivestrong",
+            "Knowing I have 0 cred on the doping issue - I still can't help but think, 'really Di Luca? Are you that fucking stupid??'",
+            "Hey American cycling fans - get ready for one helluva decade coming up!! 💥💥",
+            "And yes, this will be final Tour de France. It's been a great ride. Looking forward to 3 great weeks."
+        ],
+        "day": 63
     }
 ]
 
