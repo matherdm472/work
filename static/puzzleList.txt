@@ -691,6 +691,17 @@
             "And yes, this will be final Tour de France. It's been a great ride. Looking forward to 3 great weeks."
         ],
         "day": 63
+    },
+    {
+        "name": "Kylie Jenner",
+        "tweetsArray": [
+            "Spring vibes. ❤ Three days until our @PacSun Spring 2016 collection is here! #kandk4pacsun",
+            "wow woke up the youngest entry on the @Forbes 100 list .. 🙏",
+            "The internet makes everything 100 times more dramatic than what it really is. There was no '2am date with Tyga'. You see me drop two of my friends off at a studio that he happened to be at.",
+            "Travis and i are on great terms and our main focus right now is Stormi ‼️ our friendship and our daughter is priority",
+            "Good luck to everyone who has finals! // Kardashian Silly Bandz coming, they are so cute"
+        ],
+        "day": 64
     }
 ]
 
