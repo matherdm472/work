@@ -702,6 +702,17 @@
             "Good luck to everyone who has finals! // Kardashian Silly Bandz coming, they are so cute"
         ],
         "day": 64
+    },
+    {
+        "name": "Mark Ruffalo",
+        "tweetsArray": [
+            "As someone who suffered a brain tumor and temporary cognitive dysfunction, I can relate to John. This is a minor thing that passes. These hard times just make us stronger, more compassionate people & better leaders. @JohnFetterman has got guts and heart. #VoteGutsAndHeartJohn",
+            "About last night… 📸 Thank you to everyone who joined us for the premiere of #PoorThings.",
+            "Had the great honor of getting to spend a few days with Dave prepping for 'Zodiac'.  One of the great old timer Americans. RIP Mr Toschi. Honored to have met you and portray you.",
+            "Boris Johnson forgets that the Hulk only fights for the good of the whole. Mad and strong can also be dense and destructive. The Hulk works best when he is in unison with a team, and is a disaster when he is alone. Plus...he’s always got Dr. Banner with science and reason.",
+            "Being a part of the @Marvel family has been the trip of a lifetime. I could not have asked for a better team to spend the last seven years with. I can’t wait for you all to see the epic adventure that is #AvengersEndgame 💚"
+        ],
+        "day": 65
     }
 ]
 
