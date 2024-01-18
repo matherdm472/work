@@ -713,6 +713,17 @@
             "Being a part of the @Marvel family has been the trip of a lifetime. I could not have asked for a better team to spend the last seven years with. I can’t wait for you all to see the epic adventure that is #AvengersEndgame 💚"
         ],
         "day": 65
+    },
+    {
+        "name": "Kevin Bacon",
+        "tweetsArray": [
+            "Wow I'm so moved by this and proud to be 1 Degree from #ellenpage",
+            "Matty Simmons new book! That's me, 19 and not very pretty. But #AnimalHouse not a bad way to start.",
+            "On this day, 28 years ago, Apollo 13 was released. A once in a lifetime shoot and a movie that I was truly proud to be a part of. Kyra looking beautiful and fashion forward, me wearing the same boring thing I wear today! @kyrasedgwick",
+            "Yep we're turning ‘6 degrees of me’ up a notch to 12 degrees! With @Visible, when you bring a friend every month you get every month for $5. 12 friends, 12 $5 months! It's wireless w truly unlimited data so you can stream movies with me. See? Worth it. Terms apply #visiblepartner",
+            "Tonight, let’s dance like it’s 1984. Happy New Year’s Eve 🎉 and don’t forget to cut #Footloose 🎞 Paramount Pictures"
+        ],
+        "day": 66
     }
 ]
 
