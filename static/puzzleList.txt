@@ -724,6 +724,17 @@
             "Tonight, let’s dance like it’s 1984. Happy New Year’s Eve 🎉 and don’t forget to cut #Footloose 🎞 Paramount Pictures"
         ],
         "day": 66
+    },
+    {
+        "name": "Vanna White",
+        "tweetsArray": [
+            "Favorite letters of the day! NYSE",
+            "When I moved to LA in 1980, I was on Price Is Right and met Bob Barker. Thank you Bob for introducing me to the game show world! We will miss you.",
+            "Got Wordle on my 2nd guess! So proud of myself! @WheelofFortune is still my 'number one' game!",
+            "FAQ: Would I be a good @wheeloffortune contestant? Answer: We’ll never know. Who’d turn the letters if I’m at the Wheel? #puzzles",
+            "When we started @WheelofFortune who could have imagined we’d still be at it 41 seasons later? I couldn’t be happier to have shared the stage with you for all these years with one more to come. Cheers to you, @patsajak!"
+        ],
+        "day": 67
     }
 ]
 
