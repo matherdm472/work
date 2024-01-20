@@ -735,6 +735,17 @@
             "When we started @WheelofFortune who could have imagined we’d still be at it 41 seasons later? I couldn’t be happier to have shared the stage with you for all these years with one more to come. Cheers to you, @patsajak!"
         ],
         "day": 67
+    },
+    {
+        "name": "Lin-Manuel Miranda",
+        "tweetsArray": [
+            "Oh. And the theater in Puerto Rico is almost ready...",
+            "This guy lives on my piano when I write Moana songs. @TheRock",
+            "Tweeted this the week I FINISHED WRITING We Don't Talk About Bruno. (Thanks to our amazing producer @yvettmf for remembering!) Still overwhelmed and grateful for all of you, all of you...",
+            "Just finished Thomas Jefferson's first battle rap. He kind of sounds like Drake + Q-Tip.",
+            "Ha! On this date in 2009 I'd been invited to perform at the White House (fairly big-deal rap concert) but hadn't decided to do Hamilton yet."
+        ],
+        "day": 68
     }
 ]
 
