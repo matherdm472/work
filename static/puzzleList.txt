@@ -746,6 +746,17 @@
             "Ha! On this date in 2009 I'd been invited to perform at the White House (fairly big-deal rap concert) but hadn't decided to do Hamilton yet."
         ],
         "day": 68
+    },
+    {
+        "name": "Elliot Page",
+        "tweetsArray": [
+            "I'm super stoked to go chill with @sethmeyers later @LateNightSeth X Men DOFP is just around the corner...",
+            "Best of luck to Chris Nolan, Emma Thomas, Wally Pfister, Hans Zimmer and all other Inception nominees! WOOT WOOT",
+            "With deep respect for those who came before me, gratitude for those who have supported me & great concern for the generation of trans youth we must all protect, please join me and decry anti-trans legislation, hate & discrimination in all its forms.",
+            "Juno live read tonight! Come have fun and let's raise a bunch of money for @ppact ❤",
+            "The Umbrella Academy Coming to @netflix 2.15.19 !!!! umbrellaacad"
+        ],
+        "day": 69
     }
 ]
 
