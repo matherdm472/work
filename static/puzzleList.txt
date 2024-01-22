@@ -757,6 +757,17 @@
             "The Umbrella Academy Coming to @netflix 2.15.19 !!!! umbrellaacad"
         ],
         "day": 69
+    },
+    {
+        "name": "Ellen DeGeneres",
+        "tweetsArray": [
+            "Today's the anniversary of 'The Puppy Episode' of my sitcom. I'm still waiting for that puppy.",
+            "There was a celebrity hiding in my audience today. See if you can find them before I do…",
+            "Check out the new Finding Dory poster! They really captured my eyes. And my tail fin. #HaveYouSeenHer",
+            "Happy Birthday, Abraham Lincoln! I got you what everybody wanted in your day -- a tweet from a lesbian comedian.",
+            "For my final season we’re checking in on the incredible kids we’ve had on the show over the years… today I got an update from one of the most spirited kid singers we’ve seen, Tione Johnson."
+        ],
+        "day": 70
     }
 ]
 
