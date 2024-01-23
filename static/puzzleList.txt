@@ -768,6 +768,17 @@
             "For my final season we’re checking in on the incredible kids we’ve had on the show over the years… today I got an update from one of the most spirited kid singers we’ve seen, Tione Johnson."
         ],
         "day": 70
+    },
+    {
+        "name": "Tom Hiddleston",
+        "tweetsArray": [
+            "The Song of the Day is, without question: 'Midnight City', by M83. It's like going back to the 80s, where things are glorious. #halcyondays",
+            "Kong: Skull Island. A place where myth and science meet.",
+            "My goodness. My brother from another mother. Ladies and gentlemen: @chrishemsworth.",
+            "Thank you to all the incredible fans for an extraordinary #NYCC. It was absolutely bananas, and an absolute blast. @Marvel #avengers",
+            "To all the Loki lovers out there: your messages of support & delight have been AMAZING. Here's a pic to say 'thank you'"
+        ],
+        "day": 71
     }
 ]
 
