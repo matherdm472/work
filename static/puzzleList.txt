@@ -779,6 +779,17 @@
             "To all the Loki lovers out there: your messages of support & delight have been AMAZING. Here's a pic to say 'thank you'"
         ],
         "day": 71
+    },
+    {
+        "name": "Gabrielle Union",
+        "tweetsArray": [
+            "@leannrimes @DaveKrumholtz soooo many fun memories from '10 things I Hate About You' shoot all those yrs ago in Tacoma/Seattle!",
+            "Hmmmm so Isis might have a teenager 🤔🤔🤔🤔🤔🤔😳🤷🏾‍♀️🙏🏾 #BringItOn",
+            "Attention Miami! AMC Aventura 24 we have bought out the 4:15pm & the 5:10pm showings of #BreakingInMovie 1st come 1st serve! Just tell em 'The Wade's sent me!' Happy Mother's Day! #payitforward",
+            "I chose a @Hallmark card to perfectly capture how much I appreciate the big and small things my 'forever person' @DwyaneWade does to make sure I feel loved, even when we’re miles apart. #PutItIntoWords #Ad",
+            "GOOD! Its a spin off! My character 'Syd' from Bad Boys 2 is back and in LA this time around. 🤗💃🏾🔥"
+        ],
+        "day": 72
     }
 ]
 
