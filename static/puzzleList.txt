@@ -790,6 +790,17 @@
             "GOOD! Its a spin off! My character 'Syd' from Bad Boys 2 is back and in LA this time around. 🤗💃🏾🔥"
         ],
         "day": 72
+    },
+    {
+        "name": "Arnold Schwarzenegger",
+        "tweetsArray": [
+            "Niki was a champion. He was an icon. He was an Austrian treasure. He was one of my dear friends. I will miss this generous, trailblazing hero with my whole heart.",
+            "Thank you South Africa! 🇿🇦 Loved winning the Olympia there in 1975 and love visiting!",
+            "These are not just any 76 year-old biceps 💪. Watch the full video on my YouTube channel, and don’t forget to subscribe to the Pump Club!",
+            "Judge Curiel is an American hero who stood up to the Mexican cartels. I was proud to appoint him when I was Gov.",
+            "I’m pumped to be back as @Terminator. Get ready for a big day."
+        ],
+        "day": 73
     }
 ]
 
