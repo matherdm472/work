@@ -801,6 +801,17 @@
             "I’m pumped to be back as @Terminator. Get ready for a big day."
         ],
         "day": 73
+    },
+    {
+        "name": "Ringo Starr",
+        "tweetsArray": [
+            "Hanging out with Henry Diltz. the last Hippie standing we had a great show last night          we’re on the road again playing  Atlantic City again tonight at the. Borgata peace and love 😎✌️🌟💖🎶💕🥦🐘☮️",
+            "God bless Ginger Baker incredible musician wild And inventive. drummer Peace and love to his family 😎✌️🌟❤️🎵🥦🎶☮️",
+            "Man, this beautiful day is getting better and better we were at the Stella McCartney rollerskating party. What a time we had go get them, Paul, peace, and love.",
+            "There certainly was a lot of love last night at the Abbey Road celebration what a time we had also Giles. it sounds great peace and love😎✌️🌟❤️🥦🦏🍒🐘🎵🎶☮️",
+            "Beatles got lifetime achievement awards from the Grammys well done peace and loveR***😎😍😆😀🌟🌟✌️✌️"
+        ],
+        "day": 74
     }
 ]
 
