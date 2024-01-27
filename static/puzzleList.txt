@@ -812,6 +812,17 @@
             "Beatles got lifetime achievement awards from the Grammys well done peace and loveR***😎😍😆😀🌟🌟✌️✌️"
         ],
         "day": 74
+    },
+    {
+        "name": "George Lopez",
+        "tweetsArray": [
+            "Via  @upsetter12 'How and when did you and Sandra Bullock become friends?' She came to see me perform in august of 2000 !",
+            "The Mexican response to The Syrian Refugees ( Hey !! we were unwanted here first ) #Gacho",
+            "New Moon .. With Glopez .. Taylor Lautner .. And Lava Girl .. At 12 years old !!",
+            "Last night the entire cast from my old sitcom reunited... in one Chevy Nova.",
+            "Don't forget to play up tomorrow night! An ALL-NEW #SaintGeorge airs at 9PM on @FXNetworks. Tune in! @officialDannyT"
+        ],
+        "day": 75
     }
 ]
 
