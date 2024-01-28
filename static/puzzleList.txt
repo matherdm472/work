@@ -823,6 +823,17 @@
             "Don't forget to play up tomorrow night! An ALL-NEW #SaintGeorge airs at 9PM on @FXNetworks. Tune in! @officialDannyT"
         ],
         "day": 75
+    },
+    {
+        "name": "Shakira",
+        "tweetsArray": [
+            "There wasn't space for a needle tonight at @TheO2 in London. Thank you for singing all of my songs, whether in Spanish or English. You made me feel at home.",
+            "Remembering the concert for the Peace in 2008 with Carlos Vives! Happy Independence Day Colombia!",
+            "Thank you @jlo for a night that shows how much Latinos have to offer! #SuperBowl #PepsiHalftime",
+            "To celebrate #LaundryService's 20th anniversary tomorrow, the expanded Washed And Dried edition has just been released to download / stream for very the first time - plus we've added the Super Bowl LIV version of Whenever, Wherever!",
+            "Wow! One billion streams for Hips Don't Lie. Thank you to @Spotify for the plaque, to @wyclef for the collaboration and to all of you for your incredible support." 
+        ],
+        "day": 76
     }
 ]
 
