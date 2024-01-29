@@ -834,6 +834,17 @@
             "Wow! One billion streams for Hips Don't Lie. Thank you to @Spotify for the plaque, to @wyclef for the collaboration and to all of you for your incredible support." 
         ],
         "day": 76
+    },
+    {
+        "name": "Justin Timberlake",
+        "tweetsArray": [
+            "The #DreamWorksTrolls Soundtrack cover has just been released! Trolls store goes live tomorrow - stay tuned!",
+            "After what we saw today, we should all be supporting Britney at this time. Regardless of our past, good and bad, and no matter how long ago it was… what’s happening to her is just not right.  No woman should ever be restricted from making decisions about her own body.",
+            "Jessica Biel donating her 29th for @charitywater. Let's build a clean water well today!",
+            "It’s hard to pick that one too!!! Making What Goes Around was amazing because I got to make a true short film BUT, I did get to shoot SexyBack in Barcelona and that is hard to beat!! 2006 video budget hits DIFFERENT.",
+            "#WordsYouWillNeverHearMeSay  'Damn, I wish I still had those 'NSYNC outfits...'"
+        ],
+        "day": 77
     }
 ]
 
