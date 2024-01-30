@@ -845,6 +845,17 @@
             "#WordsYouWillNeverHearMeSay  'Damn, I wish I still had those 'NSYNC outfits...'"
         ],
         "day": 77
+    },
+    {
+        "name": "Tom Cruise",
+        "tweetsArray": [
+            "#MovieTrivia! Who was the actor that played 'Darkness' in 'Legend' & also had a role in 'Rocky Horror Picture Show?'",
+            "You guys ROCK! Thank you so very much for showing Katie Holmes and her new movie the love!",
+            "If YOU were an #MI5 IMF team member, what would YOUR spy name be? Be creative! (FYI, 'Ethan Hunt' is taken;)",
+            "I've always wanted to do a sequence like this. Here's a look at the helicopter stunt from #MissionImpossible.",
+            "I know many of you have waited 34 years. Unfortunately, it will be a little longer. Top Gun: Maverick will fly this December. Stay safe, everyone."
+        ],
+        "day": 78
     }
 ]
 
