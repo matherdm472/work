@@ -856,6 +856,17 @@
             "I know many of you have waited 34 years. Unfortunately, it will be a little longer. Top Gun: Maverick will fly this December. Stay safe, everyone."
         ],
         "day": 78
+    },
+    {
+        "name": "Martha Stewart",
+        "tweetsArray": [
+            "Everyone in iowa city is so friendly and nice! The conference is in its seventh year and has encouraged so many entrepreneurs",
+            "Mr t met me at the Today Show  he is promoting fuze an iced tea",
+            "The book I am talking about is our new cookbook MEATLESS-our first vegetarian cookbook so right for NOW!!!",
+            "Tune in today @CBSSunday in the 9am hour. I’ll be sharing recipes and tips for making delicious homemade jam and discussing the inspiration behind my new CBD collection.",
+            "This is an original Snoop Dogg painting, and Snoop gave it to me as a gift! Very nice, don't you think?"
+        ],
+        "day": 79
     }
 ]
 
