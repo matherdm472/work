@@ -867,6 +867,17 @@
             "This is an original Snoop Dogg painting, and Snoop gave it to me as a gift! Very nice, don't you think?"
         ],
         "day": 79
+    },
+    {
+        "name": "Heidi Klum",
+        "tweetsArray": [
+            "German Cosmopolitan, April 2016 @CosmopolitanDE",
+            "Photo blast from the past: It’s been 10 years since my book came out & I still stand by my 8 Rules of Model Behavior!",
+            "Photo blast from the past: German lingerie catalog shoot…way before I did Victoria's Secret.",
+            "Don’t miss an all new episode of @ProjectRunway tonight with our fabulous guest judge, @MaddieZiegler!",
+            "This is HOW excited I am to see my HOWie! ❤️ Back to work at @agt! @howiemandel"
+        ],
+        "day": 80
     }
 ]
 
