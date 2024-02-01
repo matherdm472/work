@@ -889,6 +889,17 @@
             "Bob Dylan Influenced by KISS? .. decades ago I was friendly with Bob‘s violin player Scarlet Rivera. She told Bob about KISS. Then, Bob came to see us play live. And then, he decided to put on white face paint…Here, let Bob tell the story 🤟😎"
         ],
         "day": 81
+    },
+    {
+        "name": "Joseph Gordon-Levitt",
+        "tweetsArray": [
+            "Me and Daniel Day-Lewis in Steven Spielberg's 'Lincoln'  #TBT",
+            "True.  But south park's Inception parody was way funnier. 'You know you've made out when you're mocked by @SethMacFarlane.'",
+            "'10 Things I Hate About You' came out today, March 31st, back in 1999. I'll never forget that summer, making that movie with such wonderful people. The best of times. Still can't believe it was over 20 years ago. <3",
+            "Today's the 10 year anniversary of Inception. Had a blast making that movie with Mr. Nolan and the entire cast and crew. Shooting this hallway sequence felt like we were carrying on in the grand tradition of Fred Astaire dancing on the ceiling. Such fond memories. <3",
+            "I knew almost nothing about Ed @Snowden before playing him. So curious to hear what you guys think of this movie..."
+        ],
+        "day": 82
     }
 ]
 
