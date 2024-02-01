@@ -900,6 +900,17 @@
             "I knew almost nothing about Ed @Snowden before playing him. So curious to hear what you guys think of this movie..."
         ],
         "day": 82
+    },
+    {
+        "name": "Al Gore",
+        "tweetsArray": [
+            "I am not able to attend this year’s Democratic convention, but I will be voting for Hillary Clinton. (1/3)",
+            "My new book Our Choice is available today. 100% of Tipper and my proceeds will be donated to @repoweramerica",
+            "Throughout his nearly 80 years of public service, Bob Dole was a steadfast defender of his country and of the people of Kansas. May he rest in peace.",
+            "For 36 straight years, temp has been higher than 20th century avg.  Last time it was cooler? 1976, year I was 1st elected to Congress",
+            "The Larsen C ice shelf has broken away from Antarctica, a jarring reminder of why we must solve the climate crisis."
+        ],
+        "day": 83
     }
 ]
 
