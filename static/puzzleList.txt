@@ -878,6 +878,17 @@
             "This is HOW excited I am to see my HOWie! ❤️ Back to work at @agt! @howiemandel"
         ],
         "day": 80
+    },
+    {
+        "name": "Gene Simmons",
+        "tweetsArray": [
+            "Anyone want Demon  waffles for breakfast?",
+            "RIP Ronnie Spector. The iconic voice of the Ronettes.I was proud to have spent some time with Ronnie at A&M Studios, listening to her tell stories about the early years of rock ‘n roll. She will be missed.",
+            "We stopped in at Saskatoon’s Timmy’s @TimHortons, across the street from Tweed Lane, named after Wifey Shannon Tweed. And I must say, it rocked.  Soup, wrap and donut. Delicious. Much better than the competition!",
+            "This young lady in Munich, Germany came up on stage  today while we were doing sound check. There are no fans like KISS fans.",
+            "Bob Dylan Influenced by KISS? .. decades ago I was friendly with Bob‘s violin player Scarlet Rivera. She told Bob about KISS. Then, Bob came to see us play live. And then, he decided to put on white face paint…Here, let Bob tell the story 🤟😎"
+        ],
+        "day": 81
     }
 ]
 
