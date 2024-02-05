@@ -911,6 +911,17 @@
             "The Larsen C ice shelf has broken away from Antarctica, a jarring reminder of why we must solve the climate crisis."
         ],
         "day": 83
+    },
+    {
+        "name": "Sharon Osbourne",
+        "tweetsArray": [
+            ".@piersmorgan How very DARE you say I'm prone to acts of extreme violence in your @EventMagUK interview! I am as gentle as Tinkerbell!",
+            "Hanging with two of my favorite girls, Sammy and Fleur, from two years ago at the The X Factor UK. #tbt",
+            "Don't miss @TaylorSwift13 on #TheTalk today! @TaylorNation13 #TS1989",
+            "60,000 people in Mexico City watching my husband with @BlackSabbath",
+            "52 years together and today 40 years married ❤️ Always by my side. My soulmate, Happy Anniversary Ozzy"
+        ],
+        "day": 84
     }
 ]
 
