@@ -922,6 +922,17 @@
             "52 years together and today 40 years married ❤️ Always by my side. My soulmate, Happy Anniversary Ozzy"
         ],
         "day": 84
+    },
+    {
+        "name": "Kid Rock",
+        "tweetsArray": [
+            "'Go where you're celebrated, not tolerated. I'm celebrated in Detroit.'",
+            "'They call me cowboy, I'm the singer in black. So throw a finger in the air and let me see where you're at'",
+            "We were smoking funny things.",
+            "Another great day on the links! Thank you to POTUS for having me and to EVERYONE at Trump International for being so wonderful. What a great man, so down to earth and so fun to be with!! KEEP AMERICA GREAT!!",
+            "I was in LA after I recorded All Summer Long and heard my old friend Gary and a bunch of the other Skynrd band and crew were hanging at The Sunset Marquis. I went there and played it for them and they all gave me there blessing and support to release it, especially Gary."
+        ],
+        "day": 85
     }
 ]
 
