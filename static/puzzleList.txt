@@ -977,6 +977,17 @@
             "So excited! Best friends are back! Rev up those engines cuz Owen Wilson and I return to voice Lightning McQueen and Mater in the Disney+ original series: Cars on the Road, streaming in 2022! @Pixar @disneyplus #DisneyPlusDay"
         ],
         "day": 89
+    },
+    {
+        "name": "Mike Tyson",
+        "tweetsArray": [
+            "My wife Lakiha is feeling great, our son Morocco Elijah was born on Tuesday, 1/25/11. Everyone's 100% healthy. Thanks for all the love.",
+            "I heard I am the 2nd most influential athlete on Twitter & Facebook.. not bad for a guy who a year ago, didn't know what social media was!",
+            "Neil Sahota of IBM Watson stops by Hotboxin' to talk w/ Eben and Kid Dynamite about the past, present and future of Artificial intelligence. They broach the epic Ali matchup and life run by robots. #hotboxinpodcast",
+            "Chi-town support @holyfield this weekend.He's promoting his ear licking good BBQ sauce at Jewel-Osco",
+            "Cus told me if I listened to him & follow his map for success I would become the youngest heavyweight champion."
+        ],
+        "day": 90
     }
 ]
 
