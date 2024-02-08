@@ -944,6 +944,17 @@
             "Thank you #GoldenGlobes & HFPA. Big thx to Marty, the Wolf cast and crew."
         ],
         "day": 86
+    },
+    {
+        "name": "Phil McGraw",
+        "tweetsArray": [
+            "Working on commencement address for the graduate school at North Texas State U where I received my Masters and Doctorate. This will be fun!",
+            "Today’s show: What advice would you give to someone if you believed they were in an abusive relationship?",
+            "Tomorrow: Jennifer claims her family has been the victims of hackers for almost two years. The problem is her husband, Billy, thinks she is the hacker.",
+            "Sharing some fun psychological facts with @notjayus! #psychology #facts #didyouknow",
+            "Danielle, known as the #CashMeOusside girl, returns tomorrow to discuss her time at a top-level treatment facility."
+        ],
+        "day": 87
     }
 ]
 
