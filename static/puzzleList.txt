@@ -933,6 +933,17 @@
             "I was in LA after I recorded All Summer Long and heard my old friend Gary and a bunch of the other Skynrd band and crew were hanging at The Sunset Marquis. I went there and played it for them and they all gave me there blessing and support to release it, especially Gary."
         ],
         "day": 85
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "tweetsArray": [
+            "We won historic climate action this year after voting in record numbers for our climate in 2020. It’s time to double down — vote tomorrow so we can do more to ramp up clean energy.",
+            "Martin Scorsese is not only one of cinema’s most incredible talents, but a personal hero and a friend. It was an honor to celebrate you tonight, Marty. @MuseumModernArt #MoMAFilmBenefit",
+            "Thank you to the Academy and the incredible cast & crew of #TheRevenant. #Oscars",
+            "I was honored to spend time with Sônia Guajajara, Brazil's Minister of Indigenous Peoples, Célia Xakriabá, Member of Brazil's Chamber of Deputies, and @lily_gladstone, Actor in Killers of the Flower Moon, at the event in Cannes, France.",
+            "Thank you #GoldenGlobes & HFPA. Big thx to Marty, the Wolf cast and crew."
+        ],
+        "day": 86
     }
 ]
 
