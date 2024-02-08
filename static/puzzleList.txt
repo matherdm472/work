@@ -955,6 +955,17 @@
             "Danielle, known as the #CashMeOusside girl, returns tomorrow to discuss her time at a top-level treatment facility."
         ],
         "day": 87
+    },
+    {
+        "name": "Danica Patrick",
+        "tweetsArray": [
+            "NBA legend @chrisbosh is on #PrettyIntense Podcast. You might know him has one of the Miami Big 3. Learn some powerful tips of starting over after greatness.",
+            "Well.... 2018 Daytona 500 and Indy 500 here I come. 🙌🏼",
+            "Time flies when you're having fun. Starting my 26th season of racing!!!",
+            "The adorable @Alyssa_Milano stopped by to say hi and bring me some of her new Touch line for NASCAR!",
+            "Anyone else so excited to see balance coming into our society? I have always been a fan of people finding their passion and working really hard. Even if it’s a girl driving a race car or a boy being a nurse."
+        ],
+        "day": 88
     }
 ]
 
