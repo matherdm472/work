@@ -966,6 +966,17 @@
             "Anyone else so excited to see balance coming into our society? I have always been a fan of people finding their passion and working really hard. Even if it’s a girl driving a race car or a boy being a nurse."
         ],
         "day": 88
+    },
+    {
+        "name": "Larry the Cable Guy",
+        "tweetsArray": [
+            "Starting March 2021 I’ll be hosting a spin-off from Foxworthy’s show smarter than a 5th grader called 'smarter than a cheese grater.' Be sure to tune in.",
+            "RIP Alex! Alex came to see us blue collar guys in LA a couple times and hung out with us backstage. He loved to laugh and was such a sweet man. He’s a legend and will be missed by many",
+            "I'm so excited for @chadthornsberry new album, Smart Comedy from a Dumb Accent. It's the latest release from Git-R-Done Records and @comedydynamics. It's available for download on March 6th.",
+            "Here's some lucky ladies. Proof I am the redneck Brad Pitt!!",
+            "So excited! Best friends are back! Rev up those engines cuz Owen Wilson and I return to voice Lightning McQueen and Mater in the Disney+ original series: Cars on the Road, streaming in 2022! @Pixar @disneyplus #DisneyPlusDay"
+        ],
+        "day": 89
     }
 ]
 
