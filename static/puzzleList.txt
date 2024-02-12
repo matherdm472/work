@@ -988,6 +988,17 @@
             "Cus told me if I listened to him & follow his map for success I would become the youngest heavyweight champion."
         ],
         "day": 90
+    },
+    {
+        "name": "Michael Bublé",
+        "tweetsArray": [
+            "Let the games begin!! Made my picks for the @NHL playoffs! Please God, let this be the year. #NHLBracketChallenge",
+            "I’ve been blessed to have an absolutely amazing career. And I’ve done countless interviews over the past 20 years. But honestly, when I sat down with Ian I had no idea that this would turn out to be the best interview I’ve ever done. If you’ve ever wanted to known exactly what makes me tick and how I became the performer, husband, father, and friend that I am today. This is the interview to watch.",
+            "Join us tonight at 7:30 ET/PT as @jasonderulo and I bring you an exclusive interview, spicing things up with the creation of a massive Spicy Margarita alongside @etnow #SpicyMargarita",
+            "Pop quiz! Which song on my original album became a TIKTOK trend in 2022? 1) Fever 2) Sway 3) Come fly with me",
+            "It’s beginning to look at lot like Xmas! Listen to 'Christmas' & get into the holiday spirit!"
+        ],
+        "day": 91
     }
 ]
 
