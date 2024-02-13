@@ -999,6 +999,17 @@
             "It’s beginning to look at lot like Xmas! Listen to 'Christmas' & get into the holiday spirit!"
         ],
         "day": 91
+    },
+    {
+        "name": "Steve Harvey",
+        "tweetsArray": [
+            "This woman has given me the absolute best years of my life happy anniversary darling ....I love you Marjorie",
+            "This poor girl was having a hard time fitting in at her Black church... You know I got her all the way together!",
+            "I had been praying to God in 2015 to increase my global brand & persona. After the Miss Universe thing, I became the biggest idiot in the history of television. But guess what happened... 48 hours later. I was the most Googled person in 10 years. 4 BILLION impressions in 48 hours",
+            "I went from sleeping in a car with $35 dollars to my name to being the longest-running host of the show. God is always on time, he's never too late.",
+            "Thank to everyone for the love. I am the new host of Family Fued for the fall season!"
+        ],
+        "day": 92
     }
 ]
 
