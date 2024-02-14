@@ -1010,6 +1010,17 @@
             "Thank to everyone for the love. I am the new host of Family Fued for the fall season!"
         ],
         "day": 92
+    },
+    {
+        "name": "Anderson Cooper",
+        "tweetsArray": [
+            "Moderating tonight's Democratic Presidential Debate. Join me at 8pm est live from #Flint...",
+            "About to anchor an hour of coverage on @CNN right now from #Gaza at 3pm est.",
+            "Ep. 3 of ALL THERE IS, a podcast about loss and grief, is now available @ApplePodcasts. It’s a deeply personal look at my brother’s suicide and the ripple effects it’s had on my life. @bjmillermd helps me look at grief in a new way, and can help you too.",
+            "#tbt my mom #Gloria Vanderbilt and me just before I left high school early and moved to Africa.…",
+            "Excited to announce that #DaveChappelle and #JohnMayer will be joining us as guests on New Year’s Eve! #CNNNYE"
+        ],
+        "day": 93
     }
 ]
 
