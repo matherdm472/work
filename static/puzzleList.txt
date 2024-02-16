@@ -1032,6 +1032,17 @@
             "Drunken HUNT FOR RED OCTOBER test.....Say 'Magneto-hydrodynamic drive' three times fast. With a Scottish accent."
         ],
         "day": 94
+    },
+    {
+        "name": "LeBron James",
+        "tweetsArray": [
+            "I’ve heard I’m good with the assist. So I could help out 🤷🏾‍♂️.I mean you do know what today is right???? Taco TUEESSSSSDAY!! 🗣",
+            "Grandma Freda, Gloria Marie, Savannah Rachael, Zhuri Ann Marie Nova I LOVE YOU MY BLACK QUEENS more than life itself!! 👸🏾🖤🖤🖤🖤",
+            "Proud of my brothers that night! Just some kids from Akron Ohio. Can't believe it's been 15 years. Crazy I still have doubters today. 😂🤷🏾‍♂️",
+            "Welcome Big Z. Glad u are joining me in South Beach my friend. Also thanks for the encouraging words big fella",
+            "WE’RE CHAMPIONS!!!!!!!!! It just now hit me!! #LakerNation💜💛 🏆"
+        ],
+        "day": 95
     }
 ]
 
