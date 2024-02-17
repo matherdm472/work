@@ -1043,6 +1043,17 @@
             "WE’RE CHAMPIONS!!!!!!!!! It just now hit me!! #LakerNation💜💛 🏆"
         ],
         "day": 95
+    },
+    {
+        "name": "Pharrell Williams",
+        "tweetsArray": [
+            "My new fragrance  G  I  R  L  for girls & boys is available in Europe at @DoverStMarket",
+            "LOUIS VUITTON MEN Spring-Summer 2024",
+            "About to hit the #BETAwards stage.  #BlurredLines",
+            "This is what the robots gave me right before we made the song #GetLucky. #daftpunk",
+            "Another all nighter. Music for Despicable Me 2 keeps us up all night. It's like love, girls; I got ta'make it. 😚"
+        ],
+        "day": 96
     }
 ]
 
