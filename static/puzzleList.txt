@@ -1054,6 +1054,17 @@
             "Another all nighter. Music for Despicable Me 2 keeps us up all night. It's like love, girls; I got ta'make it. 😚"
         ],
         "day": 96
+    },
+    {
+        "name": "Adam Levine",
+        "tweetsArray": [
+            "Shit. I don’t usually put my foot in my mouth. But this time, I did. ‘This is America’ actually WAS nominated for 7 VMAs. How I didn’t  get the right info is beyond me. I stand corrected. I’m sorry MTV.  Still hate you though. but mostly, I’m sorry.",
+            "Behati and I are absolutely devastated and heartbroken by Christina Grimmie’s death. Our hearts go out to her family",
+            "Making a video for #moveslikejagger with @TheRealXtina tomorrow! And the legendary Jonas Akerlund is directing!",
+            "Our first number one in the UK!!! Holy shit balls!!! #payphone",
+            "@viancajunise trying to start a mosh pit at a maroon 5 show is like inviting Satan to a tea party. #imissthe90s"
+        ],
+        "day": 97
     }
 ]
 
