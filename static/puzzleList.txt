@@ -1065,6 +1065,17 @@
             "@viancajunise trying to start a mosh pit at a maroon 5 show is like inviting Satan to a tea party. #imissthe90s"
         ],
         "day": 97
+    },
+    {
+        "name": "James Woods",
+        "tweetsArray": [
+            "I’m so touched that you have all embraced the Hades character so much. It was a joy to do and an honor to be in the Disney pantheon.",
+            "I have been blessed to have shared quality time on screen with some of the world’s most extraordinary women. I’m so grateful to Dolly, of course, to Sharon Stone (dear friend), wonderful Debbie Harry, genius Meryl Streep, so many great artists.",
+            "I was recently offered another #FamilyGuy episode and reluctantly turned it down for similar reasons. It was so mean-spirited, so totally political, and (worst crime of all) simply not funny. The rabid hatred of conservative values has ruined comedy.",
+            "For some weird reason I don’t have any pics saved from #Casino. I’m grateful to my follower who posted this today. I have to admit the makeup and costume for #LesterDiamond was absolutely brilliant. What a sleaze! #lol God, that movie was fun to make.",
+            "My favorite film was Once Upon a Time in America and the most difficult was Salvador (also a favorite)."
+        ],
+        "day": 98
     }
 ]
 
