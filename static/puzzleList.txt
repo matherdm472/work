@@ -1076,6 +1076,17 @@
             "My favorite film was Once Upon a Time in America and the most difficult was Salvador (also a favorite)."
         ],
         "day": 98
+    },
+    {
+        "name": "Fergie",
+        "tweetsArray": [
+            "Excited 2 sing #NationalAnthem @LAClippers home opener 2nite!Shout out 2 @clippersteveb 4 helping 2 spread #LALOVE.",
+            "Axl Jack Duhamel. Day 2 of life. Hearing test complete. All systems go. #chillin",
+            "it’s a Kids Incorporated reunion !! @TheReal_Jlh",
+            "Merry Christmas to my brother peas and the entire @bep family! love you 🎄🎄❤️❤️ #thatoutfittho",
+            "'Big Girls Don’t Cry' .... now remastered in HD on YouTube 💎💎💋💋"
+        ],
+        "day": 99
     }
 ]
 
