@@ -1087,6 +1087,17 @@
             "'Big Girls Don’t Cry' .... now remastered in HD on YouTube 💎💎💋💋"
         ],
         "day": 99
+    },
+    {
+        "name": "Darius Rucker",
+        "tweetsArray": [
+            "Always a good night when I’m home at the @opry!📸 : Hollo Photographics, Inc.",
+            "Yeah Jovan u know we aren't  suppose to do anything but r&b or rap.Gotta stay in that stereotypical box u know!!  Ha",
+            "Years ago, I wasn't really sure what my place in Country Music was and I was trying to find it. Now I've found it - I know - and I think it's time to give you all that record. 'Carolyn's Boy', named after the greatest woman I've ever known, my mom, is out October 6th!",
+            "This week in 1995, Hootie & the Blowfish's album 'Cracked Rear View' spent 1st of 8 weeks at #1 on @Billboard 200. Crazy.",
+            ".@LadyAntebellum... I accept the #ALLINCHALLENGE! We've worked up something really special including flying out to a show, joining the pre-show toast & singing 'Wagon Wheel' on stage. Let’s all make a positive impact during these difficult times!!"
+        ],
+        "day": 100
     }
 ]
 
