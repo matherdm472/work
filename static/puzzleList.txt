@@ -1098,6 +1098,17 @@
             ".@LadyAntebellum... I accept the #ALLINCHALLENGE! We've worked up something really special including flying out to a show, joining the pre-show toast & singing 'Wagon Wheel' on stage. Let’s all make a positive impact during these difficult times!!"
         ],
         "day": 100
+    },
+    {
+        "name": "Bill Gates",
+        "tweetsArray": [
+            "The next time you flush a toilet, consider this: 1 billion people don’t have a place to go:",
+            ".@codeorg gets my passion for computer programming education. A cool video:",
+            "This is the teletype that brought Paul Allen and me together. And I’m so glad that it did. Paul was one of the most thoughtful, brilliant, and curious people I’ve ever met:",
+            "Melinda and I are deeply humbled to receive the Presidential Medal of Freedom for our foundation’s efforts to create a more equal world.",
+            "At Microsoft, I got deep into computer science. At the foundation, it’s computer science plus biology, chemistry, agronomy, and more. I can’t imagine a better way to spend the bulk of my time:"
+        ],
+        "day": 101
     }
 ]
 
