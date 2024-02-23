@@ -1109,6 +1109,17 @@
             "At Microsoft, I got deep into computer science. At the foundation, it’s computer science plus biology, chemistry, agronomy, and more. I can’t imagine a better way to spend the bulk of my time:"
         ],
         "day": 101
+    },
+    {
+        "name": "Seth Rogen",
+        "tweetsArray": [
+            "I’m back! Here’s a trailer for my Netflix comedy special that comes out tonight at midnight! Please watch it! I think you will all dig it. Thanks!",
+            "Our newest Sausage Party marketing campaign was expensive, but I think it'll be worth it in the long run.",
+            "Superbad turns 10 today, which makes Mclovin 35 I think.",
+            "People of British Columbia! Please do not go out to parties and BBQs and other large gatherings! The COVID is still out there! It’s more fun to hang out alone and smoke weed and watch movies and TV shows anyway! Do that instead! Thank you!",
+            "Looking back, I think North Korea was PAID to protest the release of The Interview. There's NO WAY anyone could actually dislike our movies."
+        ],
+        "day": 102
     }
 ]
 
