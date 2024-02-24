@@ -1120,6 +1120,17 @@
             "Looking back, I think North Korea was PAID to protest the release of The Interview. There's NO WAY anyone could actually dislike our movies."
         ],
         "day": 102
+    },
+    {
+        "name": "Elizabeth Banks",
+        "tweetsArray": [
+            "@closetolilly I don't sing in #PitchPerfect. Just do a cameo as a dopey a cappella commentator. But I got singin skillz!",
+            "The forest is a dangerous place. #CocaineBear",
+            "I’m directing a new @CharliesAngels movie 💥💥💥 and I need your help before I can tell you more. Watch this video to find out how to give the Angels a warm welcome on your Instagram page.",
+            "Now that’s what I call a power suit. ✨  An all-new episode of #PressYourLuck is coming your way TONIGHT at 9/8c only on ABC. #NoWhammies",
+            "The Haymitch to my Effie. ❤️ Happy Birthday @WoodyHarrelson. #Hayffie"
+        ],
+        "day": 103
     }
 ]
 
