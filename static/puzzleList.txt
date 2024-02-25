@@ -1131,6 +1131,17 @@
             "The Haymitch to my Effie. ❤️ Happy Birthday @WoodyHarrelson. #Hayffie"
         ],
         "day": 103
+    },
+    {
+        "name": "Kate Upton",
+        "tweetsArray": [
+            "Vogue shoot with a horse? SAY LESS. 😍🐴 #TBT",
+            "Thank goodness @KDTrey5 and @JHarden13 taught me how to model today.. No worries I taught them a thing or 2 about bball",
+            "Just saw direct tv!! Sooo excited to be in sports illustrated swimsuit this year #siswim",
+            "I am so excited to celebrate the premiere of @thelayoverfilm last night! Wearing @jmendel alongside #MattBarr and @AADaddario #TheLayover",
+            "WORLD SERIES BOUND!!! So proud of you @justinverlander!! 😍🎉 CONGRATS ASTROS!!"
+        ],
+        "day": 104
     }
 ]
 
