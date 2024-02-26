@@ -1142,6 +1142,17 @@
             "WORLD SERIES BOUND!!! So proud of you @justinverlander!! 😍🎉 CONGRATS ASTROS!!"
         ],
         "day": 104
+    },
+    {
+        "name": "Priyanka Chopra",
+        "tweetsArray": [
+            "The bad guys do have all the fun. Representing #Baywatch at the #GoldenGlobes!",
+            "Thank u so much guys RT @bollywood_life: you deserve a gold wait no platinum we say for #MaryKom kudos to you and entire team👍👍",
+            "Both my parents served in the Indian Army.. and maybe that’s why I feel such a kinship with military families all over the world. Today let’s think of all the fallen heroes that have given their lives in service to protect our freedom. #memorialday",
+            "#TBT Miss World at 18 years old... the turn of the millennium.. the year 2000! Wow feels like just yesterday I was living this dream. Now, almost 20 years later, my enthusiasm for changing the status quo remains as strong and is at the core of everything I do.",
+            "Happy 2 year anniversary to the love of my life. Always by my side. My strength. My weakness. My all. I love you @nickjonas"
+        ],
+        "day": 105
     }
 ]
 
