@@ -1153,6 +1153,17 @@
             "Happy 2 year anniversary to the love of my life. Always by my side. My strength. My weakness. My all. I love you @nickjonas"
         ],
         "day": 105
+    },
+    {
+        "name": "Lil Wayne",
+        "tweetsArray": [
+            "Roll tide??????? Nahhhh roll one tf up for dem Tigers!!!!!!!! It’s up!!! We litty. Lidia!!!! LilWeezyana State University lil bih!!!!!!!! Hope Brian use his southern accent at the podium!!!",
+            "THANK YOU THANK YOU THANK YOU THANK YOU ALL!!!!  I am Hip Hop. I ain’t sh!t without you",
+            "6 foot 7 foot",
+            "I want to thank President Trump for recognizing that I have so much more to give to my family, my art, and my community. I also want to thank @bradfordcohen for working so diligently to secure another chance for me. Love! - Dwayne Michael Carter Jr.",
+            "10 years babbbbyyyyy!!! We celebrating #ThaCarterIV all weekend!!! 🤙🏾 What’s your favorite song on the album? 🧐"
+        ],
+        "day": 106
     }
 ]
 
