@@ -1164,6 +1164,17 @@
             "10 years babbbbyyyyy!!! We celebrating #ThaCarterIV all weekend!!! 🤙🏾 What’s your favorite song on the album? 🧐"
         ],
         "day": 106
+    },
+    {
+        "name": "William, Prince of Wales",
+        "tweetsArray": [
+            "Who's good at geography? Complete the phrase: @EarthshotPrize 2022 is going to be held in _____!",
+            "It was lovely to meet Gordon Reid and Alfie Hewett too following their fourth men’s wheelchair doubles title today 👏 #Wimbledon",
+            "🟣 Jumping on the Elizabeth Line to Soho!",
+            "Princess Charlotte arrives for her first day of school at Thomas’s Battersea, joining her older brother Prince George. ✏️📚🏫",
+            "We are all delighted by the happy news of the arrival of baby Lili. Congratulations to Harry, Meghan and Archie."
+        ],
+        "day": 107
     }
 ]
 
