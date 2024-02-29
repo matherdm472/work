@@ -1175,6 +1175,17 @@
             "We are all delighted by the happy news of the arrival of baby Lili. Congratulations to Harry, Meghan and Archie."
         ],
         "day": 107
+    },
+    {
+        "name": "Brie Larson",
+        "tweetsArray": [
+            "If anyone reading this is inside the @goldenglobes room - could you please save some rolls for Alex and me?",
+            "Hello world. Kong is back. #kongskullisland",
+            "Jumping for joy and majorly teary in my kitchen. Thank you #TIFF15, thank you Toronto, thank you team Room! 🎉💥💖🍻🇨🇦💐😍",
+            "Our girl Carol Danvers just joined the One Billion Club! Thank you endlessly for helping us cross this milestone. It has been a pleasure sharing this character with the world. I’ve loved seeing the cosplay, fan art and passionate words about our HERo. Higher Further Faster baby!",
+            "Looking back at photos. 💕 It’s been the privilege of a lifetime to be your captain marvel. Can’t believe this all started at ComicCon 4 years ago today 🥰"
+        ],
+        "day": 108
     }
 ]
 
