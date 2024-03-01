@@ -1186,6 +1186,17 @@
             "Looking back at photos. 💕 It’s been the privilege of a lifetime to be your captain marvel. Can’t believe this all started at ComicCon 4 years ago today 🥰"
         ],
         "day": 108
+    },
+    {
+        "name": "Elon Musk",
+        "tweetsArray": [
+            "OpenAI first ever to defeat world's best players in competitive eSports. Vastly more complex than traditional board games like chess & Go.",
+            "Yo, I don't hate Apple. It's a great company with a lot of talented people. I love their products and I'm glad they're doing an EV.",
+            "Bought some Dogecoin for lil X, so he can be a toddler hodler",
+            "Congrats to the @SpaceX team on the 250th landing of a Falcon rocket",
+            "Tonight, we radically increased the design goals for the new Tesla Roadster. There will never be another car like this, if you could even call it a car."
+        ],
+        "day": 109
     }
 ]
 
