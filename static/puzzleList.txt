@@ -1197,6 +1197,17 @@
             "Tonight, we radically increased the design goals for the new Tesla Roadster. There will never be another car like this, if you could even call it a car."
         ],
         "day": 109
+    },
+    {
+        "name": "Lady Gaga",
+        "tweetsArray": [
+            "Though the president was passionate and knowledgable and modern. Felt almost like he kept poker face last 2 debates and then came like rocky",
+            "Playing the Super Bowl last year was indescribable.  It changed my life! So excited to see what Justin’s going to do, I know it will be amazing! #SB52 #SuperBowl #Superbowl52",
+            "I’ve seen a lot of rumors on the internet that for “A Star Is Born” I’ll be billed as Stefani, but that’s not the case.",
+            "Fight and push harder for what you believe in, you'd be surprised, you are much stronger than you think. #Alejandro. American Idol.",
+            "I just sang bad romance in the aisle and Tara's doing Kristen Wig Bridesmaids impressions on the intercom."
+        ],
+        "day": 110
     }
 ]
 
