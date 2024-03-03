@@ -1208,6 +1208,17 @@
             "I just sang bad romance in the aisle and Tara's doing Kristen Wig Bridesmaids impressions on the intercom."
         ],
         "day": 110
+    },
+    {
+        "name": "Chris Rock",
+        "tweetsArray": [
+            "People forget after MJ left the Wizards he joined the cast of SNL.",
+            "Pregame #Oscars #DaveChappelle",
+            "After you've seen grownups  2 for the third time. Go see fruitvale station best movie of the year.",
+            "Madagascar 3: Europe's Most Wanted -  Blue Ray and DVD comes out today and it includes Marty's rainbow wig!",
+            "Just watched walking dead. Everybody still hates Chris."
+        ],
+        "day": 111
     }
 ]
 
