@@ -1219,6 +1219,17 @@
             "Just watched walking dead. Everybody still hates Chris."
         ],
         "day": 111
+    },
+    {
+        "name": "James Cameron",
+        "tweetsArray": [
+            "I can’t believe it’s been 28 years since T2 — and Linda looks more badass now than she did back then!",
+            "Celebrating the #DEEPSEACHALLENGE team and its “group genius” on the 10th anniversary of the Challenger Deep dive.",
+            "I’ve been looking forward to this. Here’s the teaser trailer for AVATAR: The Way of Water.",
+            "I’m so grateful for the support from the @Terminator fans over all these years. Working with Linda and Arnold brings back so many fond memories. Thank you to everyone for sharing your memories today using #JudgmentDay. I can’t wait for you to see #TerminatorDarkFate.",
+            "Could Jack have fit on the door with Rose? We settle the debate in 'Titanic: 25 Years Later' tonight, Sunday, at 9/8c on National Geographic"
+        ],
+        "day": 112
     }
 ]
 
