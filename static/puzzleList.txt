@@ -1230,6 +1230,17 @@
             "Could Jack have fit on the door with Rose? We settle the debate in 'Titanic: 25 Years Later' tonight, Sunday, at 9/8c on National Geographic"
         ],
         "day": 112
+    },
+    {
+        "name": "George Foreman",
+        "tweetsArray": [
+            "Sylvester Stallone; one of best actors and movie maker of our time. Let’s never take his body of work for granted.",
+            "It never bothered me what anyone used; so long as I could have all the Cheese Burgers I wanted. The True breakfast of Champions",
+            "49,received my first punch 68 Gold medal 73 world Champ, 94 Champ again; 2ks Grill king ,Evangelistic now Gimme an Amen",
+            "We sold over 110mil grills;  can't  we ask more. It lowers  the cholesterol for the young.",
+            "47 years ago; I fought Muhammad Ali (Africa ) 1/2 hour of my life I have to give account of yearly; Ali & I never spoke of it; “The right hand he hit me with was like an electric shock on my chin.”I never shared this: stick around next year I’ll share more. I love it"    
+        ],
+        "day": 113
     }
 ]
 
