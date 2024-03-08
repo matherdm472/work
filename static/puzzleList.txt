@@ -1241,6 +1241,17 @@
             "47 years ago; I fought Muhammad Ali (Africa ) 1/2 hour of my life I have to give account of yearly; Ali & I never spoke of it; “The right hand he hit me with was like an electric shock on my chin.”I never shared this: stick around next year I’ll share more. I love it"    
         ],
         "day": 113
+    },
+    {
+        "name": "Chris Hemsworth",
+        "tweetsArray": [
+            "Feeling proud to be an ambassador for my home country @Australia, especially with views like this! #SeeAustralia",
+            "Love catching up with @JimmyKimmel talking everything from my new show Limitless, to the worlds sexiest man @ChrisEvans, to the strange and wonderful junk on Craigslist! Thanks for having me!",
+            "A single shot oner that clocks in at 🚨21 minutes🚨.. you heard that right. Prepare for the ride of your life!! EXTRACTION 2 TRAILER TOMORROW!",
+            "#WhatsRagnarok ⚡The world renowned Australian dictionary says that Ragnarok is when one partakes in rock n roll while wearing rags.",
+            "Not sure why everyone’s so worried about Thor, he’s fine guys..."
+        ],
+        "day": 114
     }
 ]
 
