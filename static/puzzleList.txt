@@ -1252,6 +1252,17 @@
             "Not sure why everyone’s so worried about Thor, he’s fine guys..."
         ],
         "day": 114
+    },
+    {
+        "name": "Chrissy Teigen",
+        "tweetsArray": [
+            "when I had zero babies I wanted 4. Then 1, I wanted 3. Then 2, I’m good with 2. just posting this to look at when I’m pregnant with my third",
+            "What! Cookbook deals are ON right now if you’re in a cookbook kinda mood!!",
+            "a few episodes into 'Escape at Dannemora' -- SOOOOOO GOOD. @PattyArquette you are incredible!! But I must know -- is my Sports Illustrated cover hanging in Richard Matt's cell? I feel like I see my leg. Please goddess Patty, tell me it is!!",
+            "I'm watching pentatonix on Sesame Street because this is my life now and they are adorable. I feel the need to say they were on lip sync battle are the nicest people I've ever met",
+            "come hang with me, @johnlegend and the family at century city this Sunday at our cravings bakery! 100% of the proceeds benefit the Los Angeles regional food bank!"
+        ],
+        "day": 115
     }
 ]
 
