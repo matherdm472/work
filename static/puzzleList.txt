@@ -1263,6 +1263,17 @@
             "come hang with me, @johnlegend and the family at century city this Sunday at our cravings bakery! 100% of the proceeds benefit the Los Angeles regional food bank!"
         ],
         "day": 115
+    },
+    {
+        "name": "Mindy Kaling",
+        "tweetsArray": [
+            "I will literally do anything instead of writing this script. I will write a spec for another show, even.",
+            "I’m truly in shock. I can’t believe that our show about a complicated little Indian family has been seen by this many people. @loulielang, the entire cast and crew are so grateful to you for making us #1 around the world on @netflix. We love you guys! Thank you!! @neverhaveiever",
+            "BJ Novak thinks sorbet is dessert.",
+            "Everyone, start getting excited for Michael's Last Dundies, the penultimate Steve Carell episode, that I wrote & directed! #theoffice",
+            "I want to do Kelly and Erin's version of that kickass Telephone video"
+        ],
+        "day": 116
     }
 ]
 
