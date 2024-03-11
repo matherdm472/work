@@ -1274,6 +1274,17 @@
             "I want to do Kelly and Erin's version of that kickass Telephone video"
         ],
         "day": 116
+    },
+    {
+        "name": "Candace Cameron Bure",
+        "tweetsArray": [
+            "Have you noticed that Trump ends up winning every arguement, despite what's being said? He talks over everyone- but we all hear what he says",
+            "My Christmas movie has wrapped and I'm back at the table on the @TheView ! We are live in 5 minutes. Tune in. #HotTopics",
+            "I’m still on my social media break, but scheduled my #topnine . Here’s to a great 2018. And I love that YOU love seeing me with my real family even more than my t.v. family!",
+            "People- I talked Bob Saget into joining the twitter train. I'll let u know when he's officially up!! Whoo hoo.",
+            "❤️🏡Life is full again...VERY full, actually. A new generation is moving into the Tanner home on February 26th."
+        ],
+        "day": 117
     }
 ]
 
