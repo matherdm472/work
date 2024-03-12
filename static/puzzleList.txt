@@ -1285,6 +1285,17 @@
             "❤️🏡Life is full again...VERY full, actually. A new generation is moving into the Tanner home on February 26th."
         ],
         "day": 117
+    },
+    {
+        "name": "Harry Styles",
+        "tweetsArray": [
+            "I'm very happy to be on the cover of a @RollingStone magazine. Thank you for having me. Thank you CC.",
+            "Had a great time filming yesterday with @JLSOfficial and all the X Factor contestants. Cant wait to perform this week .x",
+            "As It Was. April 1.",
+            "This year has been the best year of my life, Thank you all! And I want to thank Lou, Liam, Zayn and Niall..for making this year so great :)",
+            "So @onedirection has been nominated for Favourite Band, Duo or Group at the #AMAs thaaaaaaaank youuuuuuu"
+        ],
+        "day": 118
     }
 ]
 
