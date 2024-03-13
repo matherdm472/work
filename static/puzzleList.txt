@@ -1296,6 +1296,17 @@
             "So @onedirection has been nominated for Favourite Band, Duo or Group at the #AMAs thaaaaaaaank youuuuuuu"
         ],
         "day": 118
+    },
+    {
+        "name": "Lucy Hale",
+        "tweetsArray": [
+            "Some more from last night 🦇 TRUTH OR DARE OUT IN THEATERS RIGHT MEOW. hope you have fun 😈",
+            "Everyone go check out 'run this town' on iTunes! My single from a Cinderella story: once upon a song",
+            "So excited for @NYRE in ONE WEEK ❣️ Ring in the new year with Dick Clark’s New Year’s #RockinEve, 12/31 at 8/7c on ABC 🎊",
+            "Another airport, another reason to wear leopard and dress like Aria.",
+            "WAIT. I completely forgot its Tuesday...which means one thing...pretty little liars. Be there or don't be there. But seriously, be there."
+        ],
+        "day": 119
     }
 ]
 
