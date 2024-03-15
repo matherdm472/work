@@ -1307,6 +1307,17 @@
             "WAIT. I completely forgot its Tuesday...which means one thing...pretty little liars. Be there or don't be there. But seriously, be there."
         ],
         "day": 119
+    },
+    {
+        "name": "Joel Embiid",
+        "tweetsArray": [
+            "Big man with handles mhmm!!!!! I might become a forward in the NBA #nbadraft",
+            "I’m a professional hater but I’m not hating when I say I could win the dunk contest with these scores but not sure the knees would allow it lmao",
+            "Sources 'Trust me bro'!! Stop using my name to push people’s agendas. I love and hate drama. I love playing with Ben. Stats don’t lie. He’s an amazing player and we all didn’t get the job done. It’s on me personally. I hope everyone is back cuz we know we’re good enough to win",
+            "What a blessing!!!! Started playing basketball in 2011 and it was here in South Africa that I got a once in a lifetime opportunity. Here I am lucky enough to represent Cameroon and the whole continent of Africa #TheProcess",
+            "Hello Philly!!!! This is my real 'Just got drafted' face.  Couldnt be happier to be a 76er!!!"
+        ],
+        "day": 120
     }
 ]
 
