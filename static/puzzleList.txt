@@ -1318,6 +1318,17 @@
             "Hello Philly!!!! This is my real 'Just got drafted' face.  Couldnt be happier to be a 76er!!!"
         ],
         "day": 120
+    },
+    {
+        "name": "Robin Thicke",
+        "tweetsArray": [
+            ".@AprilGeary had this made for my bday today! It’s Grandpa Alan with my three babies! Thank you my love. Best present ever!",
+            "Last Duets episode tonight! Thank u for all the love and support. Almost finished with new album! Hope u like it! Xoxo",
+            "My new song “Take Me Higher” is out now. Me and @Pharrell, we workin’. 🔥 #OnEarthandinHeaven",
+            "Tribute to my pops. Love my Masked Singer fam #TheMaskedSinger",
+            "Happy 10 years of Blurred Lines!!! 😎"
+        ],
+        "day": 121
     }
 ]
 
