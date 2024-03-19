@@ -34,7 +34,7 @@ function calculateDaysPassed(startDate) {
     return daysPassed;
 }
 
-const startDate = new Date('2023-11-18');
+const startDate = new Date('2023-11-23');
 let day = calculateDaysPassed(startDate);
 let tempDay = day;
 
