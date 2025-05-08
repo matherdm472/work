@@ -47,6 +47,13 @@ function updatePlayGameTitle() {
     playGameTitle.appendChild(menuIcon); // Append the menu icon back to the title
 }
 
+function checkDays(arr) {
+    if(arr !=null && arr.length > 0) {
+        tempDay = tempDay%arr.length;
+        //day = tempDay;
+    }
+}
+
 updatePlayGameTitle();
 
 
@@ -102,8 +109,9 @@ let tweedleArray = [];
         console.error('Error:', xhr.status, xhr.statusText);
     }
 
-
-let contentArray = tweedleArray[tempDay].getTweetsArray();
+    checkDays(tweedleArray);
+    updatePlayGameTitle();
+    let contentArray = tweedleArray[(tempDay)].getTweetsArray();
     
 function showContent(index) {
     searchButton.textContent = "Skip";
@@ -340,6 +348,7 @@ document.getElementById("menuIcon").addEventListener("click", function () {
 });
 
 function resetMenu() {
+    checkDays(tweedleArray);
     updatePlayGameTitle();
     contentArray = tweedleArray[tempDay].getTweetsArray();
     if(resultMap.has("numWrong" + tempDay)) {
