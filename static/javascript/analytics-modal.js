@@ -23,7 +23,7 @@ export function openAnalyticsModal() {
             box.style.backgroundColor = '';
             });
             guessCount.textContent = '';
-            updateAnalyticsUI(data);
+            /*updateAnalyticsUI(data);
         } catch (error) {
             console.error('Error updating analytics:', error);
         }
@@ -104,7 +104,7 @@ export async function viewAnalyticsModal() {
             updateAnalyticsUI(data)
         } catch (error) {
             console.error('Error updating analytics:', error);
-        }
+        }*/
     } else {
         // Less than 4 incorrect clues
         feedbackText.textContent = 'Congrats!';
