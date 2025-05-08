@@ -5,26 +5,21 @@ import { numWrong } from './play-modal.js';
 import { tweedleArray } from './play-modal.js';
 import { tempDay } from './play-modal.js';
 import { resetMenu } from './play-modal.js';
-import { resetDay } from './play-modal.js';
-import { closeModal } from './main.js';
 
-export async function openAnalyticsModal() {
+export function openAnalyticsModal() {
     const correctAnswerSection = document.getElementById('correctAnswerSection');
     const correctAnswer = document.getElementById('correctAnswer');
     const guessCount = document.getElementById('guessCount');
     const clueBoxes = document.querySelectorAll('.clue-box');
     const feedbackText = document.getElementById('feedback-text');
     const feedbackSubtitle = document.getElementById('feedback-subtitle');
-    var data;
 
     correctAnswer.textContent = tweedleArray[tempDay].getName();
 
     if (numWrong >= 5) {
-        try {
-            data = await updateAnalytics('puzzle' + tempDay, 'wrong');
-            feedbackText.textContent = 'Better luck next time!';
-            feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
-            clueBoxes.forEach((box, i) => {
+        feedbackText.textContent = 'Better luck next time!';
+        feedbackSubtitle.textContent = 'You lost Game #' + (tempDay+1) + '. The correct answer was:';
+        clueBoxes.forEach((box, i) => {
             box.style.backgroundColor = '';
             });
             guessCount.textContent = '';
@@ -112,22 +107,17 @@ export async function viewAnalyticsModal() {
         }
     } else {
         // Less than 4 incorrect clues
-        try {
-            // Less than 4 incorrect clues
-            data = await getAnalytics('puzzle' + tempDay);
-            feedbackText.textContent = 'Congrats!';
-            feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
-            if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
-            else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
-            // Set the specific box to blue
-            clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
-            updateAnalyticsUI(data);
-        } catch (error) {
-            console.error('Error updating analytics:', error);
-        }
+        feedbackText.textContent = 'Congrats!';
+        feedbackSubtitle.textContent = 'You got Game #' + (tempDay+1) + ' in:';
+        if((currentlyAnimatingBoxIndex + 1) === 1) guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempt";
+        else guessCount.textContent = (currentlyAnimatingBoxIndex + 1) + " Attempts";
+        // Set the specific box to blue
+        clueBoxes[currentlyAnimatingBoxIndex].style.backgroundColor = '#1DA1F2';
     }
+    openModal('#analyticsModal');
 }
 
+// Function to update the countdown timer
 function updateCountdown() {
     const countdownElement = document.getElementById('countdown');
     const now = new Date();
@@ -144,8 +134,7 @@ function updateCountdown() {
     countdownElement.textContent = countdownText;
 }
 
-
-//Update the countdown timer initially and then every second
+// Update the countdown timer initially and then every second
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
@@ -201,54 +190,9 @@ closeAnalytics.addEventListener("click", function(event) {
     });
     shareResultsButton.style.opacity = '1';
     document.querySelector('#copyMessageStatus').textContent = '';
-    closeModal('#playModal');
-    resetDay();
     resetMenu();
 });
 
-function updateAnalytics(puzzleName, result) {
-    return fetch(`/update_analytics/${puzzleName}/${result}`, {
-        method: 'POST',
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .catch(error => {
-        // Handle errors
-        console.error('Fetch error:', error);
-    });
-}
 
-function getAnalytics(puzzleName) {
-    return fetch(`/get_analytics/${puzzleName}`, {
-        method: 'GET',
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .catch(error => {
-        // Handle errors
-        console.error('Fetch error:', error);
-    });
-}
 
-var playAgainButton = document.getElementById("playAnotherButton");
 
-playAgainButton.addEventListener("click", function(event) {
-    const clueBoxes = document.querySelectorAll('.clue-box');
-    clueBoxes.forEach((box, i) => {
-        box.style.backgroundColor = '';
-    });
-    shareResultsButton.style.opacity = '1';
-    document.querySelector('#copyMessageStatus').textContent = '';
-    resetDay();
-    resetMenu();
-    closeModal('#analyticsModal');
-    openModal('#playModal');
-});
